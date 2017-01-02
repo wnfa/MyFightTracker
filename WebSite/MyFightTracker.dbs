@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="MyFightTracker - Local" id="Project_20f27aed" template="Default" database="MySql" >
+	<schema name="myfighttracker" catalogname="myfighttracker" >
+		<table name="aspnet_sessions" >
+			<column name="session_id" type="varchar" length="80" decimal="0" jt="12" mandatory="y" />
+			<column name="application_name" type="varchar" length="255" decimal="0" jt="12" mandatory="y" />
+			<column name="created" type="datetime" length="19" decimal="0" jt="93" mandatory="y" />
+			<column name="expires" type="datetime" length="19" decimal="0" jt="93" mandatory="y" />
+			<column name="lock_date" type="datetime" length="19" decimal="0" jt="93" mandatory="y" />
+			<column name="lock_id" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="timeout" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="locked" type="bit" decimal="0" jt="-7" mandatory="y" />
+			<column name="session_items" type="mediumblob" length="16777215" decimal="0" jt="-4" />
+			<column name="flags" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<index name="pk_aspnet_sessions" unique="PRIMARY_KEY" >
+				<column name="session_id" />
+				<column name="application_name" />
+			</index>
+		</table>
+		<table name="fight_styles" >
+			<column name="FightStyleID" type="int" length="10" decimal="0" jt="4" mandatory="y" autoincrement="y" />
+			<column name="FightStyleName" type="varchar" length="20" decimal="0" jt="12" mandatory="y" />
+			<index name="pk_fight_styles" unique="PRIMARY_KEY" >
+				<column name="FightStyleID" />
+			</index>
+			<storage><![CDATA[engine=InnoDB]]></storage>
+		</table>
+		<table name="my_aspnet_applications" >
+			<column name="id" type="int" length="10" decimal="0" jt="4" mandatory="y" autoincrement="y" />
+			<column name="name" type="varchar" length="256" decimal="0" jt="12" />
+			<column name="description" type="varchar" length="256" decimal="0" jt="12" />
+			<index name="pk_my_aspnet_applications" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="my_aspnet_membership" >
+			<column name="userId" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="Email" type="varchar" length="128" decimal="0" jt="12" />
+			<column name="Comment" type="varchar" length="255" decimal="0" jt="12" />
+			<column name="Password" type="varchar" length="128" decimal="0" jt="12" mandatory="y" />
+			<column name="PasswordKey" type="char" length="32" decimal="0" jt="1" />
+			<column name="PasswordFormat" type="tinyint" length="3" decimal="0" jt="-6" />
+			<column name="PasswordQuestion" type="varchar" length="255" decimal="0" jt="12" />
+			<column name="PasswordAnswer" type="varchar" length="255" decimal="0" jt="12" />
+			<column name="IsApproved" type="bit" decimal="0" jt="-7" />
+			<column name="LastActivityDate" type="datetime" length="19" decimal="0" jt="93" />
+			<column name="LastLoginDate" type="datetime" length="19" decimal="0" jt="93" />
+			<column name="LastPasswordChangedDate" type="datetime" length="19" decimal="0" jt="93" />
+			<column name="CreationDate" type="datetime" length="19" decimal="0" jt="93" />
+			<column name="IsLockedOut" type="bit" decimal="0" jt="-7" />
+			<column name="LastLockedOutDate" type="datetime" length="19" decimal="0" jt="93" />
+			<column name="FailedPasswordAttemptCount" type="int" length="10" decimal="0" jt="4" unsigned="y" />
+			<column name="FailedPasswordAttemptWindowStart" type="datetime" length="19" decimal="0" jt="93" />
+			<column name="FailedPasswordAnswerAttemptCount" type="int" length="10" decimal="0" jt="4" unsigned="y" />
+			<column name="FailedPasswordAnswerAttemptWindowStart" type="datetime" length="19" decimal="0" jt="93" />
+			<index name="pk_my_aspnet_membership" unique="PRIMARY_KEY" >
+				<column name="userId" />
+			</index>
+		</table>
+		<table name="my_aspnet_paths" >
+			<column name="pathId" type="varchar" length="36" decimal="0" jt="12" mandatory="y" />
+			<column name="applicationId" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="path" type="varchar" length="256" decimal="0" jt="12" mandatory="y" />
+			<column name="loweredPath" type="varchar" length="256" decimal="0" jt="12" mandatory="y" />
+			<index name="pk_my_aspnet_paths" unique="PRIMARY_KEY" >
+				<column name="pathId" />
+			</index>
+		</table>
+		<table name="my_aspnet_personalizationallusers" >
+			<column name="pathId" type="varchar" length="36" decimal="0" jt="12" mandatory="y" />
+			<column name="pageSettings" type="blob" length="65535" decimal="0" jt="2004" mandatory="y" />
+			<column name="lastUpdatedDate" type="datetime" length="19" decimal="0" jt="93" mandatory="y" />
+			<index name="pk_my_aspnet_personalizationallusers" unique="PRIMARY_KEY" >
+				<column name="pathId" />
+			</index>
+		</table>
+		<table name="my_aspnet_personalizationperuser" >
+			<column name="id" type="int" length="10" decimal="0" jt="4" mandatory="y" autoincrement="y" />
+			<column name="applicationId" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="pathId" type="varchar" length="36" decimal="0" jt="12" />
+			<column name="userId" type="int" length="10" decimal="0" jt="4" />
+			<column name="pageSettings" type="blob" length="65535" decimal="0" jt="2004" mandatory="y" />
+			<column name="lastUpdatedDate" type="datetime" length="19" decimal="0" jt="93" mandatory="y" />
+			<index name="pk_my_aspnet_personalizationperuser" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="my_aspnet_profiles" >
+			<column name="userId" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="valueindex" type="longtext" length="2147483647" decimal="0" jt="-1" />
+			<column name="stringdata" type="longtext" length="2147483647" decimal="0" jt="-1" />
+			<column name="binarydata" type="longblob" length="2147483647" decimal="0" jt="-4" />
+			<column name="lastUpdatedDate" type="timestamp" length="19" decimal="0" jt="93" mandatory="y" >
+				<defo>CURRENT_TIMESTAMP</defo>
+			</column>
+			<index name="pk_my_aspnet_profiles" unique="PRIMARY_KEY" >
+				<column name="userId" />
+			</index>
+		</table>
+		<table name="my_aspnet_roles" >
+			<column name="id" type="int" length="10" decimal="0" jt="4" mandatory="y" autoincrement="y" />
+			<column name="applicationId" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="name" type="varchar" length="255" decimal="0" jt="12" mandatory="y" />
+			<index name="pk_my_aspnet_roles" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="my_aspnet_schemaversion" >
+			<column name="version" type="int" length="10" decimal="0" jt="4" />
+		</table>
+		<table name="my_aspnet_sessioncleanup" >
+			<column name="ApplicationId" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="LastRun" type="datetime" length="19" decimal="0" jt="93" mandatory="y" />
+			<column name="IntervalMinutes" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<index name="pk_my_aspnet_sessioncleanup" unique="PRIMARY_KEY" >
+				<column name="ApplicationId" />
+			</index>
+		</table>
+		<table name="my_aspnet_sessions" >
+			<column name="SessionId" type="varchar" length="191" decimal="0" jt="12" mandatory="y" />
+			<column name="ApplicationId" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="Created" type="datetime" length="19" decimal="0" jt="93" mandatory="y" />
+			<column name="Expires" type="datetime" length="19" decimal="0" jt="93" mandatory="y" />
+			<column name="LockDate" type="datetime" length="19" decimal="0" jt="93" mandatory="y" />
+			<column name="LockId" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="Timeout" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="Locked" type="bit" decimal="0" jt="-7" mandatory="y" />
+			<column name="SessionItems" type="longblob" length="2147483647" decimal="0" jt="-4" />
+			<column name="Flags" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<index name="pk_my_aspnet_sessions" unique="PRIMARY_KEY" >
+				<column name="SessionId" />
+				<column name="ApplicationId" />
+			</index>
+		</table>
+		<table name="my_aspnet_sitemap" >
+			<column name="Id" type="int" length="10" decimal="0" jt="4" mandatory="y" autoincrement="y" />
+			<column name="Title" type="varchar" length="50" decimal="0" jt="12" />
+			<column name="Description" type="varchar" length="512" decimal="0" jt="12" />
+			<column name="Url" type="varchar" length="512" decimal="0" jt="12" />
+			<column name="Roles" type="varchar" length="1000" decimal="0" jt="12" />
+			<column name="ParentId" type="int" length="10" decimal="0" jt="4" />
+			<index name="pk_my_aspnet_sitemap" unique="PRIMARY_KEY" >
+				<column name="Id" />
+			</index>
+		</table>
+		<table name="my_aspnet_users" >
+			<column name="id" type="int" length="10" decimal="0" jt="4" mandatory="y" autoincrement="y" />
+			<column name="applicationId" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="name" type="varchar" length="256" decimal="0" jt="12" mandatory="y" />
+			<column name="isAnonymous" type="bit" decimal="0" jt="-7" mandatory="y" >
+				<defo>1</defo>
+			</column>
+			<column name="lastActivityDate" type="datetime" length="19" decimal="0" jt="93" />
+			<index name="pk_my_aspnet_users" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="my_aspnet_usersinroles" >
+			<column name="UserID" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="RoleID" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<index name="pk_userroles" unique="PRIMARY_KEY" >
+				<column name="UserID" />
+				<column name="RoleID" />
+			</index>
+		</table>
+		<table name="my_preference" >
+			<column name="userid" type="int" jt="4" mandatory="y" />
+			<index name="pk_my_preference" unique="PRIMARY_KEY" >
+				<column name="userid" />
+			</index>
+			<storage><![CDATA[engine=InnoDB]]></storage>
+		</table>
+		<table name="my_preference_fight_styles" >
+			<column name="userId" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="FightStyleID" type="int" length="10" decimal="0" jt="4" mandatory="y" />
+			<index name="pk_my_preference_fight_styles" unique="PRIMARY_KEY" >
+				<column name="userId" />
+				<column name="FightStyleID" />
+			</index>
+			<index name="idx_my_preference_fight_styles" unique="NORMAL" >
+				<column name="FightStyleID" />
+			</index>
+			<fk name="fk_my_preference_fight_styles" to_schema="myfighttracker" to_table="fight_styles" >
+				<fk_column name="FightStyleID" pk="FightStyleID" />
+			</fk>
+			<fk name="fk_my_preference_fight_styles_0" to_schema="myfighttracker" to_table="my_preference" >
+				<fk_column name="userId" pk="userid" />
+			</fk>
+			<storage><![CDATA[engine=InnoDB]]></storage>
+		</table>
+		<table name="site_content" >
+			<column name="site_content_id" type="int" length="10" decimal="0" jt="4" mandatory="y" autoincrement="y" />
+			<column name="file_name" type="varchar" length="150" decimal="0" jt="12" mandatory="y" />
+			<column name="path" type="varchar" length="150" decimal="0" jt="12" />
+			<column name="content_type" type="varchar" length="150" decimal="0" jt="12" >
+				<defo>&#039;text/plain&#039;</defo>
+			</column>
+			<column name="length" type="int" length="10" decimal="0" jt="4" />
+			<column name="data" type="longblob" length="2147483647" decimal="0" jt="-4" />
+			<column name="text" type="longtext" length="2147483647" decimal="0" jt="-1" />
+			<column name="roles" type="varchar" length="100" decimal="0" jt="12" />
+			<column name="role_exceptions" type="varchar" length="100" decimal="0" jt="12" />
+			<column name="users" type="varchar" length="100" decimal="0" jt="12" />
+			<column name="user_exceptions" type="varchar" length="100" decimal="0" jt="12" />
+			<column name="schedule" type="varchar" length="150" decimal="0" jt="12" />
+			<column name="schedule_exceptions" type="varchar" length="150" decimal="0" jt="12" />
+			<column name="cache_profile" type="varchar" length="50" decimal="0" jt="12" />
+			<index name="pk_site_content" unique="PRIMARY_KEY" >
+				<column name="site_content_id" />
+			</index>
+			<index name="idx_site_content_file_name" unique="NORMAL" >
+				<column name="file_name" />
+			</index>
+			<index name="idx_site_content_path" unique="NORMAL" >
+				<column name="path" />
+			</index>
+		</table>
+		<trigger name="after_my_aspnet_users_insert" id="Trigger_18d895ec" isSystem="false" >
+			<string><![CDATA[CREATE TRIGGER after_my_aspnet_users_insert AFTER INSERT ON my_aspnet_users FOR EACH ROW BEGIN
+    INSERT INTO my_preference
+    SET userID = NEW.id;
+END;]]></string>
+		</trigger>
+	</schema>
+	<connector name="MyFightTracker - Local" database="MySql" driver_class="org.gjt.mm.mysql.Driver" driver_jar="mysql-connector-java-5.1.40-bin.jar" driver_desc="Standard" host="localhost" port="3306" instance="MyFightTracker" user="root" passwd="cmljbzM4NzI=" />
+	<layout name="Default Layout" id="Layout_256a3c99" show_column_type="y" show_relation="columns" >
+		<entity schema="myfighttracker" name="my_aspnet_usersinroles" color="bfd4f5" x="45" y="45" />
+		<entity schema="myfighttracker" name="aspnet_sessions" color="accceb" x="420" y="75" />
+		<entity schema="myfighttracker" name="my_aspnet_applications" color="accceb" x="420" y="75" />
+		<entity schema="myfighttracker" name="site_content" color="accceb" x="105" y="210" />
+		<entity schema="myfighttracker" name="my_aspnet_users" color="accceb" x="225" y="60" />
+		<entity schema="myfighttracker" name="my_aspnet_sitemap" color="accceb" x="240" y="480" />
+		<entity schema="myfighttracker" name="my_aspnet_sessions" color="accceb" x="450" y="480" />
+		<entity schema="myfighttracker" name="my_aspnet_roles" color="accceb" x="870" y="540" />
+		<entity schema="myfighttracker" name="my_aspnet_personalizationperuser" color="accceb" x="1140" y="420" />
+		<entity schema="myfighttracker" name="my_aspnet_personalizationallusers" color="accceb" x="735" y="360" />
+		<entity schema="myfighttracker" name="my_aspnet_schemaversion" color="accceb" x="1260" y="300" />
+		<entity schema="myfighttracker" name="my_aspnet_profiles" color="accceb" x="1485" y="285" />
+		<entity schema="myfighttracker" name="fight_styles" color="accceb" x="1185" y="75" />
+		<entity schema="myfighttracker" name="my_aspnet_membership" color="accceb" x="420" y="75" />
+		<entity schema="myfighttracker" name="my_aspnet_sessioncleanup" color="accceb" x="1515" y="60" />
+		<entity schema="myfighttracker" name="my_preference" color="accceb" x="750" y="75" />
+		<entity schema="myfighttracker" name="my_preference_fight_styles" color="accceb" x="930" y="75" />
+		<entity schema="myfighttracker" name="my_aspnet_paths" color="accceb" x="915" y="255" />
+	</layout>
+</project>
