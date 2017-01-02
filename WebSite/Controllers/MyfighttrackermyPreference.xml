@@ -24,7 +24,7 @@ from `myfighttracker`.`my_preference` `my_preference`
     <view id="editForm1" type="Form" commandId="command1" label="Update Preference" filter="Userid = @BusinessRules_UserId">
       <headerText>$DefaultEditViewDescription</headerText>
       <categories>
-        <category id="c1" headerText="General" newColumn="true">
+        <category id="c1" headerText="General Settings" newColumn="true">
           <description><![CDATA[$DefaultEditDescription]]></description>
           <dataFields>
             <dataField fieldName="Userid" columns="15" />
