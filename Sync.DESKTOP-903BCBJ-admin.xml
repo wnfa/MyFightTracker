@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?><logs><log type="Controllers">
+  <c y="NodeSet" t="2016-11-04T18:51:50">
+    <controller name="MyProfile" />
+    <insert type="field">
+      <Name>FightStyleID</Name>
+      <Type>Int32</Type>
+      <AllowNulls>false</AllowNulls>
+      <IsPrimaryKey>false</IsPrimaryKey>
+      <IsVirtual>false</IsVirtual>
+      <Computed>false</Computed>
+      <Calculated>false</Calculated>
+      <CausesCalculate>false</CausesCalculate>
+      <OnDemand>false</OnDemand>
+      <Label>Fight Style ID</Label>
+      <ReadOnly>false</ReadOnly>
+      <ShowInSummary>false</ShowInSummary>
+      <HtmlEncode>true</HtmlEncode>
+      <FormatOnClient>true</FormatOnClient>
+      <ItemsStyle>CheckBoxList</ItemsStyle>
+      <ItemsDataController>MyfighttrackerfightStyles</ItemsDataController>
+      <SearchOnStart>false</SearchOnStart>
+      <AutoSelect>false</AutoSelect>
+      <ItemsLetters>false</ItemsLetters>
+      <AllowQBE>true</AllowQBE>
+      <AllowSorting>true</AllowSorting>
+      <MaskType>None</MaskType>
+      <AllowLEV>false</AllowLEV>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:15:30">
+    <controller name="MyfighttrackerfightStyles" />
+    <view id="editForm1" />
+    <category id="c1" />
+    <update>
+      <HeaderText>Fight Styles</HeaderText>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:16:03">
+    <controller name="MyfighttrackerfightStyles" />
+    <view id="createForm1" />
+    <category id="c1" />
+    <update>
+      <HeaderText>New Fight Styles</HeaderText>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:17:48">
+    <controller name="MyfighttrackerfightStyles" />
+    <view id="createForm1" />
+    <update>
+      <Label>New Fight Styles</Label>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:18:01">
+    <controller name="MyfighttrackerfightStyles" />
+    <view id="editForm1" />
+    <update>
+      <Label>Review Fight Styles</Label>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:18:19">
+    <controller name="MyfighttrackerfightStyles" />
+    <view id="grid1" />
+    <update>
+      <Label>Fight Styles</Label>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:19:33">
+    <controller name="MyfighttrackerfightStyles" />
+    <view id="editForm1" />
+    <update>
+      <Label>Review Fight Style</Label>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:19:45">
+    <controller name="MyfighttrackerfightStyles" />
+    <view id="createForm1" />
+    <update>
+      <Label>New Fight Style</Label>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:23:44">
+    <controller name="MyfighttrackerfightStyles" />
+    <view id="grid1" />
+    <update>
+      <SortExpression>FightStyleName</SortExpression>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:24:52">
+    <controller name="MyProfile" />
+    <view id="myAccountForm" />
+    <insert type="category">
+      <HeaderText>c3 - 4. Profile</HeaderText>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:25:04">
+    <controller name="MyProfile" />
+    <view id="myAccountForm" />
+    <category id="c4" />
+    <update>
+      <HeaderText>4. Profile</HeaderText>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:25:16">
+    <controller name="MyProfile" />
+    <view id="myAccountForm" />
+    <category id="c4" />
+    <move>
+      <controller name="MyProfile" />
+      <field name="FightStyleID" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:25:26">
+    <controller name="MyProfile" />
+    <view id="myAccountForm" />
+    <dataField fieldName="FightStyleID" />
+    <update>
+      <Hidden>false</Hidden>
+      <DataViewShowInSummary>false</DataViewShowInSummary>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-08T07:44:21">
+    <controller name="MyfighttrackermyPreference" />
+    <field name="UserId" />
+    <update>
+      <ItemsStyle>CheckBoxList</ItemsStyle>
+      <ItemsDataController>MyfighttrackerfightStyles</ItemsDataController>
+      <ItemsTargetController>MyfighttrackermyPreferenceFightStyles</ItemsTargetController>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:05:17">
+    <controller name="MyfighttrackermyPreference" />
+    <field name="UserId" />
+    <update>
+      <ItemsStyle />
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:06:41">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="grid1" />
+    <dataField fieldName="UserId" />
+    <update>
+      <Hidden>false</Hidden>
+      <DataViewShowInSummary>false</DataViewShowInSummary>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:16:31">
+    <controller name="MyfighttrackermyPreference" />
+    <insert type="field">
+      <Name>FightStyles</Name>
+      <Type>String</Type>
+      <AllowNulls>true</AllowNulls>
+      <IsPrimaryKey>false</IsPrimaryKey>
+      <IsVirtual>false</IsVirtual>
+      <Computed>true</Computed>
+      <Calculated>false</Calculated>
+      <CausesCalculate>false</CausesCalculate>
+      <OnDemand>false</OnDemand>
+      <Label>Fight Styles</Label>
+      <ReadOnly>false</ReadOnly>
+      <ShowInSummary>false</ShowInSummary>
+      <HtmlEncode>true</HtmlEncode>
+      <FormatOnClient>true</FormatOnClient>
+      <ItemsStyle>CheckBoxList</ItemsStyle>
+      <ItemsDataController>MyfighttrackerfightStyles</ItemsDataController>
+      <ItemsTargetController>MyfighttrackermyPreferenceFightStyles</ItemsTargetController>
+      <SearchOnStart>false</SearchOnStart>
+      <AutoSelect>false</AutoSelect>
+      <ItemsLetters>false</ItemsLetters>
+      <AllowQBE>true</AllowQBE>
+      <AllowSorting>true</AllowSorting>
+      <MaskType>None</MaskType>
+      <AllowLEV>false</AllowLEV>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:18:40">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="editForm1" />
+    <category id="c1" />
+    <move>
+      <controller name="MyfighttrackermyPreference" />
+      <field name="FightStyles" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:22:01">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="grid1" />
+    <move>
+      <controller name="MyfighttrackermyPreference" />
+      <field name="FightStyles" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:22:08">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="createForm1" />
+    <category id="c1" />
+    <move>
+      <controller name="MyfighttrackermyPreference" />
+      <field name="FightStyles" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:22:11">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="createForm1" />
+    <dataField fieldName="FightStyles" />
+    <update>
+      <Hidden>false</Hidden>
+      <DataViewShowInSummary>false</DataViewShowInSummary>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:23:18">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="createForm1" />
+    <dataField fieldName="FightStyles" />
+    <update>
+      <Columns>3</Columns>
+      <Hidden>false</Hidden>
+      <DataViewShowInSummary>false</DataViewShowInSummary>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:34:15">
+    <controller name="MyfighttrackerfightStyles" />
+    <actionGroup id="ag5" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:34:21">
+    <controller name="MyfighttrackerfightStyles" />
+    <actionGroup id="ag7" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:34:42">
+    <controller name="MyfighttrackermyPreference" />
+    <actionGroup id="ag5" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:34:51">
+    <controller name="MyfighttrackermyPreference" />
+    <actionGroup id="ag7" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:35:42">
+    <controller name="MyfighttrackerfightStyles" />
+    <view id="createForm1" />
+    <category id="c1" />
+    <update>
+      <HeaderText>New Fight Style</HeaderText>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-15T20:38:59">
+    <controller name="MyfighttrackermyPreference" />
+    <field name="FightStyles" />
+    <update>
+      <ItemsStyle />
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-20T13:19:22">
+    <controller name="MyfighttrackermyPreference" />
+    <field name="FightStyles" />
+    <update>
+      <ItemsDataController />
+      <ItemsTargetController />
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-20T13:29:21">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="grid1" />
+    <dataField fieldName="FightStyles" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2016-12-20T13:34:18">
+    <controller name="MyfighttrackermyPreference" />
+    <field name="FightStyles" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2016-12-20T15:51:35">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="grid1" />
+    <update>
+      <FilterExpression>@Userid = @BusinessRules_UserId</FilterExpression>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-20T15:52:28">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="grid1" />
+    <update>
+      <FilterExpression>Userid = @BusinessRules_UserId</FilterExpression>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-20T15:58:03">
+    <controller name="MyfighttrackermyPreference" />
+    <insert type="field">
+      <Name>FightStyles</Name>
+      <Type>String</Type>
+      <AllowNulls>true</AllowNulls>
+      <IsPrimaryKey>false</IsPrimaryKey>
+      <IsVirtual>false</IsVirtual>
+      <Computed>true</Computed>
+      <Calculated>false</Calculated>
+      <CausesCalculate>false</CausesCalculate>
+      <OnDemand>false</OnDemand>
+      <Label>Fight Styles</Label>
+      <ReadOnly>false</ReadOnly>
+      <ShowInSummary>false</ShowInSummary>
+      <HtmlEncode>true</HtmlEncode>
+      <FormatOnClient>true</FormatOnClient>
+      <ItemsStyle>CheckBoxList</ItemsStyle>
+      <ItemsDataController>MyfighttrackerfightStyles</ItemsDataController>
+      <ItemsTargetController>MyfighttrackermyPreferenceFightStyles</ItemsTargetController>
+      <SearchOnStart>false</SearchOnStart>
+      <AutoSelect>false</AutoSelect>
+      <ItemsLetters>false</ItemsLetters>
+      <AllowQBE>true</AllowQBE>
+      <AllowSorting>true</AllowSorting>
+      <MaskType>None</MaskType>
+      <AllowLEV>false</AllowLEV>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2016-12-20T15:58:59">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="grid1" />
+    <move>
+      <controller name="MyfighttrackermyPreference" />
+      <field name="FightStyles" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2016-12-20T15:59:02">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="grid1" />
+    <dataField fieldName="FightStyles" />
+    <update>
+      <Hidden>false</Hidden>
+      <DataViewShowInSummary>false</DataViewShowInSummary>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-20T15:59:19">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="editForm1" />
+    <category id="c1" />
+    <move>
+      <controller name="MyfighttrackermyPreference" />
+      <field name="FightStyles" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2016-12-20T15:59:25">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="editForm1" />
+    <dataField fieldName="FightStyles" />
+    <update>
+      <Hidden>false</Hidden>
+      <DataViewShowInSummary>false</DataViewShowInSummary>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-20T16:13:42">
+    <controller name="MyfighttrackermyPreference" />
+    <field name="FightStyles" />
+    <update>
+      <ItemsStyle />
+      <ItemsDataController />
+      <ItemsTargetController />
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-21T03:58:17">
+    <controller name="MyfighttrackermyPreference" />
+    <actionGroup id="ag2" />
+    <action id="a13" />
+    <update>
+      <CommandName>Edit</CommandName>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-21T04:00:30">
+    <controller name="MyfighttrackermyPreference" />
+    <actionGroup id="ag2" />
+    <action id="a13" />
+    <update>
+      <WhenLastCommandName>Any</WhenLastCommandName>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-21T04:54:02">
+    <controller name="MyfighttrackermyPreference" />
+    <actionGroup id="ag2" />
+    <action id="a13" />
+    <update>
+      <CommandName>Update</CommandName>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-21T04:59:36">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="editForm1" />
+    <category id="c1" />
+    <dataField fieldName="FightStyles" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2016-12-21T21:06:56">
+    <controller name="MyfighttrackermyPreference" />
+    <actionGroup id="ag2" />
+    <action id="a13" />
+    <update>
+      <CommandName>Select</CommandName>
+      <WhenLastCommandName>Insert</WhenLastCommandName>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-21T21:08:16">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="editForm1" />
+    <update>
+      <FilterExpression>Userid = @BusinessRules_UserId</FilterExpression>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-21T21:14:54">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="editForm1" />
+    <update>
+      <Label>Update Preference</Label>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-21T21:15:52">
+    <controller name="MyfighttrackermyPreference" />
+    <view id="editForm1" />
+    <category id="c1" />
+    <update>
+      <HeaderText>General</HeaderText>
+    </update>
+  </c>
+</log><log type="Application">
+  <c y="NodeSet" t="2016-11-04T17:37:31">
+    <page name="MyfighttrackersiteContent" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2016-11-04T17:37:36">
+    <page name="myfighttracker_site_content" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2016-11-04T18:46:06">
+    <page name="MyfighttrackerfightStyles" />
+    <update>
+      <Name>FightStyles</Name>
+      <UseExtenders>false</UseExtenders>
+      <Title>Fight Styles</Title>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T18:46:37">
+    <page name="FightStyles" />
+    <update>
+      <Description>View Fight Styles</Description>
+      <About>This page allows fight styles management.</About>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T18:46:58">
+    <page name="FightStyles" />
+    <rename>Fight Styles</rename>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:01:06">
+    <pages />
+    <insert type="page">
+      <Name>Admin</Name>
+      <Generate>Always</Generate>
+      <UseExtenders>false</UseExtenders>
+      <Path>Admin</Path>
+      <Title>Admin</Title>
+      <Roles>admin</Roles>
+    </insert>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:01:10">
+    <page name="Admin" />
+    <move>
+      <page name="FightStyles" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:02:30">
+    <page name="Admin" />
+    <update>
+      <Roles>Admininistrators</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:02:39">
+    <page name="FightStyles" />
+    <update>
+      <Roles>Admininistrators</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:03:43">
+    <page name="FightStyles" />
+    <update>
+      <Roles>Administrators</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:05:15">
+    <page name="Admin" />
+    <update>
+      <Roles>Administrators</Roles>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-11-04T19:48:02">
+    <page name="MyfighttrackermyPreference" />
+    <rename>My Preference</rename>
+  </c>
+  <c y="NodeSet" t="2016-11-08T07:43:25">
+    <page name="MyfighttrackermyPreferenceFightStyles" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2016-11-08T07:49:09">
+    <page name="Admin" />
+    <move>
+      <page name="Membership" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2016-11-08T07:49:21">
+    <page name="Admin" />
+    <move>
+      <page name="Membership" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2016-11-08T07:49:25">
+    <page name="Admin" />
+    <move>
+      <page name="FightStyles" />
+    </move>
+  </c>
+  <c y="NodeSet" t="2016-11-08T20:26:20">
+    <page name="MyfighttrackermyPreferenceFightStyles1" />
+    <delete />
+  </c>
+  <c y="NodeSet" t="2016-12-21T04:57:05">
+    <page name="MyfighttrackermyPreference" />
+    <dataView id="view1" />
+    <update>
+      <View>editForm1</View>
+    </update>
+  </c>
+  <c y="NodeSet" t="2016-12-21T21:07:35">
+    <page name="MyfighttrackermyPreference" />
+    <dataView id="view1" />
+    <update>
+      <StartCommandName>Edit</StartCommandName>
+      <StartCommandArgument>editForm1</StartCommandArgument>
+    </update>
+  </c>
+</log></logs>

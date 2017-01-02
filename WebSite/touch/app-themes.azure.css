@@ -1,0 +1,1046 @@
+﻿/* grey drop icon - #cccccc */
+.app-theme-azure .app-menu-strip a.ui-btn.app-has-children:not(.ui-btn-active)::after {
+    border-top-color: #ccc;
+}
+
+/* white drop icon*/
+.app-theme-azure .app-menu-strip a.ui-btn.app-has-children:hover:not(.ui-btn-active)::after,
+.app-theme-azure .app-menu-strip a.ui-btn.app-has-children.app-selected:not(.ui-btn-active)::after {
+    border-top-color: #fff!important;
+}
+
+/*********************************/
+/* THEME: azure                 */
+/*******************************/
+
+.app-theme-azure,
+.app-theme-azure .ui-page-theme-a,
+.app-theme-azure .app-page-header {
+    background-color: #fff;
+    scrollbar-base-color: #abc0c1;
+    scrollbar-track-color: #f2f2f2;
+    scrollbar-arrow-color: #0c334b;
+    scrollbar-shadow-color: #abc0c1;
+}
+
+    .app-theme-azure.app-desktop ::-webkit-scrollbar-track {
+        background-color: #f2f2f2;
+    }
+
+    .app-theme-azure.app-desktop ::-webkit-scrollbar-thumb {
+        background-color: #abc0c1;
+        border: solid 1px #f2f2f2;
+    }
+
+        .app-theme-azure.app-desktop ::-webkit-scrollbar-thumb:hover {
+            background-color: #e1e1e1;
+        }
+
+    .app-theme-azure .app-page-header {
+        color: #1f1f1f;
+    }
+
+    .app-theme-azure .ui-page-theme-a .ui-panel-wrapper,
+    .app-theme-azure .ui-panel,
+    .app-theme-azure .app-page-header,
+    .app-theme-azure .app-status-bar,
+    .app-theme-azure .app-bar-actions,
+    .app-theme-azure .app-bar-header,
+    .app-bar-footer.ui-bar-inherit {
+        background-color: #cdefec !important;
+        border-color: #abc0c1;
+    }
+
+
+    .app-theme-azure .app-bar-footer {
+        background-color: #f2f2f2;
+    }
+
+
+    .app-theme-azure .app-status-bar {
+        color: #000;
+    }
+
+    .app-theme-azure .app-form-editing.app-formview .app-static-text div,
+    .app-theme-azure .app-page-menu-desc,
+    .app-theme-azure .ui-checkbox label {
+        text-shadow: none !important;
+    }
+
+    /*popup*/
+    .app-theme-azure .app-popup-message,
+    .app-theme-azure .ui-content.app-map-info {
+        background-color: #cdefec;
+        border-color: #b5c4c4;
+        text-shadow: none;
+        color: #000;
+    }
+
+        .app-theme-azure .app-popup-message .ui-popup-arrow {
+            background-color: #cdefec;
+        }
+
+        .app-theme-azure .app-popup-message div {
+            color: #b5c4c4;
+        }
+        
+    .app-data-input-popup .app-selected .app-caret-r .app-caret {
+        border-left-color: #000;
+    }
+
+    /* page header */
+    .app-theme-azure .app-bar-tools.ui-bar-a,
+    .app-theme-azure :not(.app-tabs).ui-header-fixed.ui-header:not(.app-bar-actions),
+    .app-theme-azure .ui-header:not(.app-bar-actions) {
+        background-color: #384c4d;
+        border-color: #abc0c1;
+        text-shadow: none;
+    }
+
+    .app-theme-azure .app-popup-listview .ui-popup-arrow,
+    .app-theme-azure .app-popup-listview {
+        background-color: #384c4d !important;
+        border-color: #384c4d !important;
+    }
+
+    .app-theme-azure .app-page-header {
+        border-color: #abc0c1 !important;
+    }
+
+    /* list dividers*/
+    .app-theme-azure .ui-li-divider {
+        background-color: #cdefec;
+        border-color: #abc0c1;
+        color: #555;
+        text-shadow: none;
+    }
+
+    /* view descriptions*/
+    .app-theme-azure .ui-listview .app-list-instruction.ui-li-divider,
+    .app-theme-azure .ui-content:not(.app-page-tasks) .app-listview .ui-li-divider:not(.ui-bar-b):not(.ui-bar-inherit),
+    .app-theme-azure .app-presenter-instruction,
+    .app-theme-azure .app-grid-header .app-frozen-spacer {
+        background-color: #f2f2f2 !important;
+        border-color: #b5c4c4 !important;
+        color: #3e5354;
+    }
+
+    body:not(.app-sidebar-undocked).app-theme-azure .ui-header-fixed .ui-title,
+    body:not(.app-sidebar-undocked).app-theme-azure .app-sidebar,
+    .app-theme-azure .app-divider:not(.ui-collapsible):not(.app-calculated),
+    .app-theme-azure .app-menu-strip a.ui-btn,
+    .app-theme-azure.app-desktop .app-menu-strip a.ui-btn.app-selected:hover:not(.ui-btn-active) {
+        border-color: #abc0c1;
+        color: #fff !important;
+    }
+
+
+    .app-theme-azure .app-menu-strip ul li a.ui-btn.app-selected:not(:hover):not(.ui-btn-active),
+    .app-theme-azure.app-has-popup-open .app-menu-strip ul li a.ui-btn.app-selected:hover:not(.ui-btn-active) {
+        background-color: rgba(0,0,0, 0.25) !important;
+    }
+
+    .app-theme-azure .app-echo,
+    .app-theme-azure .app-header {
+        border-color: #b5c4c4;
+    }
+
+    .app-theme-azure .app-bar-heading {
+        background-color: #f2f2f2;
+        color: #3e5354;
+        text-shadow: none;
+    }
+
+    .app-theme-azure .ui-body-a,
+    .app-theme-azure .ui-page-theme-a .ui-body-inherit:not(.ui-focus),
+    .app-theme-azure .app-li-card {
+        background-color: #fff;
+        border-color: #b5c4c4;
+        /*color: #fff;*/
+        text-shadow: none;
+    }
+
+    .app-theme-azure .ui-panel .ui-body-a {
+        border-color: #abc0c1 !important;
+    }
+
+    .app-theme-azure .ui-page-theme-a .app-formview .ui-body-inherit:not(.ui-focus) {
+        background-color: #fff;
+    }
+
+
+    /*sidebar customizations*/
+    .app-theme-azure .ui-body-a.app-sidebar {
+        background-color: #cdefec;
+    }
+
+    .app-theme-azure.app-sidebar-undocked .app-form-grid .ui-collapsible-set,
+    .app-theme-azure .ui-listview-inset .ui-li-divider:not(.ui-bar-a) {
+        border-color: #b5c4c4;
+    }
+
+    .app-theme-azure .ui-li-divider.app-info {
+        background-color: #fff !important;
+    }
+
+        .app-theme-azure .ui-li-divider.app-info .appname {
+            color: #5d5d6b;
+        }
+
+    /* fix for form "card" */
+    .app-theme-azure .ui-page-theme-a .ui-body-inherit.app-li-card {
+        border-top-color: #b5c4c4;
+        border-left-color: #b5c4c4;
+        border-right-color: #b5c4c4;
+    }
+
+    /*.app-theme-azure .ui-listview-inset {
+        background-color: #ebf3ff;
+    }*/
+
+    .app-theme-azure .app-form-editing.app-formview .ui-field-contain {
+        border-top-color: transparent;
+    }
+
+
+    /*buttons*/
+    .app-theme-azure .app-page-header,
+    .app-theme-azure .ui-page-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-azure .ui-bar-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-azure .ui-body-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html body.app-theme-azure .ui-group-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html head + body.app-theme-azure .ui-btn-a.ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    .app-theme-azure .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-azure .ui-bar-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-azure .ui-body-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html body.app-theme-azure .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html head + body.app-theme-azure .ui-btn-a.ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    .app-theme-azure .app-form-grid .ui-collapsible-set,
+    /* button overrides to remove "hover" on touch screens */
+    body.app-theme-azure:not(.app-desktop) li a:hover:not(.app-selected):not(.ui-btn-b),
+    body:not(.app-desktop).app-theme-azure .ui-page-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-azure .ui-bar-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-azure .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-azure .ui-group-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html head + body:not(.app-desktop).app-theme-azure .ui-btn-a.ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    .app-theme-azure .app-tabs.ui-header,
+    .app-theme-azure #app-welcome .ui-btn:not(:hover),
+    .app-theme-azure #app-popup-login .ui-btn:not(:hover),
+    .app-theme-azure .ui-listview .app-frozen-spacer,
+    .app-theme-azure .app-grid-header,
+    .app-theme-azure .app-echo .dv-item, 
+    .app-echo .app-grid .ui-last-child,
+    .app-theme-azure .app-echo .app-listview,
+    .app-theme-azure [data-container],
+    .app-theme-azure [data-layout="form"] {
+        border-color: #b5c4c4;
+    }
+
+        .app-theme-azure .app-grid-header .app-field-separator::after,
+        .app-theme-azure .app-calculated .app-field-separator::after {
+            background-color: #b5c4c4;
+        }
+
+    .app-theme-azure .ui-body-b .ui-btn-a,
+    .app-theme-azure .ui-body-b .ui-btn-a.ui-btn-active {
+        border-color: #cdefec !important;
+    }
+
+    .app-theme-azure.app-has-popup-open .app-menu-strip .ui-btn:hover {
+        background-color: #cdefec !important;
+    }
+
+    .app-theme-azure .ui-page-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-azure .ui-bar-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-azure .ui-body-a .ui-btn:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-theme-azure .ui-group-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html head + body.app-theme-azure .ui-btn-a.ui-btn:not(.app-selected):not(.app-lookup),
+    .app-theme-azure .ui-panel-page-container-a:not(.app-lookup),
+    .app-theme-azure .app-tabs.ui-header:not(.app-lookup),
+    .app-theme-azure .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-azure .ui-bar-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-azure .ui-body-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html body.app-theme-azure .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off),
+    html head + body.app-theme-azure .ui-btn-a.ui-btn:visited:not(.app-selected),
+    .app-theme-azure .app-tabs .ui-btn:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-azure .app-grid.app-listview :not(.app-selected):not(:hover):not(.ui-btn-active).ui-btn,
+    .app-theme-azure #app-welcome .ui-btn:not(:hover),
+    .app-theme-azure #app-popup-login .ui-btn:not(:hover),
+    .app-theme-azure .app-map-info .ui-popup-arrow,
+    .app-theme-azure .ui-listview .app-frozen-spacer,
+    .app-theme-azure [data-container="toggle"],
+    .app-listview.app-grid .ui-btn:not(:hover):not(.app-selected):not(.ui-btn-active):not(.app-checked), 
+    body:not(.app-desktop) .app-listview.app-grid .ui-btn:hover:not(.app-selected):not(.ui-btn-active):not(.app-checked) {
+        /*color: #000;*/
+        background-color: #e9eeed;
+    }
+
+    /* top border of Info button in sidebar */
+    .app-theme-azure .app-sidebar .ui-btn.ui-icon-info {
+        border-color: #abc0c1 !important;
+    }
+
+    /* navigation panel selected item color fix*/
+    .app-theme-azure .app-nav-panel .ui-btn-a {
+        color: #1f1f1f !important;
+    }
+
+    /* subtext coloring*/
+    .app-theme-azure .app-field-label-after,
+    .app-theme-azure .app-field-label-before,
+    .app-theme-azure .app-field-label,
+    .app-theme-azure .ui-panel .app-item-desc,
+    .app-theme-azure a:not(.ui-btn):not(.btn),
+    .app-theme-azure .app-item-number,
+    .app-data-input-popup li:not(.app-selected) span.app-text-normal {
+        color: #607978 !important;
+    }
+
+        .app-theme-azure a:not(.ui-btn):not(.btn):hover,
+        .app-theme-azure a:not(.ui-btn):not(.btn):active {
+            color: #000 !important;
+        }
+
+
+    .app-theme-azure .ui-btn p {
+        color: #000 !important;
+    }
+
+    .app-theme-azure .ui-li-aside,
+    .app-theme-azure .ui-btn .ui-li-aside,
+    .app-theme-azure .app-grid-header,
+    .app-theme-azure .app-panel-info-view .app-list-instruction,
+    .app-theme-azure .app-calculated .app-static-text {
+        color: #5d5d6b !important;
+    }
+
+    .app-theme-azure .app-filter {
+        color: #3d93d8;
+    }
+
+    .app-theme-azure .app-bar-heading .app-bar-label,
+    .app-theme-azure .app-static-text div,
+    .app-theme-azure .app-form-editing.app-formview label {
+        color: #607978;
+    }
+
+    .app-theme-azure .app-wrapper,
+    .app-theme-azure .app-echo-instruction {
+        color: #3e5354;
+        text-shadow: none;
+    }
+
+    /*selected button*/
+    .app-theme-azure .app-selected:not(.ui-btn-active),
+    .app-theme-azure .app-checked:not(.ui-btn-active),
+    .app-theme-azure .app-selected:hover,
+    .app-theme-azure .app-selected:visited,
+    .app-theme-azure .app-selected .app-frozen-spacer,
+    .app-theme-azure .app-checked .app-frozen-spacer {
+        background-color: #d4dddc !important;
+        border-color: #b5c4c4 !important;
+        color: #000 !important;
+    }
+
+    .app-theme-azure .app-grid-header .app-selected:not(.ui-btn-active) {
+        background-color: rgba(0,0,0,0.1) !important;
+    }
+
+    /* hover */
+    .app-theme-azure .ui-btn-a:hover:not(.ui-btn-active):not(.app-selected),
+    .app-desktop.app-theme-azure .ui-page-theme-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-azure .ui-bar-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-azure .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-desktop.app-theme-azure .ui-group-theme-a .ui-btn:hover:not(.app-selected),
+    html head + body.app-desktop.app-theme-azure .ui-btn-a.ui-btn:hover:not(.app-selected),
+    .app-theme-azure #app-welcome .ui-btn:hover,
+    .app-theme-azure #app-popup-login .ui-btn:hover,
+    .app-desktop.app-theme-azure .ui-listview a.ui-btn:hover:not(.app-selected) .app-frozen-spacer,
+    .app-desktop [data-container="collapsible"] [data-container="toggle"]:hover:not(.ui-btn-active) {
+        background-color: #daede9;
+        border-color: #b5c4c4;
+    }
+
+    .app-theme-azure.app-desktop .app-grid-header span:hover:not(.ui-btn-active):not(.app-icon) {
+        background-color: #daede9;
+    }
+
+    /* selected hover*/
+    html body.app-desktop.app-theme-azure .ui-btn.app-selected:hover:not(.ui-btn-active),
+    html body.app-desktop.app-theme-azure .ui-btn.app-checked:hover:not(.ui-btn-active),
+    .app-theme-azure .app-echo-toolbar .app-selected:not(.ui-btn-active),
+    .app-theme-azure .app-echo-toolbar .app-selected:not(.ui-btn-active):hover,
+    .app-theme-azure .app-listview .app-selected:not(.ui-btn-active):hover .app-frozen-spacer,
+    .app-theme-azure .app-listview .app-checked:not(.ui-btn-active):hover .app-frozen-spacer {
+        background-color: #d0d9d8 !important;
+        border-color: #b5c4c4 !important;
+        color: #000 !important;
+    }
+
+    /* click */
+
+    .app-theme-azure .app-grid-header .ui-btn-active,
+    [data-container="collapsible"] [data-container="toggle"].ui-btn-active {
+        background-color: #3d93d8 !important;
+        color: #fff !important;
+    }
+
+    .app-theme-azure .app-listview .ui-btn.app-selected::before,
+    .app-theme-azure [data-input="checkboxlist"] .app-data-list li.app-selected::after {
+        background-color: #3d93d8;
+    }
+
+.app-theme-azure [data-input] .app-data-list li.app-selected,
+.app-theme-azure [data-input] .app-data-list li::before,
+.app-theme-azure [data-input] .app-data-list li.app-selected::after {
+    border-color: #3d93d8;
+}
+
+    .app-theme-azure .ui-title.ui-btn-active,
+    .app-theme-azure .ui-btn.ui-btn-active,
+    .app-theme-azure .ui-btn.ui-btn-active .app-frozen-spacer {
+        background-color: #3d93d8 !important;
+        color: #fff !important;
+    }
+    
+    .app-bar-tools .ui-btn.ui-btn-active::after,
+    .app-btn-more.ui-btn-active::after {
+        color: #3d93d8!important;
+    }
+
+    .app-theme-azure .ui-btn:not(.ui-btn-b):not(.app-btn-more):not(.ui-icon-dots).ui-btn-active {
+        border-color: #b5c4c4 !important;
+    }
+
+    .app-theme-azure .ui-panel-position-left .ui-btn-active .app-item-desc,
+    .app-theme-azure .ui-panel-position-right .ui-btn-active .app-item-desc,
+    .app-theme-azure #app-sidebar .ui-btn-active .app-item-desc,
+    .app-theme-azure .app-listview-static .ui-btn-active .app-item-desc,
+    .app-theme-azure .ui-btn-active p,
+    .app-theme-azure .ui-btn-active p.ui-li-aside,
+    .app-theme-azure .ui-btn.ui-btn-active span:not(.ui-li-count) {
+        color: #fff !important;
+    }
+
+
+    .app-theme-azure .ui-header .ui-title,
+    .app-theme-azure .ui-footer .ui-title {
+        color: #fff;
+    }
+
+
+    .app-theme-azure .app-btn-check .app-icon-themed {
+        fill: #fff;
+    }
+
+    [data-input] .app-control-helper ul li.ui-btn-active,
+    [data-input].app-has-focus .app-control-helper ul li.app-focus {
+        border-color: #3d93d8 !important;
+        background-color: #3d93d8 !important;
+        color: #fff!important;
+    }
+
+    /* tabs */
+
+    .app-theme-azure .app-tabs .ui-btn {
+        border-color: #0c334b !important;
+        color: #3e5354;
+    }
+
+        .app-theme-azure .app-tabs .ui-btn.ui-btn-active {
+            border-color: #0c334b !important;
+            background-color: #0c334b !important;
+        }
+
+    /*button on header bar*/
+
+    .app-theme-azure .app-bar-tools .ui-btn {
+        border-color: #292911 !important;
+    }
+
+    .app-theme-azure.app-desktop .app-bar-tools .ui-btn.ui-btn-icon-notext:not(.ui-btn-active) {
+        background-color: #ada5a3 !important;
+    }
+
+    .app-theme-azure .app-bar-tools .ui-btn.ui-btn-active {
+        /*background-color: #958e8c !important;*/
+        border-color: #000 !important;
+    }
+
+        .app-theme-azure .app-bar-tools .ui-btn.ui-btn-active::after {
+            background-color: #0c334b !important;
+        }
+
+    .app-theme-azure.app-desktop .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots):not(.app-btn-more):hover {
+        border-color: #0c334b !important;
+    }
+
+    .app-theme-azure .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots)::after,
+    .app-theme-azure .ui-btn.ui-btn-icon-left::after,
+    .app-theme-azure .ui-btn.ui-btn-icon-right:not(.app-btn-icon-transparent)::after,
+    .app-theme-azure .ui-btn.ui-btn-icon-top::after,
+    .app-theme-azure .ui-btn.ui-btn-icon-bottom::after,
+    .app-theme-azure .ui-checkbox-on:after,
+    .app-theme-azure .ui-flipswitch-active,
+    .app-theme-azure .ui-slider-track .ui-btn-active {
+        background-color: #0c334b !important;
+    }
+
+    .app-theme-azure .ui-btn .glyphicon {
+        color: #0c334b;
+    }
+
+    .app-theme-azure .app-icon-themed {
+        fill: #0c334b;
+    }
+
+    .app-theme-azure .ui-radio-on:after,
+    .app-theme-azure .ui-slider-track .ui-btn-active,
+    .app-theme-azure .ui-flipswitch-active {
+        border-color: #0c334b !important;
+    }
+
+    /*swatch b*/
+    .app-theme-azure .ui-btn.ui-btn-b,
+    .app-theme-azure .ui-btn.ui-btn-b:visited,
+    .app-theme-azure:not(.app-desktop) li a.ui-btn-b:not(.ui-btn-active):hover {
+        background-color: #bac7c5;
+        border-color: #cdefec!important;
+        color: #000;
+    }
+
+        /*swatch b hover*/
+
+        .app-theme-azure .ui-btn.ui-btn-b.ui-btn-active,
+        .app-theme-azure.app-desktop .ui-btn.ui-btn-b:hover,
+        .app-theme-azure .app-popup .ui-content .ui-checkbox .ui-btn:hover,
+        .app-theme-azure .app-popup .ui-content .ui-checkbox .ui-btn.ui-focus:hover {
+            background-color: #b5c3c1;
+            border-color: #cdefec!important;
+            color: #000 !important;
+        }
+
+        .app-theme-azure .ui-btn.ui-btn-b.ui-btn-active,
+        .app-theme-azure.app-desktop .ui-btn.ui-btn-b.ui-btn-active:hover {
+            color: #fff !important;
+        }
+
+    .app-theme-azure .ui-body-a .ui-btn-b,
+    .app-theme-azure.app-desktop .ui-body-a .ui-btn-b:hover,
+    .app-theme-azure .ui-body-a .ui-btn-b.ui-btn-active {
+        border-color: #abc0c1 !important;
+    }
+
+
+    /*swatch b divider*/
+    .app-theme-azure .ui-bar-b,
+    .app-theme-azure .ui-bar-b .ui-bar-inherit,
+    html .app-theme-azure.ui-body-b .ui-bar-inherit,
+    html body.app-theme-azure .ui-group-theme-b .ui-bar-inherit {
+        border-color: #d4dddc;
+        background-color: #cdefec;
+    }
+
+    /*fix for lookups/inputs*/
+    .app-theme-azure .ui-btn.app-lookup:not(.ui-btn-active):not(.ui-focus),
+    .app-theme-azure .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select:not(.ui-focus) .ui-btn:not(.ui-btn-active),
+    .app-theme-azure .ui-input-text:not(.ui-btn-active),
+    .app-theme-azure .app-form-editing .ui-input-text:not(.ui-btn-active),
+    .app-theme-azure .ui-input-search.ui-body-inherit {
+        background-color: #fff;
+        border-color: #b5c4c4;
+        text-shadow: none;
+        /*color: #fff;*/
+    }
+
+        .app-theme-azure .ui-btn.app-lookup.ui-focus,
+        .app-theme-azure .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select.ui-focus .ui-btn:not(.ui-btn-active),
+        .app-theme-azure .ui-input-text.ui-focus,
+        .app-theme-azure .app-form-editing .ui-input-text.ui-focus,
+        .app-theme-azure .ui-input-search.ui-body-inherit.ui-focus,
+        .app-theme-azure .ui-checkbox label.ui-focus {
+            border-color: #38c !important;
+        }
+
+    .app-theme-azure .ui-slider {
+        border-color: #abc0c1 !important;
+    }
+
+    .app-theme-azure .ui-slider-label.ui-btn-active {
+        background-color: #abc0c1 !important;
+    }
+
+    /* background bleed under form in editing mode*/
+    .app-theme-azure .ui-body-a.ui-collapsible-content,
+    .app-theme-azure .app-bar-tools .ui-input-search.ui-body-inherit {
+        background-color: #fff;
+    }
+
+    .app-theme-azure .ui-btn.app-lookup,
+    .app-theme-azure .ui-btn.ui-btn-active.app-lookup {
+        border-color: #abc0c1;
+    }
+
+    .app-theme-azure .app-lookup-input {
+        background-color: transparent;
+        /*color: #fff;*/
+    }
+
+    .app-theme-azure .app-grid-header {
+        color: #999;
+    }
+
+@media (min-width: 20em) {
+
+    .app-theme-azure .ui-header.ui-header-fixed.app-bar-tools {
+        background-image: url(logo-white.png);
+    }
+}
+
+.app-theme-azure .app-listview li .app-li-corner {
+    color: #fff;
+    background-color: #abc0c1;
+}
+
+.app-theme-azure .dataview-busy-indicator {
+    background-color: #3d93d8;
+}
+
+.app-bar-tools .ui-btn::after,
+.app-theme-azure .ui-bar-a .app-menu-strip .ui-btn:not(.ui-btn-active), 
+.app-theme-azure .ui-bar-a .app-user-name {
+    color: #ccc !important;
+}
+
+.app-desktop .app-bar-tools .ui-btn:hover:not(.ui-btn-active)::after,
+.app-theme-azure .ui-bar-a .app-menu-strip .ui-btn:hover,
+.app-theme-azure .ui-bar-a .app-menu-strip .ui-btn.app-selected {
+    color: #fff !important;
+}
+
+/* Calendar/Charts */
+
+.app-theme-azure .app-chart .app-chart-inner {
+    border-color: #b5c4c4;
+}
+
+.app-theme-azure .app-calendar-plugin {
+    background-color: #fff;
+    color: #000;
+}
+
+.app-theme-azure .app-calendar-month-header {
+    color: #1f1f1f !important;
+}
+
+.app-theme-azure .app-calendar-monthview .app-calendar-month table td.app-calendar-weekend {
+    background-color: #f2f2f2;
+}
+
+.app-theme-azure .app-calendar-plugin,
+.app-theme-azure .app-calendar-color-legend,
+.app-theme-azure .app-calendar-monthview .app-calendar-month table,
+.app-theme-azure .app-calendar-monthview .app-calendar-month table td,
+.app-theme-azure .app-calendar-day > div > div,
+.app-theme-azure .app-bar-calendar .app-week-header li.last-day-of-week,
+.app-theme-azure .app-calendar-week-grid .app-calendar-day > div {
+    border-color: #b5c4c4;
+}
+
+    .app-theme-azure .app-calendar-plugin span.app-current-day,
+    .app-theme-azure .app-calendar-monthview .app-current-day,
+    .app-theme-azure .app-calendar-yearview .app-current-day,
+    .app-theme-azure .app-week-header .app-current-day,
+    .app-theme-azure .app-day-header .visible-day.app-current-day,
+    .app-theme-azure .app-has-current-day .current-time-line .dot {
+        background-color: #0c334b;
+    }
+
+.app-theme-azure .app-has-current-day .current-time-line {
+    border-color: #0c334b;
+}
+
+    .app-calendar-plugin-container .app-time-container .app-selected,
+    .app-calendar-plugin-container .app-time-header .app-cal-selected,
+.app-theme-azure .app-day-header :not(.ui-btn-active).ui-btn .app-current-day,
+.app-theme-azure .app-has-current-day .app-current-time,
+.app-theme-azure .app-calendar-agenda-list > li.app-has-current-day h2:not(.ui-btn-active) > span,
+.app-theme-azure .app-calendar-agenda-list li.app-time-line-container > .app-event-time,
+.app-theme-azure .app-calendar-plugin .app-date-selector-container .app-current:not(.ui-btn-active) {
+    color: #0c334b;
+}
+    
+.app-calendar-plugin-container .app-time-selector .app-time-hand,
+.app-calendar-plugin-container .app-time-hand > span,
+.app-calendar-plugin table tr.ui-btn-active td,
+.app-calendar-plugin table tr.ui-btn-active td:hover,
+.app-calendar-plugin table td.ui-btn-active,
+.app-calendar-plugin table td.ui-btn-active:hover,
+.app-calendar-yearview .app-calendar-month td.ui-btn-active,
+.app-theme-azure .ui-header .app-bar-calendar .ui-btn-active.ui-btn.app-calendar-today {
+    background-color: #0c334b !important;
+}
+
+.app-theme-azure .app-calendar-yearview .app-calendar-month td:not(.app-current-day):not(.ui-btn-active).app-has-data {
+    background-color: #daede9;
+}
+
+/***** Bootstrap *****/
+
+.app-theme-azure .app-bootstrap a:not(.ui-btn):not(.btn) {
+    color: #000;
+}
+
+.app-theme-azure .jumbotron {
+    background-color: #cdefec;
+}
+
+.app-theme-azure .btn-default,
+.app-theme-azure .btn-default:focus,
+.app-theme-azure .btn-default:visited {
+    background-color: #e9eeed;
+    border-color: #b5c4c4;
+    color: #333 !important;
+}
+
+.app-theme-azure.app-desktop .btn-default:hover {
+    background-color: #dbe4e2;
+}
+
+.app-theme-azure .app-bootstrap .btn.ui-btn-active,
+.app-theme-azure .app-bootstrap .btn.ui-btn-active:hover,
+.app-theme-azure .app-bootstrap .btn.ui-btn-active:focus,
+.app-theme-azure .app-bootstrap .nav .ui-btn-active,
+.app-theme-azure .app-bootstrap .nav .ui-btn-active:hover,
+.app-theme-azure .app-bootstrap .nav .ui-btn-active:focus,
+.app-theme-azure .app-bootstrap .list-group-item.ui-btn-active,
+.app-theme-azure .app-bootstrap .list-group-item.ui-btn-active:hover,
+.app-theme-azure .app-bootstrap .list-group-item.ui-btn-active:focus,
+.app-theme-azure .app-bootstrap .list-group-item.ui-btn-active .list-group-item-text,
+.app-theme-azure .app-bootstrap .list-group-item.ui-btn-active .list-group-item-heading {
+    background-color: #3d93d8 !important;
+    border-color: #3d93d8 !important;
+    color: #fff !important;
+}
+
+.app-theme-azure .app-bootstrap .btn-primary,
+body.app-theme-azure:not(.app-desktop) .app-bootstrap .btn-primary:hover,
+.app-theme-azure .app-bootstrap .label-primary,
+.app-theme-azure .app-bootstrap .panel-primary .panel-heading {
+    background-color: #a845ac;
+    border-color: #a845ac;
+    color: #fff !important;
+}
+
+.app-theme-azure .app-bootstrap .panel-primary {
+    border-color: #a845ac;
+}
+
+.app-theme-azure.app-desktop .app-bootstrap .btn-primary:hover,
+.app-theme-azure.app-desktop .app-bootstrap .btn-primary:focus {
+    background-color: #a72bab;
+    border-color: #a72bab;
+    color: #fff !important;
+}
+
+.app-theme-azure .table,
+.app-theme-azure .table > thead > tr > th,
+.app-theme-azure .table > tbody > tr > th,
+.app-theme-azure .table > tfoot > tr > th,
+.app-theme-azure .table > thead > tr > td,
+.app-theme-azure .table > tbody > tr > td,
+.app-theme-azure .table > tfoot > tr > td,
+.app-theme-azure .list-group-item:not(.active) {
+    background-color: #e9eeed;
+    border-color: #b5c4c4;
+}
+
+.app-theme-azure.app-desktop a.list-group-item:hover:not(.active) {
+    background-color: #dbe4e2;
+}
+
+.app-theme-azure .table > thead > tr > th,
+.app-theme-azure .table > tbody > tr > th,
+.app-theme-azure .table > tfoot > tr > th {
+    color: #3e5354;
+    background-color: #f2f2f2;
+}
+
+.app-theme-azure .table-striped > tbody > tr:nth-child(2n+1) > td,
+.app-theme-azure .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #e5ebea;
+}
+
+.app-theme-azure.app-desktop .navbar-default .navbar-toggle:hover,
+.app-theme-azure .navbar-default .navbar-toggle:focus,
+.app-theme-azure .list-group-item.active:not(.btn),
+.app-theme-azure .list-group-item.active:not(.btn):hover,
+.app-theme-azure .list-group-item.active:not(.btn):focus,
+.app-theme-azure .nav-pills > li.active > a,
+.app-theme-azure .nav-pills > li.active > a:hover,
+.app-theme-azure .nav-pills > li.active > a:focus {
+    color: #fff !important;
+    background-color: #2a393a;
+    border-color: #2a393a;
+}
+
+.app-theme-azure .list-group-item.active > .badge,
+.app-theme-azure .nav-pills > .active > a > .badge {
+    color: #2a393a !important;
+}
+
+.app-theme-azure .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.app-theme-azure .img-thumbnail {
+    background-color: #e9eeed;
+    border-color: #b5c4c4;
+}
+
+.app-theme-azure .page-header,
+.app-theme-azure .nav-tabs {
+    border-color: #b5c4c4;
+}
+
+    .app-theme-azure .nav-tabs > li.active > a,
+    .app-theme-azure .nav-tabs > li.active > a:hover,
+    .app-theme-azure .nav-tabs > li.active > a:focus {
+        border-top-color: #b5c4c4;
+        border-left-color: #b5c4c4;
+        border-right-color: #b5c4c4;
+    }
+
+.app-theme-azure.app-desktop .nav > li:not(.active) > a:hover,
+.app-theme-azure.app-desktop .nav > li:not(.active) > a:focus {
+    background-color: rgba(255,255,255,0.25);
+    border-color: #b5c4c4;
+}
+
+.app-theme-azure.app-desktop .nav-tabs > li:not(.active) > a:hover,
+.app-theme-azure .nav-tabs > li:not(.active) > a:focus,
+.app-theme-azure.app-desktop .nav-pills > li:not(.active) > a:hover,
+.app-theme-azure .nav-pills > li:not(.active) > a:focus {
+    background-color: #dbe4e2;
+}
+
+.app-theme-azure .navbar-default {
+    background-color: #384c4d;
+    border-color: #abc0c1;
+}
+
+.app-theme-dark .nav-tabs > li.active > a,
+.app-theme-dark .nav-tabs > li.active > a:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+}
+
+.app-theme-azure .navbar-default .navbar-brand,
+.app-theme-azure:not(.app-desktop) .navbar-default .navbar-brand:hover {
+    color: #fff !important;
+}
+
+.app-theme-azure .navbar-default .navbar-nav > li > a,
+.app-theme-azure:not(.app-desktop) .navbar-default .navbar-nav > li > a:hover {
+    color: #ccc !important;
+}
+
+.app-theme-azure.app-desktop .navbar-default a.navbar-brand:hover,
+.app-theme-azure .app-bootstrap .navbar-default a.navbar-brand.ui-btn-active,
+.app-theme-azure.app-desktop .navbar-default .navbar-nav > li > a:hover {
+    color: #fff !important;
+}
+
+.app-theme-azure .app-bootstrap .navbar-default .navbar-nav > .active > a,
+.app-theme-azure .app-bootstrap .navbar-default .navbar-nav > .active > a:hover,
+.app-theme-azure .app-bootstrap .navbar-default .navbar-nav > .active > a:focus,
+.app-theme-azure .app-bootstrap .navbar-default .navbar-nav > .open > a,
+.app-theme-azure .app-bootstrap .navbar-default .navbar-nav > .open > a:hover,
+.app-theme-azure .app-bootstrap .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff !important;
+    background-color: rgba(0,0,0,.25);
+}
+
+.app-theme-azure .well {
+    background-color: #e9eeed;
+    border-color: #b5c4c4;
+    /*box-shadow: rgba(0,0,0,0.1) 0 0 10px inset;*/
+}
+
+@media all and (max-width:767px) {
+    .app-sidebar-undocked.app-theme-azure .navbar-nav .open .dropdown-menu {
+        background-color: #e9eeed;
+    }
+
+    .app-sidebar-undocked.app-theme-azure.app-desktop .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .app-sidebar-undocked.app-theme-azure .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-color: #dbe4e2;
+    }
+}
+
+.app-theme-azure .dropdown-menu {
+    background-color: #e9eeed;
+}
+
+    .app-theme-azure .dropdown-menu .divider {
+        background-color: #b5c4c4;
+    }
+
+    .app-theme-azure.app-desktop .dropdown-menu > li > a:hover,
+    .app-theme-azure .dropdown-menu > li > a:focus {
+        background-color: #dbe4e2;
+    }
+
+.app-theme-azure .navbar-default .navbar-collapse,
+.app-theme-azure .navbar-default .navbar-form,
+.app-theme-azure .navbar-default .navbar-toggle,
+.app-desktop.app-theme-azure .navbar-default .navbar-toggle:hover,
+.app-desktop.app-theme-azure .navbar-default .navbar-toggle:focus {
+    border-color: #abc0c1;
+}
+
+.app-theme-azure .navbar-inverse {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+    .app-theme-azure .navbar-inverse .navbar-brand {
+        color: #777777;
+    }
+
+        .app-theme-azure.app-desktop .navbar-inverse .navbar-brand:hover,
+        .app-theme-azure .navbar-inverse .navbar-brand:focus {
+            color: #5e5e5e;
+            background-color: transparent;
+        }
+
+    .app-theme-azure .navbar-inverse .navbar-text {
+        color: #777777;
+    }
+
+    .app-theme-azure .navbar-inverse .navbar-nav > li > a {
+        color: #777777;
+    }
+
+        .app-theme-azure.app-desktop .navbar-inverse .navbar-nav > li > a:hover,
+        .app-theme-azure .navbar-inverse .navbar-nav > li > a:focus {
+            color: #333333;
+            background-color: transparent;
+        }
+
+    .app-theme-azure .navbar-inverse .navbar-nav > .active > a,
+    .app-theme-azure.app-desktop .navbar-inverse .navbar-nav > .active > a:hover,
+    .app-theme-azure .navbar-inverse .navbar-nav > .active > a:focus {
+        color: #555555;
+        background-color: #e7e7e7;
+    }
+
+    .app-theme-azure .navbar-inverse .navbar-nav > .disabled > a,
+    .app-theme-azure.app-desktop .navbar-inverse .navbar-nav > .disabled > a:hover,
+    .app-theme-azure .navbar-inverse .navbar-nav > .disabled > a:focus {
+        color: #cccccc;
+        background-color: transparent;
+    }
+
+    .app-theme-azure .navbar-inverse .navbar-toggle {
+        border-color: #dddddd;
+    }
+
+.app-theme-azure.app-desktop .navbar-inverse .navbar-toggle:hover,
+.app-theme-azure.app-desktop .navbar-inverse .navbar-toggle:focus {
+    background-color: #dddddd;
+}
+
+.app-theme-azure .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #888888;
+}
+
+.app-theme-azure .navbar-inverse .navbar-collapse,
+.app-theme-azure .navbar-inverse .navbar-form {
+    border-color: #e7e7e7;
+}
+
+.app-theme-azure .navbar-inverse .navbar-nav > .open > a,
+.app-theme-azure .navbar-inverse .navbar-nav > .open > a:hover,
+.app-theme-azure .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #e7e7e7;
+    color: #555555;
+}
+
+@media (max-width: 959px) {
+    body.app-theme-azure:not(.app-sidebar-undocked) .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #777777;
+    }
+
+        body.app-desktop.app-theme-azure:not(.app-sidebar-undocked) .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+        body.app-theme-azure:not(.app-sidebar-undocked) .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #333333;
+            background-color: transparent;
+        }
+
+    body.app-theme-azure:not(.app-sidebar-undocked) .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+    body.app-theme-azure:not(.app-sidebar-undocked) .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+    body.app-theme-azure:not(.app-sidebar-undocked) .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555555;
+        background-color: #e7e7e7;
+    }
+
+    body.app-theme-azure:not(.app-sidebar-undocked) .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+    body.app-theme-azure:not(.app-sidebar-undocked) .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    body.app-theme-azure:not(.app-sidebar-undocked) .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #cccccc;
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 767px) {
+    .app-theme-azure.app-sidebar-undocked .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #777777;
+    }
+
+        .app-theme-azure.app-desktop.app-sidebar-undocked .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+        .app-theme-azure.app-sidebar-undocked .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #333333;
+            background-color: transparent;
+        }
+
+    .app-theme-azure.app-sidebar-undocked .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+    .app-theme-azure.app-sidebar-undocked .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .app-theme-azure.app-sidebar-undocked .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555555;
+        background-color: #e7e7e7;
+    }
+
+    .app-theme-azure.app-sidebar-undocked .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+    .app-theme-azure.app-sidebar-undocked .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .app-theme-azure.app-sidebar-undocked .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #cccccc;
+        background-color: transparent;
+    }
+}
+
+.app-theme-azure .navbar-inverse .navbar-link {
+    color: #777777;
+}
+
+.app-theme-azure.app-desktop .navbar-inverse .navbar-link:hover {
+    color: #333333;
+}
+
+.app-theme-azure .navbar-inverse .btn-link {
+    color: #777777;
+}
+
+    .app-theme-azure.app-desktop .navbar-inverse .btn-link:hover,
+    .app-theme-azure .navbar-inverse .btn-link:focus {
+        color: #333333;
+    }
+
+    .app-theme-azure .navbar-inverse .btn-link[disabled]:hover,
+    .app-theme-azure fieldset[disabled] .navbar-inverse .btn-link:hover,
+    .app-theme-azure .navbar-inverse .btn-link[disabled]:focus,
+    .app-theme-azure fieldset[disabled] .navbar-inverse .btn-link:focus {
+        color: #cccccc;
+    }
+

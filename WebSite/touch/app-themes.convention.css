@@ -1,0 +1,913 @@
+﻿/*********************************/
+/* THEME: convention            */
+/*******************************/
+
+.app-theme-convention,
+.app-theme-convention .ui-page-theme-a,
+.app-theme-convention .app-page-header {
+    background-color: #fff;
+}
+
+    .app-theme-convention .app-page-header {
+        color: #1f1f1f;
+    }
+
+    .app-theme-convention .ui-page-theme-a .ui-panel-wrapper,
+    .app-bar-footer.ui-bar-inherit {
+        background-color: #dfe2dc;
+        border-color: #a7af9f;
+    }
+
+    .app-theme-convention .app-page-header,
+    .app-theme-convention .app-status-bar,
+    .app-theme-convention .ui-panel {
+        background-color: #0a5a6f;
+        border-color: #76d7f1;
+    }
+
+    .app-theme-convention .app-page-header,
+    .app-theme-convention .app-status-bar {
+        color: #fff;
+    }
+
+    .app-theme-convention .app-form-editing.app-formview .app-static-text div,
+    .app-theme-convention .app-page-menu-desc,
+    .app-theme-convention .ui-checkbox label {
+        text-shadow: none !important;
+    }
+
+    /*popup*/
+    .app-theme-convention .app-popup-message,
+    .app-theme-convention .ui-content.app-map-info {
+        background-color: #dfe2dc;
+        border-color: #eef095;
+        text-shadow: none;
+        color: #000;
+    }
+
+        .app-theme-convention .app-popup-message .ui-popup-arrow {
+            background-color: #dfe2dc;
+        }
+
+        .app-theme-convention .app-popup-message div {
+            color: #eef095;
+        }
+        
+    .app-data-input-popup .app-selected .app-caret-r .app-caret {
+        border-left-color: #000;
+    }
+
+    .app-theme-convention .ui-flipswitch-active a {
+        color: #fff !important;
+    }
+
+    /* page header */
+    .app-theme-convention .app-bar-tools.ui-bar-a,
+    .app-theme-convention :not(.app-tabs).ui-header-fixed.ui-header,
+    .app-theme-convention .ui-header,
+    .app-theme-convention .ui-footer {
+        background-color: #dfe2dc;
+        border-color: #a7af9f;
+        text-shadow: none;
+    }
+
+    .app-theme-convention .app-popup-listview .ui-popup-arrow,
+    .app-theme-convention .app-popup-listview {
+        background-color: #dfe2dc !important;
+        border-color: #dfe2dc !important;
+    }
+
+    .app-theme-convention .app-page-header {
+        border-color: #a7af9f !important;
+    }
+
+    /* list dividers*/
+    .app-theme-convention .ui-li-divider {
+        background-color: #eef095;
+        border-color: #a7af9f;
+        color: #555;
+        text-shadow: none;
+    }
+
+    .app-theme-convention .app-copy {
+        color: #ddd;
+    }
+
+
+    /* view descriptions*/
+    .app-theme-convention .ui-listview .app-list-instruction.ui-li-divider,
+    .app-theme-convention .ui-content:not(.app-page-tasks) .app-listview .ui-li-divider:not(.ui-bar-b):not(.ui-bar-inherit),
+    .app-theme-convention .app-presenter-instruction,
+    .app-theme-convention .app-grid-header .app-frozen-spacer {
+        background-color: #f9feb4 !important;
+        border-color: #eef095 !important;
+        color: #1d092d;
+    }
+
+    body:not(.app-sidebar-undocked).app-theme-convention .ui-header-fixed .ui-title,
+    body:not(.app-sidebar-undocked).app-theme-convention .app-sidebar,
+    .app-theme-convention .app-divider:not(.ui-collapsible):not(.app-calculated),
+    .app-theme-convention .app-echo,
+    .app-theme-convention .app-header {
+        border-color: #a7af9f !important;
+    }
+
+    .app-theme-convention .app-bar-heading {
+        background-color: #f9feb4;
+        color: #1d092d;
+        text-shadow: none;
+    }
+
+    .app-theme-convention .ui-body-a,
+    .app-theme-convention .app-li-card,
+    .app-theme-convention .ui-page-theme-a .ui-body-inherit:not(.ui-focus),
+    .app-theme-convention .app-li-card {
+        background-color: #fff;
+        border-color: #eef095;
+        /*color: #fff;*/
+        text-shadow: none;
+    }
+
+    .app-theme-convention .ui-panel .ui-body-a {
+        border-color: #a7af9f !important;
+    }
+
+    .app-theme-convention .ui-page-theme-a .app-formview .ui-body-inherit:not(.ui-focus) {
+        background-color: #fff;
+    }
+
+
+    /*sidebar customizations*/
+    .app-theme-convention .ui-body-a.app-sidebar {
+        background-color: #dfe2dc;
+    }
+
+    .app-theme-convention.app-sidebar-undocked .app-form-grid .ui-collapsible-set,
+    .app-theme-convention .ui-listview-inset .ui-li-divider:not(.ui-bar-a) {
+        border-color: #eef095;
+    }
+
+    .app-theme-convention .ui-li-divider.app-info {
+        background-color: #eeecea !important;
+    }
+
+        .app-theme-convention .ui-li-divider.app-info .appname {
+            color: #0c647c;
+        }
+
+    /* fix for form "card" */
+    .app-theme-convention .ui-page-theme-a .ui-body-inherit.app-li-card {
+        border-top-color: #eef095;
+        border-left-color: #eef095;
+        border-right-color: #eef095;
+    }
+
+    /*.app-theme-convention .ui-listview-inset {
+        background-color: #ebf3ff;
+    }*/
+
+    .app-theme-convention .app-form-editing.app-formview .ui-field-contain {
+        border-top-color: transparent;
+    }
+
+
+    /*buttons*/
+    .app-theme-convention .app-page-header,
+    .app-theme-convention .ui-page-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-convention .ui-bar-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-convention .ui-body-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html body.app-theme-convention .ui-group-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html head + body.app-theme-convention .ui-btn-a.ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    .app-theme-convention .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-convention .ui-bar-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-convention .ui-body-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html body.app-theme-convention .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html head + body.app-theme-convention .ui-btn-a.ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    .app-theme-convention .app-form-grid .ui-collapsible-set,
+    /* button overrides to remove "hover" on touch screens */
+    body.app-theme-convention:not(.app-desktop) li a:hover:not(.app-selected):not(.ui-btn-b),
+    body:not(.app-desktop).app-theme-convention .ui-page-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-convention .ui-bar-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-convention .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-convention .ui-group-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html head + body:not(.app-desktop).app-theme-convention .ui-btn-a.ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    .app-theme-convention .app-tabs.ui-header,
+    .app-theme-convention #app-welcome .ui-btn:not(:hover),
+    .app-theme-convention #app-popup-login .ui-btn:not(:hover),
+    .app-theme-convention .ui-listview .app-frozen-spacer,
+    .app-theme-convention .app-grid-header,
+    .app-theme-convention .app-echo .dv-item, 
+    .app-echo .app-grid .ui-last-child,
+    .app-theme-convention .app-echo .app-listview,
+    .app-theme-convention [data-container],
+    .app-theme-convention [data-layout="form"] {
+        border-color: #eef095;
+    }
+
+        .app-theme-convention .app-grid-header .app-field-separator::after,
+        .app-theme-convention .app-calculated .app-field-separator::after {
+            background-color: #eef095;
+        }
+
+    .app-theme-convention .ui-body-b .ui-btn-a,
+    .app-theme-convention .ui-body-b .ui-btn-a.ui-btn-active {
+        border-color: #76d7f1 !important;
+    }
+
+    .app-theme-convention.app-has-popup-open .app-menu-strip .ui-btn:hover {
+        background-color: #76d7f1 !important;
+    }
+
+    .app-theme-convention .ui-page-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-convention .ui-bar-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-convention .ui-body-a .ui-btn:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-theme-convention .ui-group-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html head + body.app-theme-convention .ui-btn-a.ui-btn:not(.app-selected):not(.app-lookup),
+    .app-theme-convention .ui-panel-page-container-a:not(.app-lookup),
+    .app-theme-convention .app-tabs.ui-header:not(.app-lookup),
+    .app-theme-convention .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-convention .ui-bar-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-convention .ui-body-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html body.app-theme-convention .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off),
+    html head + body.app-theme-convention .ui-btn-a.ui-btn:visited:not(.app-selected),
+    .app-theme-convention .app-tabs .ui-btn:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-convention .app-grid.app-listview :not(.app-selected):not(:hover):not(.ui-btn-active).ui-btn,
+    .app-theme-convention #app-welcome .ui-btn:not(:hover),
+    .app-theme-convention #app-popup-login .ui-btn:not(:hover),
+    .app-theme-convention .app-map-info .ui-popup-arrow,
+    .app-theme-convention .ui-listview .app-frozen-spacer,
+    .app-theme-convention [data-container="toggle"],
+.app-listview.app-grid .ui-btn:not(:hover):not(.app-selected):not(.ui-btn-active):not(.app-checked), 
+body:not(.app-desktop) .app-listview.app-grid .ui-btn:hover:not(.app-selected):not(.ui-btn-active):not(.app-checked) {
+        color: #000;
+        background-color: #fcfdef;
+    }
+
+    /* top border of Info button in sidebar */
+    .app-theme-convention .app-sidebar .ui-btn.ui-icon-info {
+        border-color: #a7af9f !important;
+    }
+
+    /* navigation panel selected item color fix*/
+    .app-theme-convention .app-nav-panel .ui-btn-a {
+        color: #1f1f1f !important;
+    }
+
+    /* subtext coloring*/
+    .app-theme-convention .app-field-label-after,
+    .app-theme-convention .app-field-label-before,
+    .app-theme-convention .app-field-label,
+    .app-theme-convention .ui-panel .app-item-desc,
+    .app-theme-convention .app-item-number,
+    .app-data-input-popup li:not(.app-selected) span.app-text-normal {
+        color: #63b0df !important;
+    }
+
+    .app-theme-convention .ui-page-theme-b a:not(.ui-btn),
+    .app-theme-convention .ui-bar-b a:not(.ui-btn),
+    .app-theme-convention .ui-body-b a:not(.ui-btn),
+    .app-theme-convention .ui-group-theme-b a:not(.ui-btn) {
+        color: #63b0df !important;
+    }
+
+        .app-theme-convention .ui-page-theme-b a:not(.ui-btn):hover,
+        .app-theme-convention .ui-bar-b a:not(.ui-btn):hover,
+        .app-theme-convention .ui-body-b a:not(.ui-btn):hover,
+        .app-theme-convention .ui-group-theme-b a:not(.ui-btn):hover,
+        .app-theme-convention .ui-page-theme-b a:not(.ui-btn):active,
+        .app-theme-convention .ui-bar-b a:not(.ui-btn):active,
+        .app-theme-convention .ui-body-b a:not(.ui-btn):active,
+        .app-theme-convention .ui-group-theme-b a:not(.ui-btn):active {
+            color: #fff !important;
+        }
+
+    .app-theme-convention .ui-btn p {
+        color: #000 !important;
+    }
+
+    .app-theme-convention .ui-li-aside,
+    .app-theme-convention .ui-btn .ui-li-aside,
+    .app-theme-convention .app-grid-header,
+    .app-theme-convention .app-panel-info-view .app-list-instruction,
+    .app-theme-convention .app-calculated .app-static-text {
+        color: #0c647c !important;
+    }
+
+    .app-theme-convention .app-filter {
+        color: #7a8502;
+    }
+
+    .app-theme-convention .app-bar-heading .app-bar-label,
+    .app-theme-convention .app-static-text div,
+    .app-theme-convention .app-form-editing.app-formview label {
+        color: #0c647c;
+    }
+
+    .app-theme-convention .app-wrapper,
+    .app-theme-convention .app-echo-instruction {
+        color: #1d092d;
+        text-shadow: none;
+    }
+
+    /* hover */
+    .app-theme-convention .ui-btn-a:hover:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-convention .ui-page-theme-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-convention .ui-bar-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-convention .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-desktop.app-theme-convention .ui-group-theme-a .ui-btn:hover:not(.app-selected),
+    html head + body.app-desktop.app-theme-convention .ui-btn-a.ui-btn:hover:not(.app-selected),
+    .app-theme-convention #app-welcome .ui-btn:hover:not(.ui-btn-active),
+    .app-theme-convention #app-popup-login .ui-btn:hover:not(.ui-btn-active),
+    .app-desktop.app-theme-convention .ui-listview a.ui-btn:hover:not(.app-selected) .app-frozen-spacer,
+    .app-desktop [data-container="collapsible"] [data-container="toggle"]:hover:not(.ui-btn-active) {
+        background-color: #f7fada;
+        border-color: #eef095;
+        color: #000;
+    }
+
+    .app-theme-convention.app-desktop .app-grid-header span:hover:not(.ui-btn-active):not(.app-icon) {
+        background-color: #f7fada;
+    }
+
+    /*selected button*/
+    .app-theme-convention .app-selected:not(.ui-btn-active),
+    .app-theme-convention .app-checked:not(.ui-btn-active),
+    .app-theme-convention .app-selected:hover,
+    .app-theme-convention .app-selected:visited,
+    .app-theme-convention .app-selected .app-frozen-spacer,
+    .app-theme-convention .app-checked .app-frozen-spacer {
+        background-color: #f7fea6 !important;
+        border-color: #eef095 !important;
+        color: #000 !important;
+    }
+
+    .app-theme-convention .app-grid-header .app-selected:not(.ui-btn-active) {
+        background-color: rgba(0,0,0,0.05) !important;
+    }
+
+    /* selected hover*/
+    html body.app-desktop.app-theme-convention .ui-btn.app-selected:hover:not(.ui-btn-active),
+    html body.app-desktop.app-theme-convention .ui-btn.app-checked:hover:not(.ui-btn-active),
+    .app-theme-convention .app-echo-toolbar .app-selected:not(.ui-btn-active),
+    .app-theme-convention .app-echo-toolbar .app-selected:not(.ui-btn-active):hover,
+    .app-theme-convention .app-listview .app-selected:not(.ui-btn-active):hover .app-frozen-spacer,
+    .app-theme-convention .app-listview .app-checked:not(.ui-btn-active):hover .app-frozen-spacer {
+        background-color: #f3faa4 !important;
+        border-color: #eef095 !important;
+        color: #000 !important;
+    }
+
+    /* click */
+
+    .app-theme-convention .app-grid-header .ui-btn-active,
+    [data-container="collapsible"] [data-container="toggle"].ui-btn-active {
+        background-color: #a2b000 !important;
+        color: #fff !important;
+    }
+
+    .app-theme-convention .app-listview .ui-btn.app-selected::before,
+    .app-theme-convention [data-input="checkboxlist"] .app-data-list li.app-selected::after {
+        background-color: #a2b000;
+    }
+
+    .ui-btn.ui-btn-active::after,
+    .app-btn-more.ui-btn-active::after {
+        color: #a2b000;
+    }
+
+.app-theme-convention [data-input] .app-data-list li.app-selected,
+.app-theme-convention [data-input] .app-data-list li::before,
+.app-theme-convention [data-input] .app-data-list li.app-selected::after {
+    border-color: #a2b000;
+}
+
+    .app-theme-convention .ui-title.ui-btn-active,
+    html body.app-theme-convention .ui-btn.ui-btn-active,
+    .app-theme-convention .ui-btn.ui-btn-active .app-frozen-spacer {
+        background-color: #a2b000 !important;
+        border-color: #eef095 !important;
+        color: #fff !important;
+    }
+
+    .app-theme-convention .ui-panel-position-left .ui-btn-active .app-item-desc,
+    .app-theme-convention .ui-panel-position-right .ui-btn-active .app-item-desc,
+    .app-theme-convention #app-sidebar .ui-btn-active .app-item-desc,
+    .app-theme-convention .app-listview-static .ui-btn-active .app-item-desc,
+    .app-theme-convention .ui-btn-active p,
+    .app-theme-convention .ui-btn-active p.ui-li-aside,
+    .app-theme-convention .ui-btn.ui-btn-active span:not(.ui-li-count) {
+        color: #fff !important;
+    }
+
+    .app-theme-convention .dv-action-see-all .app-btn-prev.ui-btn-active,
+    .app-theme-convention .dv-action-see-all .app-btn-next.ui-btn-active {
+        background-color: #A2B000;
+        color: #fff;
+    }
+
+    .app-theme-convention .app-btn-check:not(.app-btn-check-selected) {
+        border-color: #EEF095 !important;
+        background-color: transparent !important;
+    }
+
+    .app-theme-convention .ui-btn.app-selected:not(.ui-btn-active) .app-btn-check:not(.app-btn-check-selected) {
+        border-color: #EEF095 !important;
+    }
+
+    .app-theme-convention .app-grid-header .app-btn-check:not(.app-btn-check-selected) {
+        background-color: transparent !important;
+        border-color: #EEF095 !important;
+    }
+
+    .app-theme-convention .app-btn-check.app-btn-check-selected {
+        border-color: #A2B000 !important;
+        background-color: #A2B000 !important;
+    }
+
+    [data-input] .app-control-helper ul li.ui-btn-active,
+    [data-input].app-has-focus .app-control-helper ul li.app-focus {
+        border-color: #A2B000 !important;
+        background-color: #A2B000 !important;
+        color: #fff!important;
+    }
+
+    .app-theme-convention .app-btn-check .app-icon-themed {
+        fill: #fff;
+    }
+
+    /* tabs */
+
+    .app-theme-convention .app-tabs.ui-header {
+        border-color: #a7af9f;
+    }
+
+
+    .app-theme-convention .app-tabs .ui-btn {
+        border-color: #95a201 !important;
+    }
+
+        .app-theme-convention .app-tabs .ui-btn.ui-btn-active {
+            border-color: #95a201 !important;
+            background-color: #95a201 !important;
+            color: #fff !important;
+        }
+
+
+    /*button on header bar*/
+
+    .app-theme-convention .app-bar-tools .ui-btn,
+    .app-theme-convention .app-map-info-toolbar .ui-btn,
+    .app-bar-footer .ui-btn {
+        border-color: #cbcd81 !important;
+    }
+
+    .app-theme-convention .app-bar-actions .ui-btn,
+    .app-theme-convention .app-bar-actions .ui-btn.ui-btn-active {
+        border-color: #a7af9f !important;
+    }
+
+    .app-theme-convention .app-bar-tools .ui-btn-active.ui-btn-icon-notext::after {
+        background-color: #6f7900 !important;
+    }
+
+    .app-theme-convention.app-desktop .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots):hover,
+    .app-theme-convention .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots).ui-btn-active {
+        border-color: #a7af9f !important;
+    }
+
+    .app-theme-convention .ui-btn.ui-btn-icon-notext:not(.ui-radio-on):not(.ui-icon-dots)::after,
+    .app-theme-convention .ui-btn.ui-btn-icon-left:not(.ui-radio-on)::after,
+    .app-theme-convention .ui-btn.ui-btn-icon-right:not(.ui-radio-on):not(.app-btn-icon-transparent)::after,
+    .app-theme-convention .ui-btn.ui-btn-icon-top:not(.ui-radio-on)::after,
+    .app-theme-convention .ui-btn.ui-btn-icon-bottom:not(.ui-radio-on)::after,
+    .app-theme-convention .ui-checkbox-on:after,
+    .app-theme-convention .ui-flipswitch-active,
+    .app-theme-convention .ui-slider-track .ui-btn-active {
+        background-color: #95a201 !important;
+    }
+
+    .app-theme-convention .ui-btn .glyphicon {
+        color: #95a201;
+    }
+
+    .app-theme-convention .app-icon-themed {
+        fill: #95a201;
+    }
+
+    .app-theme-convention .ui-radio-on:after,
+    .app-theme-convention .ui-slider-track .ui-btn-active,
+    .app-theme-convention .ui-flipswitch-active {
+        border-color: #95a201 !important;
+    }
+
+
+    .app-theme-convention .ui-btn.ui-btn-active.ui-btn-icon-notext:not(.ui-icon-dots)::after,
+    .app-theme-convention .ui-btn.ui-btn-active.ui-btn-icon-left::after,
+    .app-theme-convention .ui-btn.ui-btn-active.ui-btn-icon-right:not(.app-btn-icon-transparent)::after,
+    .app-theme-convention .ui-btn.ui-btn-active.ui-btn-icon-top::after,
+    .app-theme-convention .ui-btn.ui-btn-active.ui-btn-icon-bottom::after {
+        background-color: #879301 !important;
+    }
+
+    /*swatch b*/
+    .app-theme-convention .ui-btn.ui-btn-b:not(.login-button),
+    .app-theme-convention .ui-btn.ui-btn-b:not(.login-button):visited,
+    body.app-theme-convention:not(.app-desktop) li a.ui-btn-b:not(.login-button):not(.ui-btn-active):hover {
+        background-color: #eef095;
+        border-color: #76d7f1;
+        color: #1d092d;
+    }
+
+    /*swatch b hover*/
+
+    .app-theme-convention .ui-btn.ui-btn-b.ui-btn-active:not(.login-button),
+    .app-theme-convention.app-desktop .ui-btn.ui-btn-b:hover:not(.login-button) {
+        background-color: #e5e792;
+        border-color: #76d7f1;
+        color: #1d092d !important;
+    }
+
+    .app-theme-convention .app-nav-panel .ui-btn.ui-btn-b {
+        border-color: #76d7f1 !important;
+    }
+
+    .app-theme-convention .ui-body-a:not(#app-popup-login):not(#app-welcome) .ui-btn-b,
+    .app-theme-convention.app-desktop .ui-body-a:not(#app-popup-login):not(#app-welcome) .ui-btn-b:hover,
+    .app-theme-convention .ui-body-a:not(#app-popup-login):not(#app-welcome) .ui-btn-b.ui-btn-active {
+        border-color: #a7af9f !important;
+    }
+
+    .app-theme-convention .ui-btn.ui-btn-b.ui-btn-active,
+    .app-theme-convention.app-desktop .ui-btn.ui-btn-b.ui-btn-active:hover {
+        color: #000 !important;
+    }
+
+
+    /*swatch b divider*/
+    .app-theme-convention .ui-bar-b,
+    .app-theme-convention .ui-bar-b .ui-bar-inherit,
+    html .app-theme-convention.ui-body-b .ui-bar-inherit,
+    html body.app-theme-convention .ui-group-theme-b .ui-bar-inherit {
+        border-color: #eef095;
+        background-color: #76d7f1;
+    }
+
+    /*fix for lookups/inputs*/
+    .app-theme-convention .ui-btn.app-lookup:not(.ui-btn-active):not(.ui-focus),
+    .app-theme-convention .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select:not(.ui-focus) .ui-btn:not(.ui-btn-active),
+    .app-theme-convention .ui-input-text:not(.ui-btn-active),
+    .app-theme-convention .app-form-editing .ui-input-text:not(.ui-btn-active),
+    .app-theme-convention .ui-input-search.ui-body-inherit {
+        background-color: #fff;
+        border-color: #eef095;
+        text-shadow: none;
+        /*color: #fff;*/
+    }
+
+        .app-theme-convention .ui-btn.app-lookup.ui-focus,
+        .app-theme-convention .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select.ui-focus .ui-btn:not(.ui-btn-active),
+        .app-theme-convention .ui-input-text.ui-focus,
+        .app-theme-convention .app-form-editing .ui-input-text.ui-focus,
+        .app-theme-convention .ui-input-search.ui-body-inherit.ui-focus,
+        .app-theme-convention .ui-checkbox label.ui-focus {
+            border-color: #95a201 !important;
+        }
+
+    .app-theme-convention .ui-slider {
+        border-color: #eef095 !important;
+    }
+
+    .app-theme-convention .ui-slider-label.ui-btn-active {
+        background-color: #a7af9f !important;
+    }
+
+    /* background bleed under form in editing mode*/
+    .app-theme-convention .ui-body-a.ui-collapsible-content,
+    .app-theme-convention .app-bar-tools .ui-input-search.ui-body-inherit {
+        background-color: #fff;
+    }
+
+    .app-theme-convention .ui-btn.app-lookup,
+    .app-theme-convention .ui-btn.ui-btn-active.app-lookup {
+        border-color: #a7af9f;
+    }
+
+    .app-theme-convention .app-lookup-input {
+        background-color: transparent;
+        /*color: #fff;*/
+    }
+
+    .app-theme-convention .app-grid-header {
+        color: #999;
+    }
+
+@media (min-width: 20em) {
+
+    .app-theme-convention .ui-header.ui-header-fixed.app-bar-tools {
+        background-image: url(logo-color.png);
+    }
+}
+
+.app-theme-convention .app-listview li .app-li-corner {
+    color: #fff;
+    background-color: #95a201;
+}
+
+.app-theme-convention .dataview-busy-indicator {
+    background-color: #63b0df;
+}
+
+.app-theme-convention .ui-bar-a .app-menu-strip .ui-btn:not(.ui-btn-active), .app-theme-convention .ui-bar-a .app-user-name {
+    color: #777 !important;
+}
+
+.app-theme-convention .ui-bar-a .app-menu-strip .ui-btn:hover:not(.ui-btn-active),
+.app-theme-convention .ui-bar-a .app-menu-strip .ui-btn.app-selected:not(.ui-btn-active),
+.app-theme-convention .ui-bar-a .app-menu-strip .ui-btn.app-selected:hover:not(.ui-btn-active) {
+    color: #333 !important;
+}
+
+.app-theme-convention .app-chart .app-chart-inner {
+    border-color: #eef095;
+}
+.app-theme-convention .app-calendar-plugin {
+    background-color: #fff;
+    color: #000;
+}
+
+.app-theme-convention .app-calendar-monthview .app-calendar-month table td.app-calendar-weekend,
+.app-theme-convention .app-calendar-yearview .app-calendar-month td:not(.app-current-day):not(.ui-btn-active).app-has-data {
+    background-color: #fcfdef;
+}
+
+.app-theme-convention .app-calendar-plugin,
+.app-theme-convention .app-calendar-color-legend,
+.app-theme-convention .app-calendar-monthview .app-calendar-month table,
+.app-theme-convention .app-calendar-monthview .app-calendar-month table td,
+.app-theme-convention .app-calendar-day > div > div,
+.app-theme-convention .app-bar-calendar .app-week-header li.last-day-of-week,
+.app-theme-convention .app-calendar-week-grid .app-calendar-day > div {
+    border-color: #eef095;
+}
+
+    .app-theme-convention .app-calendar-plugin span.app-current-day,
+    .app-theme-convention .app-calendar-monthview .app-current-day,
+    .app-theme-convention .app-calendar-yearview .app-current-day,
+    .app-theme-convention .app-week-header .app-current-day,
+    .app-theme-convention .app-day-header .visible-day.app-current-day,
+    .app-theme-convention .app-has-current-day .current-time-line .dot {
+        background-color: #95a201;
+    }
+
+.app-theme-convention .app-has-current-day .current-time-line {
+    border-color: #95a201;
+}
+
+.app-calendar-plugin-container .app-time-container .app-selected,
+.app-calendar-plugin-container .app-time-header .app-cal-selected,
+.app-theme-convention .app-day-header :not(.ui-btn-active).ui-btn .app-current-day,
+.app-theme-convention .app-has-current-day .app-current-time,
+.app-theme-convention .app-calendar-agenda-list > li.app-has-current-day h2:not(.ui-btn-active) > span,
+.app-theme-convention .app-calendar-agenda-list li.app-time-line-container > .app-event-time,
+.app-theme-convention .app-calendar-plugin .app-date-selector-container .app-current:not(.ui-btn-active) {
+    color: #95a201;
+}
+
+.app-calendar-plugin-container .app-time-selector .app-time-hand,
+.app-calendar-plugin-container .app-time-hand > span,
+.app-calendar-plugin table tr.ui-btn-active td,
+.app-calendar-plugin table tr.ui-btn-active td:hover,
+.app-calendar-plugin table td.ui-btn-active,
+.app-calendar-plugin table td.ui-btn-active:hover,
+.app-calendar-yearview .app-calendar-month td.ui-btn-active {
+    background-color: #a2b000 !important;
+}
+
+.app-theme-convention .app-calendar-month-header,
+.app-theme-convention .app-calendar-month-header h1 {
+    color: #0c647c !important;
+}
+/***** bootstrap *****/
+
+.app-theme-convention .dropdown-menu > li > a:not(.ui-btn),
+body:not(.app-desktop) .dropdown-menu > li > a:hover {
+    color: #777 !important;
+}
+
+.app-theme-convention .jumbotron {
+    background-color: #dfe2dc;
+}
+
+.app-theme-convention .app-bootstrap .btn-default,
+.app-theme-convention .app-bootstrap .btn-default:focus,
+.app-theme-convention .app-bootstrap .btn-default:visited {
+    background-color: #fcfdef;
+    border-color: #eef095;
+    color: #333 !important;
+}
+
+.app-theme-convention.app-desktop .btn-default:hover {
+    background-color: #f7fada;
+    border-color: #a7af9f;
+}
+
+.app-theme-convention .app-bootstrap .btn.ui-btn-active,
+.app-theme-convention .app-bootstrap .btn.ui-btn-active:hover,
+.app-theme-convention .app-bootstrap .btn.ui-btn-active:focus,
+.app-theme-convention .app-bootstrap .list-group-item.ui-btn-active,
+.app-theme-convention .app-bootstrap .list-group-item.ui-btn-active:hover,
+.app-theme-convention .app-bootstrap .list-group-item.ui-btn-active:focus,
+.app-theme-convention .app-bootstrap .list-group-item.ui-btn-active .list-group-item-text,
+.app-theme-convention .app-bootstrap .list-group-item.ui-btn-active .list-group-item-heading {
+    background-color: #a2b000 !important;
+    border-color: #a2b000 !important;
+    color: #fff !important;
+}
+
+.app-theme-convention .app-bootstrap .nav .ui-btn-active,
+.app-theme-convention .app-bootstrap .nav .ui-btn-active:hover,
+.app-theme-convention .app-bootstrap .nav .ui-btn-active:focus {
+    background-color: #a2b000 !important;
+    border-color: #eef095 !important;
+    color: #fff !important;
+}
+
+.app-theme-convention .table,
+.app-theme-convention .table > thead > tr > th,
+.app-theme-convention .table > tbody > tr > th,
+.app-theme-convention .table > tfoot > tr > th,
+.app-theme-convention .table > thead > tr > td,
+.app-theme-convention .table > tbody > tr > td,
+.app-theme-convention .table > tfoot > tr > td,
+.app-theme-convention .list-group-item:not(.active) {
+    background-color: #fcfdef;
+    border-color: #eef095;
+}
+
+.app-theme-convention.app-desktop a.list-group-item:hover:not(.active) {
+    background-color: #f7fada;
+}
+
+.app-theme-convention .table > thead > tr > th,
+.app-theme-convention .table > tbody > tr > th,
+.app-theme-convention .table > tfoot > tr > th {
+    color: #333;
+    background-color: #f9feb4;
+}
+
+.app-theme-convention .table-striped > tbody > tr:nth-child(2n+1) > td,
+.app-theme-convention .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #fafcde;
+}
+
+.app-theme-convention.app-desktop .navbar-default .navbar-toggle:hover,
+.app-theme-convention .app-bootstrap .navbar-default .navbar-toggle:focus,
+.app-theme-convention .list-group-item.active:not(.btn),
+.app-theme-convention .list-group-item.active:not(.btn):hover,
+.app-theme-convention .list-group-item.active:not(.btn):focus,
+.app-theme-convention .nav-pills > li.active > a,
+.app-theme-convention .nav-pills > li.active > a:hover,
+.app-theme-convention .nav-pills > li.active > a:focus {
+    color: #fff !important;
+    background-color: #a2b000;
+    border-color: #a2b000;
+}
+
+.app-theme-convention .list-group-item.active .list-group-item-text {
+    color: #fff;
+}
+
+.app-theme-convention .list-group-item:not(.active):not(.ui-btn-active):hover,
+.app-theme-convention .list-group-item:not(.active):not(.ui-btn-active):hover .list-group-item-text {
+    color: #000 !important;
+}
+
+.app-theme-convention .list-group-item.active > .badge,
+.app-theme-convention .nav-pills > .active > a > .badge {
+    color: #a7af9f !important;
+}
+
+.app-theme-convention .navbar-default .navbar-toggle .icon-bar {
+    background-color: #a7af9f;
+}
+
+.app-desktop.app-theme-convention .navbar-default .navbar-toggle:hover .icon-bar,
+.app-desktop.app-theme-convention .navbar-default .navbar-toggle:active .icon-bar,
+.app-desktop.app-theme-convention .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000;
+}
+
+.app-theme-convention .img-thumbnail {
+    background-color: #fcfdef;
+    border-color: #eef095;
+}
+
+.app-theme-convention .page-header,
+.app-theme-convention .nav-tabs {
+    border-color: #eef095;
+}
+
+    .app-theme-convention .nav-tabs > li.active > a,
+    .app-theme-convention .nav-tabs > li.active > a:hover,
+    .app-theme-convention .nav-tabs > li.active > a:focus {
+        border-top-color: #eef095;
+        border-left-color: #eef095;
+        border-right-color: #eef095;
+    }
+
+.app-theme-convention.app-desktop .nav > li:not(.active) > a:hover,
+.app-theme-convention.app-desktop .nav > li:not(.active) > a:focus {
+    background-color: rgba(255,255,255,0.2);
+    border-color: #eef095;
+}
+
+.app-theme-convention.app-desktop .nav-tabs > li:not(.active) > a:hover,
+.app-theme-convention .nav-tabs > li:not(.active) > a:focus,
+.app-theme-convention.app-desktop .nav-pills > li:not(.active) > a:hover,
+.app-theme-convention .nav-pills > li:not(.active) > a:focus {
+    background-color: #f7fada;
+}
+
+.app-theme-convention .navbar-default {
+    background-color: #dfe2dc;
+    border-color: #a7af9f;
+}
+
+    .app-theme-convention .navbar-default .navbar-brand,
+    .app-theme-convention .navbar-default .navbar-brand:hover {
+        color: #777 !important;
+    }
+
+    .app-theme-convention .navbar-default .navbar-nav > li > a {
+        color: #777 !important;
+    }
+
+.app-theme-convention.app-desktop .navbar-default a.navbar-brand:hover,
+.app-theme-convention .app-bootstrap .navbar-default a.navbar-brand.ui-btn-active,
+.app-theme-convention.app-desktop .navbar-default .navbar-nav > li > a:hover {
+    color: #000 !important;
+}
+
+.app-theme-convention .app-bootstrap .navbar-default .navbar-nav > .active > a,
+.app-theme-convention .app-bootstrap .navbar-default .navbar-nav > .active > a:hover,
+.app-theme-convention .app-bootstrap .navbar-default .navbar-nav > .active > a:focus,
+.app-theme-convention .app-bootstrap .navbar-default .navbar-nav > .open > a,
+.app-theme-convention .app-bootstrap .navbar-default .navbar-nav > .open > a:hover,
+.app-theme-convention .app-bootstrap .navbar-default .navbar-nav > .open > a:focus {
+    color: #000 !important;
+    background-color: rgba(0,0,0,.05);
+}
+
+.app-theme-convention .well {
+    background-color: #fcfdef;
+    border-color: #eef095;
+    /*box-shadow: rgba(0,0,0,0.1) 0 0 10px inset;*/
+}
+
+@media all and (max-width:767px) {
+    .app-sidebar-undocked.app-theme-convention .navbar-nav .open .dropdown-menu {
+        background-color: #fcfdef;
+    }
+
+    .app-sidebar-undocked.app-theme-convention.app-desktop .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .app-sidebar-undocked.app-theme-convention .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-color: #f7fada;
+    }
+}
+
+.app-theme-convention .dropdown-menu {
+    background-color: #fcfdef;
+}
+
+    .app-theme-convention .dropdown-menu .divider {
+        background-color: #eef095;
+    }
+
+    .app-theme-convention.app-desktop .dropdown-menu > li > a:hover,
+    .app-theme-convention .dropdown-menu > li > a:focus {
+        background-color: #f7fada;
+    }
+
+.app-theme-convention .navbar-default .navbar-collapse,
+.app-theme-convention .navbar-default .navbar-form,
+.app-theme-convention .navbar-default .navbar-toggle {
+    border-color: #a7af9f;
+}
+
+.app-theme-convention .navbar-inverse a:not(.ui-btn) {
+    color: #777 !important;
+}
+
+.app-theme-convention.app-desktop .navbar-inverse a.navbar-brand:hover,
+.app-theme-convention.app-desktop .navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff !important;
+}
+
+.app-theme-convention .navbar-inverse .navbar-nav > .active > a,
+.app-theme-convention .navbar-inverse .navbar-nav > .active > a:hover,
+.app-theme-convention .navbar-inverse .navbar-nav > .active > a:focus,
+.app-theme-convention .navbar-inverse .navbar-nav > .open > a,
+.app-theme-convention .navbar-inverse .navbar-nav > .open > a:hover,
+.app-theme-convention .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff !important;
+}

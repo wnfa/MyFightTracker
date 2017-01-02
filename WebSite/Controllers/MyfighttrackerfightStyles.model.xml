@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="myfighttracker" baseTable="fight_styles" alias="fight_styles" created="2016-11-04T18:43:08" modified="2016-11-08T07:39:50" x="20" y="20" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="FightStyleID" fieldName="FightStyleID" label="Fight Style ID" />
+    <column name="FightStyleName" fieldName="FightStyleName" label="Fight Style Name" />
+  </columns>
+</dataModel>

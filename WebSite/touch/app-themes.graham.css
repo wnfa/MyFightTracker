@@ -1,0 +1,905 @@
+﻿/*********************************/
+/* THEME: graham                */
+/*******************************/
+
+.app-theme-graham,
+.app-theme-graham .ui-page-theme-a,
+.app-theme-graham .app-page-header {
+    background-color: #fffceb;
+}
+
+    .app-theme-graham .app-page-header {
+        color: #1f1f1f;
+    }
+
+    .app-theme-graham .ui-page-theme-a .ui-panel-wrapper,
+    .app-theme-graham .ui-panel,
+    .app-theme-graham .app-page-header,
+    .app-theme-graham .app-status-bar,
+    .app-bar-footer.ui-bar-inherit {
+        background-color: #fff4b9;
+        border-color: #d27800;
+    }
+
+    .app-theme-graham .app-status-bar {
+        color: #000;
+    }
+
+    .app-theme-graham .app-form-editing.app-formview .app-static-text div,
+    .app-theme-graham .app-page-menu-desc,
+    .app-theme-graham .ui-checkbox label {
+        text-shadow: none !important;
+    }
+
+    /*popup*/
+    .app-theme-graham .app-popup-message,
+    .app-theme-graham .ui-content.app-map-info {
+        background-color: #fff4b9;
+        border-color: #fed49d;
+        text-shadow: none;
+        color: #000;
+    }
+
+        .app-theme-graham .app-popup-message .ui-popup-arrow {
+            background-color: #fff4b9;
+        }
+
+        .app-theme-graham .app-popup-message div {
+            color: #fed49d;
+        }
+        
+    .app-data-input-popup .app-selected .app-caret-r .app-caret {
+        border-left-color: #000;
+    }
+
+    /* page header */
+    .app-theme-graham .app-bar-tools.ui-bar-a,
+    .app-theme-graham :not(.app-tabs).ui-header-fixed.ui-header,
+    .app-theme-graham .ui-header {
+        background-color: #fff4b9;
+        border-color: #d27800;
+        text-shadow: none;
+    }
+
+    .app-theme-graham .app-popup-listview .ui-popup-arrow,
+    .app-theme-graham .app-popup-listview {
+        background-color: #fff4b9 !important;
+        border-color: #fff4b9 !important;
+    }
+
+    .app-theme-graham .app-page-header {
+        border-color: #d27800 !important;
+    }
+
+    .app-theme-graham.app-desktop .app-menu-strip ul li a.ui-btn:hover:not(.ui-btn-active) {
+        background-color: rgba(255,255,255, 0.4) !important;
+    }
+
+    /* list dividers*/
+    .app-theme-graham .ui-li-divider {
+        background-color: #fed49d;
+        border-color: #d27800;
+        color: #555;
+        text-shadow: none;
+    }
+
+    .app-theme-graham ui-li-divider,
+    .app-theme-graham .ui-content.app-page-tasks .app-listview .ui-li-divider:not(.ui-bar-b) {
+        /*background-color: #ddc1f4;*/
+        /*border-color: #d27800;*/
+        /*color: #fff;*/
+        text-shadow: none;
+    }
+
+    /* view descriptions*/
+    .app-theme-graham .ui-listview .app-list-instruction.ui-li-divider,
+    .app-theme-graham .ui-content:not(.app-page-tasks) .app-listview .ui-li-divider:not(.ui-bar-b):not(.ui-bar-inherit),
+    .app-theme-graham .app-presenter-instruction,
+    .app-theme-graham .app-grid-header .app-frozen-spacer {
+        background-color: #fff0db !important;
+        border-color: #fed49d !important;
+        color: #1d092d;
+    }
+
+    body:not(.app-sidebar-undocked).app-theme-graham .ui-header-fixed .ui-title,
+    body:not(.app-sidebar-undocked).app-theme-graham .app-sidebar,
+    .app-theme-graham .app-divider:not(.ui-collapsible):not(.app-calculated),
+    .app-theme-graham .app-echo,
+    .app-theme-graham .app-header {
+        border-color: #d27800 !important;
+    }
+
+    .app-theme-graham .app-bar-heading {
+        background-color: #fff0db;
+        color: #1d092d;
+        text-shadow: none;
+    }
+
+    .app-theme-graham .ui-body-a,
+    .app-theme-graham .app-li-card,
+    .app-theme-graham .ui-page-theme-a .ui-body-inherit:not(.ui-focus),
+    .app-theme-graham .app-li-card {
+        background-color: #fff;
+        border-color: #fed49d;
+        /*color: #fff;*/
+        text-shadow: none;
+    }
+
+    .app-theme-graham .ui-panel .ui-body-a {
+        border-color: #d27800 !important;
+    }
+
+    .app-theme-graham .ui-page-theme-a .app-formview .ui-body-inherit:not(.ui-focus) {
+        background-color: #fff;
+    }
+
+
+    /*sidebar customizations*/
+    .app-theme-graham .ui-body-a.app-sidebar {
+        background-color: #fff4b9;
+    }
+
+    .app-theme-graham.app-sidebar-undocked .app-form-grid .ui-collapsible-set,
+    .app-theme-graham .ui-listview-inset .ui-li-divider:not(.ui-bar-a) {
+        border-color: #fed49d;
+    }
+
+    .app-theme-graham .ui-li-divider.app-info {
+        background-color: #fff !important;
+    }
+
+        .app-theme-graham .ui-li-divider.app-info .appname {
+            color: #AA2501;
+        }
+
+    /* fix for form "card" */
+    .app-theme-graham .ui-page-theme-a .ui-body-inherit.app-li-card {
+        border-top-color: #fed49d;
+        border-left-color: #fed49d;
+        border-right-color: #fed49d;
+    }
+
+    /*.app-theme-graham .ui-listview-inset {
+        background-color: #ebf3ff;
+    }*/
+
+    .app-theme-graham .app-form-editing.app-formview .ui-field-contain {
+        border-top-color: transparent;
+    }
+
+
+    /*buttons*/
+    .app-theme-graham .app-page-header,
+    .app-theme-graham .ui-page-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-graham .ui-bar-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-graham .ui-body-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html body.app-theme-graham .ui-group-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html head + body.app-theme-graham .ui-btn-a.ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    .app-theme-graham .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-graham .ui-bar-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-graham .ui-body-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html body.app-theme-graham .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html head + body.app-theme-graham .ui-btn-a.ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    .app-theme-graham .app-form-grid .ui-collapsible-set,
+    /* button overrides to remove "hover" on touch screens */
+    body.app-theme-graham:not(.app-desktop) li a:hover:not(.app-selected):not(.ui-btn-b),
+    body:not(.app-desktop).app-theme-graham .ui-page-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-graham .ui-bar-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-graham .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-graham .ui-group-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html head + body:not(.app-desktop).app-theme-graham .ui-btn-a.ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    .app-theme-graham .app-tabs.ui-header,
+    .app-theme-graham #app-welcome .ui-btn:not(:hover),
+    .app-theme-graham #app-popup-login .ui-btn:not(:hover),
+    .app-theme-graham .ui-listview .app-frozen-spacer,
+    .app-theme-graham .app-grid-header,
+    .app-echo .app-grid .ui-last-child,
+    .app-theme-graham .app-echo .dv-item, 
+    .app-theme-graham .app-echo .app-listview,
+    .app-theme-graham [data-container],
+    .app-theme-graham [data-layout="form"] {
+        border-color: #fed49d;
+    }
+
+        .app-theme-graham .app-grid-header .app-field-separator::after,
+        .app-theme-graham .app-calculated .app-field-separator::after {
+            background-color: #fed49d;
+        }
+
+    .app-theme-graham .ui-body-b .ui-btn-a,
+    .app-theme-graham .ui-body-b .ui-btn-a.ui-btn-active {
+        border-color: #fed49d !important;
+    }
+
+    .app-theme-graham.app-has-popup-open .app-menu-strip .ui-btn:hover {
+        background-color: #fed49d !important;
+    }
+
+    .app-theme-graham .ui-page-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-graham .ui-bar-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-graham .ui-body-a .ui-btn:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-theme-graham .ui-group-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html head + body.app-theme-graham .ui-btn-a.ui-btn:not(.app-selected):not(.app-lookup),
+    .app-theme-graham .ui-panel-page-container-a:not(.app-lookup),
+    .app-theme-graham .app-tabs.ui-header:not(.app-lookup),
+    .app-theme-graham .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-graham .ui-bar-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-graham .ui-body-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html body.app-theme-graham .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off),
+    html head + body.app-theme-graham .ui-btn-a.ui-btn:visited:not(.app-selected),
+    .app-theme-graham .app-tabs .ui-btn:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-graham .app-grid.app-listview :not(.app-selected):not(:hover):not(.ui-btn-active).ui-btn,
+    .app-theme-graham #app-welcome .ui-btn:not(:hover),
+    .app-theme-graham #app-popup-login .ui-btn:not(:hover),
+    .app-theme-graham .app-map-info .ui-popup-arrow,
+    .app-theme-graham .ui-listview .app-frozen-spacer,
+    .app-theme-graham [data-container="toggle"],
+.app-listview.app-grid .ui-btn:not(:hover):not(.app-selected):not(.ui-btn-active):not(.app-checked), 
+body:not(.app-desktop) .app-listview.app-grid .ui-btn:hover:not(.app-selected):not(.ui-btn-active):not(.app-checked) {
+        /*color: #000;*/
+        background-color: #fff7ed;
+    }
+
+    /* top border of Info button in sidebar */
+    .app-theme-graham .app-sidebar .ui-btn.ui-icon-info {
+        border-color: #d27800 !important;
+    }
+
+    /* navigation panel selected item color fix*/
+    .app-theme-graham .app-nav-panel .ui-btn-a {
+        color: #1f1f1f !important;
+    }
+
+    /* subtext coloring*/
+    .app-theme-graham .app-field-label-after,
+    .app-theme-graham .app-field-label-before,
+    .app-theme-graham .app-field-label,
+    .app-theme-graham .ui-panel .app-item-desc,
+    .app-theme-graham .app-item-number,
+    .app-data-input-popup li:not(.app-selected) span.app-text-normal {
+        color: #aa2501 !important;
+    }
+
+    .app-theme-graham .ui-page-theme-b a:not(.ui-btn),
+    .app-theme-graham .ui-bar-b a:not(.ui-btn),
+    .app-theme-graham .ui-body-b a:not(.ui-btn),
+    .app-theme-graham .ui-group-theme-b a:not(.ui-btn) {
+        color: #aa2501 !important;
+    }
+
+        .app-theme-graham .ui-page-theme-b a:not(.ui-btn):hover,
+        .app-theme-graham .ui-bar-b a:not(.ui-btn):hover,
+        .app-theme-graham .ui-body-b a:not(.ui-btn):hover,
+        .app-theme-graham .ui-group-theme-b a:not(.ui-btn):hover,
+        .app-theme-graham .ui-page-theme-b a:not(.ui-btn):active,
+        .app-theme-graham .ui-bar-b a:not(.ui-btn):active,
+        .app-theme-graham .ui-body-b a:not(.ui-btn):active,
+        .app-theme-graham .ui-group-theme-b a:not(.ui-btn):active {
+            color: #000 !important;
+        }
+
+    .app-theme-graham .ui-btn p {
+        color: #000 !important;
+    }
+
+    .app-theme-graham .ui-li-aside,
+    .app-theme-graham .ui-btn .ui-li-aside,
+    .app-theme-graham .app-grid-header,
+    .app-theme-graham .app-panel-info-view .app-list-instruction,
+    .app-theme-graham .app-calculated .app-static-text {
+        color: #573e25 !important;
+    }
+
+    .app-theme-graham .app-filter {
+        color: #d27800;
+    }
+
+    .app-theme-graham .app-bar-heading .app-bar-label,
+    .app-theme-graham .app-static-text div,
+    .app-theme-graham .app-form-editing.app-formview label {
+        color: #aa2501;
+    }
+
+    .app-theme-graham .app-wrapper,
+    .app-theme-graham .app-echo-instruction {
+        color: #1d092d;
+        text-shadow: none;
+    }
+
+    /*selected button*/
+    .app-theme-graham .app-selected:not(.ui-btn-active),
+    .app-theme-graham .app-checked:not(.ui-btn-active),
+    .app-theme-graham .app-selected:hover,
+    .app-theme-graham .app-selected:visited,
+    .app-theme-graham .app-selected .app-frozen-spacer,
+    .app-theme-graham .app-checked .app-frozen-spacer {
+        background-color: #ffecd4 !important;
+        border-color: #fed49d !important;
+        color: #000 !important;
+    }
+
+    .app-theme-graham .app-grid-header .app-selected:not(.ui-btn-active) {
+        background-color: rgba(0,0,0,0.05) !important;
+    }
+
+    /* hover */
+    body.app-theme-graham .ui-btn-a:hover:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-graham .ui-page-theme-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-graham .ui-bar-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-graham .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-desktop.app-theme-graham .ui-group-theme-a .ui-btn:hover:not(.app-selected),
+    html head + body.app-desktop.app-theme-graham .ui-btn-a.ui-btn:hover:not(.app-selected),
+    .app-theme-graham #app-welcome .ui-btn:hover:not(.ui-btn-active),
+    .app-theme-graham #app-popup-login .ui-btn:hover:not(.ui-btn-active),
+    .app-desktop.app-theme-graham .ui-listview a.ui-btn:hover:not(.app-selected) .app-frozen-spacer,
+    .app-desktop [data-container="collapsible"] [data-container="toggle"]:hover:not(.ui-btn-active) {
+        background-color: #fff3e5;
+        border-color: #fed49d;
+    }
+
+    .app-theme-graham.app-desktop .app-grid-header span:hover:not(.ui-btn-active):not(.app-icon) {
+        background-color: #f9ead5;
+    }
+
+    /* selected hover*/
+    html body.app-desktop.app-theme-graham .ui-btn.app-selected:hover:not(.ui-btn-active),
+    html body.app-desktop.app-theme-graham .ui-btn.app-checked:hover:not(.ui-btn-active),
+    .app-theme-graham .app-echo-toolbar .app-selected:not(.ui-btn-active),
+    .app-theme-graham .app-echo-toolbar .app-selected:not(.ui-btn-active):hover,
+    .app-theme-graham .app-listview .app-selected:not(.ui-btn-active):hover .app-frozen-spacer,
+    .app-theme-graham .app-listview .app-checked:not(.ui-btn-active):hover .app-frozen-spacer {
+        background-color: #fde8cc !important;
+        border-color: #fed49d !important;
+        color: #000 !important;
+    }
+
+    /* click */
+
+    .app-theme-graham .app-grid-header .ui-btn-active,
+    [data-container="collapsible"] [data-container="toggle"].ui-btn-active {
+        background-color: #d27800 !important;
+        color: #fff !important;
+    }
+
+    .app-theme-graham .app-listview .ui-btn.app-selected::before,
+    .app-theme-graham [data-input="checkboxlist"] .app-data-list li.app-selected::after {
+        background-color: #d27800;
+    }
+
+    .ui-btn.ui-btn-active::after,
+    .app-btn-more.ui-btn-active::after {
+        color: #d27800;
+    }
+
+.app-theme-graham [data-input] .app-data-list li.app-selected,
+.app-theme-graham [data-input] .app-data-list li::before,
+.app-theme-graham [data-input] .app-data-list li.app-selected::after {
+    border-color: #d27800;
+}
+
+    .app-theme-graham .ui-title.ui-btn-active,
+    html body.app-theme-graham .ui-btn.ui-btn-active,
+    .app-theme-graham .ui-btn.ui-btn-active .app-frozen-spacer {
+        background-color: #d27800 !important;
+        border-color: #fed49d !important;
+        color: #fff !important;
+    }
+
+    .app-theme-graham .ui-panel-position-left .ui-btn-active .app-item-desc,
+    .app-theme-graham .ui-panel-position-right .ui-btn-active .app-item-desc,
+    .app-theme-graham #app-sidebar .ui-btn-active .app-item-desc,
+    .app-theme-graham .app-listview-static .ui-btn-active .app-item-desc,
+    .app-theme-graham .ui-btn-active p,
+    .app-theme-graham .ui-btn-active p.ui-li-aside,
+    .app-theme-graham .ui-btn.ui-btn-active span:not(.ui-li-count) {
+        color: #fff !important;
+    }
+
+    .app-theme-graham .dv-action-see-all .app-btn-prev.ui-btn-active,
+    .app-theme-graham .dv-action-see-all .app-btn-next.ui-btn-active {
+        background-color: #D27800;
+        color: #fff;
+    }
+
+    .app-theme-graham .app-btn-check:not(.app-btn-check-selected) {
+        border-color: #FED49D !important;
+        background-color: transparent !important;
+    }
+
+    .app-theme-graham .ui-btn.app-selected:not(.ui-btn-active) .app-btn-check:not(.app-btn-check-selected) {
+        border-color: #FED49D !important;
+    }
+
+    .app-theme-graham .app-grid-header .app-btn-check:not(.app-btn-check-selected) {
+        background-color: transparent !important;
+        border-color: #FED49D !important;
+    }
+
+    .app-theme-graham .app-btn-check.app-btn-check-selected {
+        border-color: #D27800 !important;
+        background-color: #D27800 !important;
+    }
+
+    [data-input] .app-control-helper ul li.ui-btn-active,
+    [data-input].app-has-focus .app-control-helper ul li.app-focus {
+        border-color: #D27800 !important;
+        background-color: #D27800 !important;
+        color: #fff!important;
+    }
+
+    .app-theme-graham .app-btn-check .app-icon-themed {
+        fill: #fff;
+    }
+
+    /* tabs */
+
+    .app-theme-graham .app-tabs.ui-header {
+        border-color: #d27800;
+    }
+
+
+    .app-theme-graham .app-tabs .ui-btn {
+        border-color: #d27800 !important;
+        color: #1d092d;
+    }
+
+        .app-theme-graham .app-tabs .ui-btn.ui-btn-active {
+            border-color: #d27800 !important;
+            background-color: #d27800 !important;
+            color: #fff !important;
+        }
+
+
+    /*button on header bar*/
+
+    .app-theme-graham.app-desktop .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots):hover,
+    .app-theme-graham .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots).ui-btn-active,
+    .app-bar-footer .ui-btn {
+        border-color: #d27800 !important;
+    }
+
+    .app-theme-graham .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots):not(.ui-radio-on)::after,
+    .app-theme-graham .ui-btn.ui-btn-icon-left:not(.ui-radio-on)::after,
+    .app-theme-graham .ui-btn.ui-btn-icon-right:not(.ui-radio-on):not(.app-btn-icon-transparent)::after,
+    .app-theme-graham .ui-btn.ui-btn-icon-top:not(.ui-radio-on)::after,
+    .app-theme-graham .ui-btn.ui-btn-icon-bottom:not(.ui-radio-on)::after,
+    .app-theme-graham .ui-checkbox-on:after,
+    .app-theme-graham .ui-flipswitch-active,
+    .app-theme-graham .ui-slider-track .ui-btn-active {
+        background-color: #d27800 !important;
+    }
+
+    .app-theme-graham .ui-btn .glyphicon {
+        color: #d27800;
+    }
+
+    .app-theme-graham .app-icon-themed {
+        fill: #d27800;
+    }
+
+    .app-theme-graham .ui-radio-on:after,
+    .app-theme-graham .ui-slider-track .ui-btn-active,
+    .app-theme-graham .ui-flipswitch-active {
+        border-color: #d27800 !important;
+    }
+
+    .app-theme-graham .ui-btn.ui-btn-active.ui-btn-icon-notext:not(.ui-icon-dots)::after,
+    .app-theme-graham .ui-btn.ui-btn-active.ui-btn-icon-left::after,
+    .app-theme-graham .ui-btn.ui-btn-active.ui-btn-icon-right:not(.app-btn-icon-transparent)::after,
+    .app-theme-graham .ui-btn.ui-btn-active.ui-btn-icon-top::after,
+    .app-theme-graham .ui-btn.ui-btn-active.ui-btn-icon-bottom::after {
+        background-color: #a15d02 !important;
+    }
+
+    /*swatch b*/
+    .app-theme-graham .ui-btn.ui-btn-b,
+    .app-theme-graham .ui-btn.ui-btn-b:visited,
+    body.app-theme-graham:not(.app-desktop) li a.ui-btn-b:not(.ui-btn-active):hover {
+        background-color: #ecb266;
+        border-color: #fed49d;
+        color: #1d092d;
+    }
+
+        /*swatch b hover*/
+
+        .app-theme-graham .ui-btn.ui-btn-b.ui-btn-active,
+        .app-theme-graham.app-desktop .ui-btn.ui-btn-b:hover,
+        .app-theme-graham .app-popup .ui-content .ui-checkbox .ui-btn:hover,
+        .app-theme-graham .app-popup .ui-content .ui-checkbox .ui-btn.ui-focus:hover {
+            background-color: #eaac5b;
+            border-color: #fed49d;
+            color: #1d092d !important;
+        }
+
+    .app-theme-graham .app-nav-panel {
+        border-color: #fed49d !important;
+    }
+
+    .app-theme-graham .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b,
+    .app-theme-graham.app-desktop .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b:hover,
+    .app-theme-graham .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b.ui-btn-active {
+        border-color: #d27800 !important;
+    }
+
+    .app-theme-graham .ui-btn.ui-btn-b.ui-btn-active,
+    .app-theme-graham.app-desktop .ui-btn.ui-btn-b.ui-btn-active:hover {
+        color: #fff !important;
+    }
+
+
+    /*swatch b divider*/
+    .app-theme-graham .ui-bar-b,
+    .app-theme-graham .ui-bar-b .ui-bar-inherit,
+    html .app-theme-graham.ui-body-b .ui-bar-inherit,
+    html body.app-theme-graham .ui-group-theme-b .ui-bar-inherit {
+        border-color: #fed49d;
+        background-color: #fff4b9;
+    }
+
+    /*fix for lookups/inputs*/
+    .app-theme-graham .ui-btn.app-lookup:not(.ui-btn-active):not(.ui-focus),
+    .app-theme-graham .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select:not(.ui-focus) .ui-btn:not(.ui-btn-active),
+    .app-theme-graham .ui-input-text:not(.ui-btn-active),
+    .app-theme-graham .app-form-editing .ui-input-text:not(.ui-btn-active),
+    .app-theme-graham .ui-input-search.ui-body-inherit {
+        background-color: #fff;
+        border-color: #fed49d;
+        text-shadow: none;
+        /*color: #fff;*/
+    }
+
+        .app-theme-graham .ui-btn.app-lookup.ui-focus,
+        .app-theme-graham .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select.ui-focus .ui-btn:not(.ui-btn-active),
+        .app-theme-graham .ui-input-text.ui-focus,
+        .app-theme-graham .app-form-editing .ui-input-text.ui-focus,
+        .app-theme-graham .ui-input-search.ui-body-inherit.ui-focus,
+        .app-theme-graham .ui-checkbox label.ui-focus {
+            border-color: #d27800 !important;
+        }
+
+    .app-theme-graham .ui-slider {
+        border-color: #fed49d !important;
+    }
+
+    .app-theme-graham .ui-slider-label.ui-btn-active {
+        background-color: #d27800 !important;
+    }
+
+    /* background bleed under form in editing mode*/
+    .app-theme-graham .ui-body-a.ui-collapsible-content {
+        background-color: #fff;
+    }
+
+    .app-theme-graham .app-bar-tools .ui-input-search.ui-body-inherit {
+        background-color: #fff;
+    }
+
+    .app-theme-graham .ui-btn.app-lookup,
+    .app-theme-graham .ui-btn.ui-btn-active.app-lookup {
+        border-color: #d27800;
+    }
+
+
+    .app-theme-graham .app-tabs .ui-btn.ui-btn-active,
+    .app-theme-graham .app-tabs .ui-btn.ui-btn-active:hover,
+    .app-theme-graham .app-tabs :not(.ui-btn-active).ui-btn,
+    .app-theme-graham .app-tabs .ui-btn.ui-btn-active,
+    .app-desktop.app-theme-graham .app-tabs .ui-btn.ui-btn-active:hover {
+        background-color: rgb(205, 221, 155);
+    }
+
+    .app-theme-graham .app-lookup-input {
+        background-color: transparent;
+        /*color: #fff;*/
+    }
+
+    .app-theme-graham .app-grid-header {
+        color: #999;
+    }
+
+@media (min-width: 20em) {
+
+    .app-theme-graham .ui-header.ui-header-fixed.app-bar-tools {
+        background-image: url(logo-color.png);
+    }
+}
+
+.app-theme-graham .app-listview li .app-li-corner {
+    color: #fff;
+    background-color: #d27800;
+}
+
+.app-theme-graham .dataview-busy-indicator {
+    /*background-color: #d27800;*/
+}
+
+.app-theme-graham .app-chart .app-chart-inner {
+    border-color: #fed49d;
+}
+.app-theme-graham .app-calendar-plugin,
+.app-theme-graham .app-calendar {
+    background-color: #fff;
+    color: #000;
+}
+
+.app-theme-graham .app-calendar-monthview .app-calendar-month table td.app-calendar-weekend,
+.app-theme-graham .app-calendar-yearview .app-calendar-month td:not(.app-current-day):not(.ui-btn-active).app-has-data {
+    background-color: #fff7ed;
+}
+
+.app-theme-graham .app-calendar-plugin,
+.app-theme-graham .app-calendar-color-legend,
+.app-theme-graham .app-calendar-monthview .app-calendar-month table,
+.app-theme-graham .app-calendar-monthview .app-calendar-month table td,
+.app-theme-graham .app-calendar-day > div > div,
+.app-theme-graham .app-bar-calendar .app-week-header li.last-day-of-week,
+.app-theme-graham .app-calendar-week-grid .app-calendar-day > div {
+    border-color: #fed49d;
+}
+
+    .app-theme-graham .app-calendar-plugin span.app-current-day,
+    .app-theme-graham .app-calendar-monthview .app-current-day,
+    .app-theme-graham .app-calendar-yearview .app-current-day,
+    .app-theme-graham .app-week-header .app-current-day,
+    .app-theme-graham .app-day-header .visible-day.app-current-day,
+    .app-theme-graham .app-has-current-day .current-time-line .dot {
+        background-color: #d27800;
+    }
+
+.app-theme-graham .app-has-current-day .current-time-line {
+    border-color: #d27800;
+}
+
+.app-calendar-plugin-container .app-time-container .app-selected,
+.app-calendar-plugin-container .app-time-header .app-cal-selected,
+.app-theme-graham .app-day-header :not(.ui-btn-active).ui-btn .app-current-day,
+.app-theme-graham .app-has-current-day .app-current-time,
+.app-theme-graham .app-calendar-agenda-list > li.app-has-current-day h2:not(.ui-btn-active) > span,
+.app-theme-graham .app-calendar-agenda-list li.app-time-line-container > .app-event-time,
+.app-theme-graham .app-calendar-plugin .app-date-selector-container .app-current:not(.ui-btn-active) {
+    color: #d27800;
+}
+
+.app-calendar-plugin-container .app-time-selector .app-time-hand,
+.app-calendar-plugin-container .app-time-hand > span,
+.app-calendar-plugin table tr.ui-btn-active td,
+.app-calendar-plugin table tr.ui-btn-active td:hover,
+.app-calendar-plugin table td.ui-btn-active,
+.app-calendar-plugin table td.ui-btn-active:hover,
+.app-calendar-yearview .app-calendar-month td.ui-btn-active {
+    background-color: #d27800 !important;
+}
+
+.app-theme-graham .app-calendar-month-header,
+.app-theme-graham .app-calendar-month-header h1 {
+    color: #573e25 !important;
+}
+/***** bootstrap *****/
+
+.app-theme-graham .app-bootstrap a:not(.btn),
+.app-theme-graham body:not(.app-desktop) .app-bootstrap a:hover {
+    color: #aa2501;
+}
+
+.app-theme-graham .dropdown-menu > li > a:not(.ui-btn),
+body:not(.app-desktop) .dropdown-menu > li > a:hover {
+    color: #777 !important;
+}
+
+.app-theme-graham .jumbotron {
+    background-color: #fffceb;
+}
+
+.app-theme-graham .btn-default,
+.app-theme-graham .btn-default:focus,
+.app-theme-graham .btn-default:visited {
+    background-color: #fff7ed;
+    border-color: #fed49d;
+    color: #333 !important;
+}
+
+.app-theme-graham.app-desktop .btn-default:hover {
+    background-color: #fff3e5;
+    border-color: #d27800;
+}
+
+.app-theme-graham .app-bootstrap .btn.ui-btn-active,
+.app-theme-graham .app-bootstrap .btn.ui-btn-active:hover,
+.app-theme-graham .app-bootstrap .btn.ui-btn-active:focus,
+.app-theme-graham .app-bootstrap .list-group-item.ui-btn-active,
+.app-theme-graham .app-bootstrap .list-group-item.ui-btn-active:hover,
+.app-theme-graham .app-bootstrap .list-group-item.ui-btn-active:focus,
+.app-theme-graham .app-bootstrap .list-group-item.ui-btn-active .list-group-item-text,
+.app-theme-graham .app-bootstrap .list-group-item.ui-btn-active .list-group-item-heading {
+    background-color: #d27800 !important;
+    border-color: #d27800 !important;
+    color: #fff !important;
+}
+
+.app-theme-graham .app-bootstrap .nav .ui-btn-active,
+.app-theme-graham .app-bootstrap .nav .ui-btn-active:hover,
+.app-theme-graham .app-bootstrap .nav .ui-btn-active:focus {
+    background-color: #d27800 !important;
+    border-color: #fed49d !important;
+    color: #fff !important;
+}
+
+.app-theme-graham .table,
+.app-theme-graham .table > thead > tr > th,
+.app-theme-graham .table > tbody > tr > th,
+.app-theme-graham .table > tfoot > tr > th,
+.app-theme-graham .table > thead > tr > td,
+.app-theme-graham .table > tbody > tr > td,
+.app-theme-graham .table > tfoot > tr > td,
+.app-theme-graham .list-group-item:not(.active) {
+    background-color: #fff7ed;
+    border-color: #fed49d;
+}
+
+.app-theme-graham.app-desktop a.list-group-item:hover:not(.active) {
+    background-color: #fff3e5;
+}
+
+.app-theme-graham .table > thead > tr > th,
+.app-theme-graham .table > tbody > tr > th,
+.app-theme-graham .table > tfoot > tr > th {
+    color: #333;
+    background-color: #fff0db;
+}
+
+.app-theme-graham .table-striped > tbody > tr:nth-child(2n+1) > td,
+.app-theme-graham .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #fff4e5;
+}
+
+.app-theme-graham.app-desktop .navbar-default .navbar-toggle:hover,
+.app-theme-graham .app-bootstrap .navbar-default .navbar-toggle:focus,
+.app-theme-graham .list-group-item.active:not(.btn),
+.app-theme-graham .list-group-item.active:not(.btn):hover,
+.app-theme-graham .list-group-item.active:not(.btn):focus,
+.app-theme-graham .nav-pills > li.active > a,
+.app-theme-graham .nav-pills > li.active > a:hover,
+.app-theme-graham .nav-pills > li.active > a:focus {
+    color: #fff !important;
+    background-color: #d27800;
+    border-color: #d27800;
+}
+
+.app-theme-graham .list-group-item.active .list-group-item-text {
+    color: #fff;
+}
+
+.app-theme-graham .list-group-item:not(.active):not(.ui-btn-active):hover,
+.app-theme-graham .list-group-item:not(.active):not(.ui-btn-active):hover .list-group-item-text {
+    color: #000 !important;
+}
+
+.app-theme-graham .list-group-item.active > .badge,
+.app-theme-graham .nav-pills > .active > a > .badge {
+    color: #d27800 !important;
+}
+
+.app-theme-graham .navbar-default .navbar-toggle .icon-bar {
+    background-color: #d27800;
+}
+
+.app-desktop.app-theme-graham .navbar-default .navbar-toggle:hover .icon-bar,
+.app-desktop.app-theme-graham .navbar-default .navbar-toggle:active .icon-bar,
+.app-desktop.app-theme-graham .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+}
+
+.app-theme-graham .img-thumbnail {
+    background-color: #fff7ed;
+    border-color: #fed49d;
+}
+
+.app-theme-graham .page-header,
+.app-theme-graham .nav-tabs {
+    border-color: #fed49d;
+}
+
+    .app-theme-graham .nav-tabs > li.active > a,
+    .app-theme-graham .nav-tabs > li.active > a:hover,
+    .app-theme-graham .nav-tabs > li.active > a:focus {
+        border-top-color: #fed49d;
+        border-left-color: #fed49d;
+        border-right-color: #fed49d;
+    }
+
+.app-theme-graham.app-desktop .nav > li:not(.active) > a:hover,
+.app-theme-graham.app-desktop .nav > li:not(.active) > a:focus {
+    background-color: rgba(255,255,255,0.4);
+    border-color: #d27800;
+}
+
+.app-theme-graham.app-desktop .nav-tabs > li:not(.active) > a:hover,
+.app-theme-graham .nav-tabs > li:not(.active) > a:focus,
+.app-theme-graham.app-desktop .nav-pills > li:not(.active) > a:hover,
+.app-theme-graham .nav-pills > li:not(.active) > a:focus {
+    background-color: #fff3e5;
+}
+
+.app-theme-graham .navbar-default {
+    background-color: #fff4b9;
+    border-color: #d27800;
+}
+
+    .app-theme-graham .navbar-default .navbar-brand,
+    .app-theme-graham .navbar-default .navbar-brand:hover {
+        color: #777 !important;
+    }
+
+    .app-theme-graham .navbar-default .navbar-nav > li > a {
+        color: #777 !important;
+    }
+
+.app-theme-graham.app-desktop .navbar-default a.navbar-brand:hover,
+.app-theme-graham .app-bootstrap .navbar-default a.navbar-brand.ui-btn-active,
+.app-theme-graham.app-desktop .navbar-default .navbar-nav > li > a:hover {
+    color: #333 !important;
+}
+
+.app-theme-graham .app-bootstrap .navbar-default .navbar-nav > .active > a,
+.app-theme-graham .app-bootstrap .navbar-default .navbar-nav > .active > a:hover,
+.app-theme-graham .app-bootstrap .navbar-default .navbar-nav > .active > a:focus,
+.app-theme-graham .app-bootstrap .navbar-default .navbar-nav > .open > a,
+.app-theme-graham .app-bootstrap .navbar-default .navbar-nav > .open > a:hover,
+.app-theme-graham .app-bootstrap .navbar-default .navbar-nav > .open > a:focus {
+    color: #333 !important;
+    background-color: rgba(0,0,0,.05);
+}
+
+.app-theme-graham .well {
+    background-color: #fff7ed;
+    border-color: #fed49d;
+    /*box-shadow: rgba(0,0,0,0.1) 0 0 10px inset;*/
+}
+
+@media all and (max-width:767px) {
+    .app-sidebar-undocked.app-theme-graham .navbar-nav .open .dropdown-menu {
+        background-color: #fff7ed;
+    }
+
+    .app-sidebar-undocked.app-theme-graham.app-desktop .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .app-sidebar-undocked.app-theme-graham .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-color: #fff3e5;
+    }
+}
+
+.app-theme-graham .dropdown-menu {
+    background-color: #fff7ed;
+}
+
+    .app-theme-graham .dropdown-menu .divider {
+        background-color: #fed49d;
+    }
+
+    .app-theme-graham.app-desktop .dropdown-menu > li > a:hover,
+    .app-theme-graham .dropdown-menu > li > a:focus {
+        background-color: #fff3e5;
+    }
+
+.app-theme-graham .navbar-default .navbar-collapse,
+.app-theme-graham .navbar-default .navbar-form,
+.app-theme-graham .navbar-default .navbar-toggle {
+    border-color: #d27800;
+}
+
+.app-theme-graham .navbar-inverse a:not(.ui-btn) {
+    color: #777 !important;
+}
+
+.app-theme-graham.app-desktop .navbar-inverse a.navbar-brand:hover,
+.app-theme-graham.app-desktop .navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff !important;
+}
+
+.app-theme-graham .navbar-inverse .navbar-nav > .active > a,
+.app-theme-graham .navbar-inverse .navbar-nav > .active > a:hover,
+.app-theme-graham .navbar-inverse .navbar-nav > .active > a:focus,
+.app-theme-graham .navbar-inverse .navbar-nav > .open > a,
+.app-theme-graham .navbar-inverse .navbar-nav > .open > a:hover,
+.app-theme-graham .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff !important;
+}

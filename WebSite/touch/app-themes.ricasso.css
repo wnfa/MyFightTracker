@@ -1,0 +1,881 @@
+﻿/*********************************/
+/* THEME: ricasso               */
+/*******************************/
+
+.app-theme-ricasso,
+.app-theme-ricasso .ui-page-theme-a,
+.app-theme-ricasso .app-page-header {
+    background-color: #fff;
+}
+
+    .app-theme-ricasso .app-page-header {
+        color: #1f1f1f;
+    }
+
+    .app-theme-ricasso .ui-page-theme-a .ui-panel-wrapper,
+    .app-theme-ricasso .app-page-header,
+    .app-theme-ricasso .app-status-bar,
+    .app-bar-footer.ui-bar-inherit {
+        background-color: #f8f8f8;
+        border-color: #bababa !important;
+    }
+
+    .app-theme-ricasso .app-status-bar {
+        color: #000;
+    }
+
+    .app-theme-ricasso .app-form-editing.app-formview .app-static-text div,
+    .app-theme-ricasso .app-page-menu-desc,
+    .app-theme-ricasso .ui-checkbox label {
+        text-shadow: none !important;
+    }
+
+    /*popup*/
+    .app-theme-ricasso .app-popup-message,
+    .app-theme-ricasso .ui-content.app-map-info,
+    .app-theme-ricasso .app-nav-panel {
+        background-color: #e7e7e7;
+        border-color: #595959;
+        text-shadow: none;
+        color: #000;
+    }
+
+        .app-theme-ricasso .app-popup-message .ui-popup-arrow {
+            background-color: #e7e7e7;
+        }
+
+        .app-theme-ricasso .app-popup-message div {
+            color: #1f1f1f;
+        }
+        
+    .app-data-input-popup .app-selected .app-caret-r .app-caret {
+        border-left-color: #000;
+    }
+
+    /* page header */
+    .app-theme-ricasso .app-bar-tools.ui-bar-a,
+    .app-theme-ricasso :not(.app-tabs).ui-header-fixed.ui-header,
+    .app-theme-ricasso .ui-header {
+        background-color: #e7e7e7;
+        border-color: #595959;
+        text-shadow: none;
+    }
+
+    .app-theme-ricasso .app-popup-listview .ui-popup-arrow,
+    .app-theme-ricasso .app-popup-listview {
+        background-color: #e7e7e7 !important;
+        border-color: #e7e7e7 !important;
+    }
+
+    .app-theme-ricasso .app-bar-tools.ui-bar-a {
+        background-color: #e0e0e0;
+    }
+
+    /* list dividers*/
+    .app-theme-ricasso .ui-li-divider {
+        background-color: #bababa;
+        border-color: #bababa;
+        color: #555;
+        text-shadow: none;
+    }
+
+
+    /* view descriptions*/
+    .app-theme-ricasso .ui-listview .app-list-instruction.ui-li-divider,
+    .app-theme-ricasso .ui-content:not(.app-page-tasks) .app-listview .ui-li-divider:not(.ui-bar-b):not(.ui-bar-inherit),
+    .app-theme-ricasso .app-presenter-instruction,
+    .app-theme-ricasso .app-grid-header .app-frozen-spacer {
+        background-color: #f8f8f8 !important;
+        border-color: #bababa !important;
+        color: #525252;
+    }
+
+    body:not(.app-sidebar-undocked).app-theme-ricasso .ui-header-fixed .ui-title,
+    body:not(.app-sidebar-undocked).app-theme-ricasso .app-sidebar,
+    .app-theme-ricasso .app-divider:not(.ui-collapsible):not(.app-calculated),
+    .app-theme-ricasso .app-echo,
+    .app-theme-ricasso .app-header {
+        border-color: #595959 !important;
+    }
+
+    .app-theme-ricasso .app-bar-heading {
+        background-color: #f8f8f8;
+        color: #525252;
+        text-shadow: none;
+    }
+
+    .app-theme-ricasso .ui-body-a,
+    .app-theme-ricasso .app-li-card,
+    .app-theme-ricasso .ui-page-theme-a .ui-body-inherit:not(.ui-focus),
+    .app-theme-ricasso .app-li-card {
+        background-color: #fff;
+        border-color: #bababa;
+        /*color: #fff;*/
+        text-shadow: none;
+    }
+
+    .app-theme-ricasso .ui-panel .ui-body-a {
+        border-color: #bababa !important;
+    }
+
+    .app-theme-ricasso .ui-page-theme-a .app-formview .ui-body-inherit:not(.ui-focus) {
+        background-color: #fff;
+    }
+
+
+    /*sidebar customizations*/
+    .app-theme-ricasso .ui-body-a.app-sidebar {
+        background-color: #e0e0e0;
+    }
+
+    .app-theme-ricasso.app-sidebar-undocked .app-form-grid .ui-collapsible-set,
+    .app-theme-ricasso .ui-listview-inset .ui-li-divider:not(.ui-bar-a) {
+        border-color: #bababa;
+    }
+
+    .app-theme-ricasso .ui-li-divider.app-info {
+        background-color: #eeecea !important;
+    }
+
+        .app-theme-ricasso .ui-li-divider.app-info .appname {
+            color: #ca0202;
+        }
+
+    /* fix for form "card" */
+    .app-theme-ricasso .ui-page-theme-a .ui-body-inherit.app-li-card {
+        border-top-color: #bababa;
+        border-left-color: #bababa;
+        border-right-color: #bababa;
+    }
+
+    .app-theme-ricasso .app-form-editing.app-formview .ui-field-contain {
+        border-top-color: transparent;
+    }
+
+
+    /*buttons*/
+    .app-theme-ricasso .app-page-header,
+    .app-theme-ricasso .ui-page-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-ricasso .ui-bar-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-ricasso .ui-body-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html body.app-theme-ricasso .ui-group-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html head + body.app-theme-ricasso .ui-btn-a.ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    .app-theme-ricasso .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-ricasso .ui-bar-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-ricasso .ui-body-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html body.app-theme-ricasso .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html head + body.app-theme-ricasso .ui-btn-a.ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    .app-theme-ricasso .app-form-grid .ui-collapsible-set,
+    /* button overrides to remove "hover" on touch screens */
+    body.app-theme-ricasso:not(.app-desktop) li a:hover:not(.app-selected):not(.ui-btn-b),
+    body:not(.app-desktop).app-theme-ricasso .ui-page-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-ricasso .ui-bar-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-ricasso .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-ricasso .ui-group-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html head + body:not(.app-desktop).app-theme-ricasso .ui-btn-a.ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    .app-theme-ricasso #app-welcome .ui-btn,
+    .app-theme-ricasso #app-popup-login .ui-btn,
+    .app-theme-ricasso .app-grid-header,
+    .app-theme-ricasso .app-echo .dv-item, 
+    .app-echo .app-grid .ui-last-child,
+    .app-theme-ricasso .app-echo .app-listview,
+    .app-theme-ricasso [data-container],
+    .app-theme-ricasso [data-layout="form"] {
+        border-color: #bababa;
+    }
+
+        .app-theme-ricasso .app-grid-header .app-field-separator::after,
+        .app-theme-ricasso .app-calculated .app-field-separator::after {
+            background-color: #bababa;
+        }
+
+    .app-theme-ricasso .ui-body-b .ui-btn-a,
+    .app-theme-ricasso .ui-body-b .ui-btn-a.ui-btn-active {
+        border-color: #bababa !important;
+    }
+
+    .app-theme-ricasso.app-has-popup-open .app-menu-strip .ui-btn:hover {
+        background-color: #bababa !important;
+    }
+
+    .app-theme-ricasso .ui-page-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-ricasso .ui-bar-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-ricasso .ui-body-a .ui-btn:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-theme-ricasso .ui-group-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html head + body.app-theme-ricasso .ui-btn-a.ui-btn:not(.app-selected):not(.app-lookup),
+    .app-theme-ricasso .ui-panel-page-container-a:not(.app-lookup),
+    .app-theme-ricasso .app-tabs.ui-header:not(.app-lookup),
+    .app-theme-ricasso .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-ricasso .ui-bar-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-ricasso .ui-body-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html body.app-theme-ricasso .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off),
+    html head + body.app-theme-ricasso .ui-btn-a.ui-btn:visited:not(.app-selected),
+    .app-theme-ricasso .app-tabs .ui-btn:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-ricasso .app-grid.app-listview :not(.app-selected):not(:hover):not(.ui-btn-active).ui-btn,
+    .app-theme-ricasso #app-welcome .ui-btn:not(:hover),
+    .app-theme-ricasso #app-popup-login .ui-btn:not(:hover),
+    .app-theme-ricasso .app-map-info .ui-popup-arrow,
+    .app-theme-ricasso .ui-listview .app-frozen-spacer,
+    .app-theme-ricasso [data-container="toggle"],
+.app-listview.app-grid .ui-btn:not(:hover):not(.app-selected):not(.ui-btn-active):not(.app-checked), 
+body:not(.app-desktop) .app-listview.app-grid .ui-btn:hover:not(.app-selected):not(.ui-btn-active):not(.app-checked) {
+        /*color: #000;*/
+        background: none;
+        background-color: #f8f8f8;
+    }
+
+    /* top border of Info button in sidebar */
+    .app-theme-ricasso .app-sidebar .ui-btn.ui-icon-info {
+        border-color: #bababa !important;
+    }
+
+    /* navigation panel selected item color fix*/
+    .app-theme-ricasso .app-nav-panel .ui-btn-a {
+        color: #1f1f1f !important;
+    }
+
+    /* subtext coloring*/
+    .app-theme-ricasso .app-field-label-after,
+    .app-theme-ricasso .app-field-label-before,
+    .app-theme-ricasso .app-field-label,
+    .app-theme-ricasso .ui-panel .app-item-desc,
+    .app-theme-ricasso a:not(.ui-btn):not(.btn),
+    .app-theme-ricasso .app-item-number,
+    .app-data-input-popup li:not(.app-selected) span.app-text-normal {
+        color: #ff0000 !important;
+    }
+
+    .app-theme-ricasso .ui-page-theme-b a:not(.ui-btn),
+    .app-theme-ricasso .ui-bar-b a:not(.ui-btn),
+    .app-theme-ricasso .ui-body-b a:not(.ui-btn),
+    .app-theme-ricasso .ui-group-theme-b a:not(.ui-btn) {
+        color: #ff0000 !important;
+    }
+
+        .app-theme-ricasso .ui-page-theme-b a:not(.ui-btn):hover,
+        .app-theme-ricasso .ui-bar-b a:not(.ui-btn):hover,
+        .app-theme-ricasso .ui-body-b a:not(.ui-btn):hover,
+        .app-theme-ricasso .ui-group-theme-b a:not(.ui-btn):hover,
+        .app-theme-ricasso .ui-page-theme-b a:not(.ui-btn):active,
+        .app-theme-ricasso .ui-bar-b a:not(.ui-btn):active,
+        .app-theme-ricasso .ui-body-b a:not(.ui-btn):active,
+        .app-theme-ricasso .ui-group-theme-b a:not(.ui-btn):active {
+            color: #000 !important;
+        }
+
+    .app-theme-ricasso .ui-btn p {
+        color: #000 !important;
+    }
+
+    .app-theme-ricasso .ui-li-aside,
+    .app-theme-ricasso .ui-btn .ui-li-aside,
+    .app-theme-ricasso .app-grid-header,
+    .app-theme-ricasso .app-panel-info-view .app-list-instruction,
+    .app-theme-ricasso .app-calculated .app-static-text {
+        color: #ff0000 !important;
+    }
+
+    .app-theme-ricasso .app-filter {
+    }
+
+    .app-theme-ricasso .app-bar-heading .app-bar-label,
+    .app-theme-ricasso .app-static-text div,
+    .app-theme-ricasso .app-form-editing.app-formview label {
+        color: #ca0202;
+    }
+
+    .app-theme-ricasso .app-wrapper,
+    .app-theme-ricasso .app-echo-instruction {
+        color: #525252;
+        text-shadow: none;
+    }
+
+    /* hover */
+    .app-theme-ricasso .ui-btn-a:hover:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-ricasso .ui-page-theme-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-ricasso .ui-bar-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-ricasso .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-desktop.app-theme-ricasso .ui-group-theme-a .ui-btn:hover:not(.app-selected),
+    html head + body.app-desktop.app-theme-ricasso .ui-btn-a.ui-btn:hover:not(.app-selected),
+    .app-theme-ricasso #app-welcome .ui-btn:hover:not(.ui-btn-active),
+    .app-theme-ricasso #app-popup-login .ui-btn:hover:not(.ui-btn-active),
+    .app-desktop.app-theme-ricasso .ui-listview a.ui-btn:hover:not(.app-selected) .app-frozen-spacer,
+    .app-desktop [data-container="collapsible"] [data-container="toggle"]:hover:not(.ui-btn-active) {
+        background: linear-gradient(to bottom, #f8f8f8 0%,#e8e8e8 100%); /* W3C */
+        border-color: #bababa;
+    }
+
+    .app-theme-ricasso.app-desktop .app-grid-header span:hover:not(.ui-btn-active):not(.app-icon) {
+        background: linear-gradient(to bottom, #f8f8f8 0%,#e8e8e8 100%); /* W3C */
+    }
+
+    /*selected button*/
+    .app-theme-ricasso .app-selected:not(.ui-btn-active),
+    .app-theme-ricasso .app-checked:not(.ui-btn-active),
+    .app-theme-ricasso .app-selected:hover,
+    .app-theme-ricasso .app-selected:visited,
+    .app-theme-ricasso .app-selected .app-frozen-spacer,
+    .app-theme-ricasso .app-checked .app-frozen-spacer {
+        background: linear-gradient(to bottom, #bdbdbd 0%,#9f9f9f 100%)!important;
+        border-color: #bababa !important;
+        color: #000 !important;
+    }
+
+    .app-theme-ricasso .app-grid-header .app-selected:not(.ui-btn-active) {
+        background: none !important;
+        background-color: rgba(0,0,0,0.05) !important;
+    }
+
+    /* selected hover*/
+    html body.app-desktop.app-theme-ricasso .ui-btn.app-selected:hover:not(.ui-btn-active),
+    html body.app-desktop.app-theme-ricasso .ui-btn.app-checked:hover:not(.ui-btn-active),
+    .app-theme-ricasso .app-echo-toolbar .app-selected:not(.ui-btn-active),
+    .app-theme-ricasso .app-echo-toolbar .app-selected:not(.ui-btn-active):hover,
+    .app-theme-ricasso .app-listview .app-selected:not(.ui-btn-active):hover .app-frozen-spacer,
+    .app-theme-ricasso .app-listview .app-checked:not(.ui-btn-active):hover .app-frozen-spacer {
+        background: linear-gradient(to bottom, #9f9f9f 0%,#aaa 100%)!important;
+        border-color: #bababa !important;
+        color: #000 !important;
+    }
+
+    /* click */
+
+    .app-theme-ricasso .app-grid-header .ui-btn-active,
+    [data-container="collapsible"] [data-container="toggle"].ui-btn-active {
+        background: linear-gradient(to bottom, #ca0202 0%,#a01401 100%) !important;
+        color: #fff !important;
+    }
+
+    .app-theme-ricasso .app-listview .ui-btn.app-selected::before,
+    .app-theme-ricasso [data-input="checkboxlist"] .app-data-list li.app-selected::after {
+        background-color: #a01401;
+    }
+
+    .ui-btn.ui-btn-active::after,
+    .app-btn-more.ui-btn-active::after {
+        color: #a01401;
+    }
+    
+.app-theme-ricasso [data-input] .app-data-list li.app-selected {
+    background: none!important;
+}
+
+.app-theme-ricasso [data-input] .app-data-list li.app-selected,
+.app-theme-ricasso [data-input] .app-data-list li::before,
+.app-theme-ricasso [data-input] .app-data-list li.app-selected::after {
+    border-color: #a01401;
+}
+
+    .app-theme-ricasso .ui-title.ui-btn-active,
+    html body.app-theme-ricasso .ui-btn.ui-btn-active,
+    .app-theme-ricasso .ui-btn.ui-btn-active .app-frozen-spacer {
+        background: linear-gradient(to bottom, #ca0202 0%,#a01401 100%) !important;
+        border-color: #bababa !important;
+        color: #fff !important;
+    }
+
+    .app-theme-ricasso .ui-panel-position-left .ui-btn-active .app-item-desc,
+    .app-theme-ricasso .ui-panel-position-right .ui-btn-active .app-item-desc,
+    .app-theme-ricasso #app-sidebar .ui-btn-active .app-item-desc,
+    .app-theme-ricasso .app-listview-static .ui-btn-active .app-item-desc,
+    .app-theme-ricasso .ui-btn-active p,
+    .app-theme-ricasso .ui-btn-active p.ui-li-aside,
+    .app-theme-ricasso .ui-btn.ui-btn-active span:not(.ui-li-count) {
+        color: #fff !important;
+    }
+
+    .app-theme-ricasso .dv-action-see-all .app-btn-prev.ui-btn-active,
+    .app-theme-ricasso .dv-action-see-all .app-btn-next.ui-btn-active {
+        background-color: #A71101;
+        color: #fff;
+    }
+
+    .app-theme-ricasso .app-btn-check:not(.app-btn-check-selected) {
+        border-color: #BABABA !important;
+        background-color: transparent !important;
+    }
+
+    .app-theme-ricasso .ui-btn.app-selected:not(.ui-btn-active) .app-btn-check:not(.app-btn-check-selected) {
+        border-color: #BABABA !important;
+    }
+
+    .app-theme-ricasso .app-grid-header .app-btn-check:not(.app-btn-check-selected) {
+        background-color: transparent !important;
+        border-color: #BABABA !important;
+    }
+
+    .app-theme-ricasso .app-btn-check.app-btn-check-selected {
+        border-color: #A71101 !important;
+        background-color: #A71101 !important;
+    }
+
+    [data-input] .app-control-helper ul li.ui-btn-active,
+    [data-input].app-has-focus .app-control-helper ul li.app-focus {
+        border-color: #A71101 !important;
+        background: none!important;
+        background-color: #A71101 !important;
+        color: #fff!important;
+    }
+
+    .app-theme-ricasso .app-btn-check .app-icon-themed {
+        fill: #fff;
+    }
+    /* tabs */
+
+    .app-theme-ricasso .app-tabs .ui-btn {
+        border-color: #ca0202 !important;
+        color: #ca0202;
+    }
+
+        .app-theme-ricasso .app-tabs .ui-btn.ui-btn-active {
+            border-color: #ca0202 !important;
+            background-color: #ca0202 !important;
+            color: #fff !important;
+        }
+
+
+    /*button on header bar*/
+    .app-theme-ricasso .app-bar-tools .ui-btn,
+    .app-theme-ricasso .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots) {
+        border-color: #bababa !important;
+    }
+
+        .app-theme-ricasso.app-desktop .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots):hover,
+        .app-theme-ricasso .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots).ui-btn-active {
+            border-color: #999 !important;
+        }
+
+        .app-theme-ricasso .ui-btn.ui-btn-icon-notext.ui-btn-active:not(.ui-icon-dots) {
+            background: none !important;
+            background-color: #f8f8f8 !important;
+        }
+
+    .app-theme-ricasso .ui-btn.ui-btn-active.ui-btn-icon-notext:not(.ui-icon-dots)::after,
+    .app-theme-ricasso .ui-btn.ui-btn-active.ui-btn-icon-left::after,
+    .app-theme-ricasso .ui-btn.ui-btn-active.ui-btn-icon-right:not(.app-btn-icon-transparent)::after,
+    .app-theme-ricasso .ui-btn.ui-btn-active.ui-btn-icon-top::after,
+    .app-theme-ricasso .ui-btn.ui-btn-active.ui-btn-icon-bottom::after,
+    .app-theme-ricasso .ui-checkbox-on:after,
+    .app-theme-ricasso .ui-flipswitch-active,
+    .app-theme-ricasso .ui-slider-track .ui-btn-active {
+        background-color: #ff0000 !important;
+    }
+
+    .app-theme-ricasso .ui-radio-on:after,
+    .app-theme-ricasso .ui-slider-track .ui-btn-active,
+    .app-theme-ricasso .ui-flipswitch-active {
+        border-color: #ff0000 !important;
+    }
+
+    .app-theme-ricasso .ui-btn .app-btn-more:not(.ui-btn-active) {
+        background-size: 15px 16px;
+    }
+
+    /*swatch b*/
+    .app-theme-ricasso .ui-btn.ui-btn-b,
+    .app-theme-ricasso .ui-btn.ui-btn-b:visited,
+    body.app-theme-ricasso:not(.app-desktop) li a.ui-btn-b:not(.ui-btn-active):hover {
+        background: linear-gradient(to bottom, #dbdbdb 0%,#cbcbcb 100%); /* W3C */
+        border-color: #bababa;
+        color: #000;
+    }
+
+        /*swatch b hover*/
+
+        .app-theme-ricasso .ui-btn.ui-btn-b.ui-btn-active,
+        .app-theme-ricasso.app-desktop .ui-btn.ui-btn-b:hover,
+        .app-theme-ricasso .app-popup .ui-content .ui-checkbox .ui-btn:hover,
+        .app-theme-ricasso .app-popup .ui-content .ui-checkbox .ui-btn.ui-focus:hover {
+            background: linear-gradient(to bottom, #d3d3d3 0%,#cbcbcb 20%); /* W3C */
+            border-color: #bababa;
+            color: #000;
+        }
+
+    .app-theme-ricasso .app-nav-panel .ui-btn.ui-btn-b {
+        border-color: #bababa !important;
+        color: #525252 !important;
+    }
+
+    .app-theme-ricasso .ui-btn.ui-btn-b.ui-btn-active {
+        color: #fff !important;
+    }
+
+    .app-theme-ricasso .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b,
+    .app-theme-ricasso.app-desktop .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b:hover,
+    .app-theme-ricasso .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b.ui-btn-active {
+        border-color: #bababa !important;
+    }
+
+    /*swatch b divider*/
+    .app-theme-ricasso .ui-bar-b,
+    .app-theme-ricasso .ui-bar-b .ui-bar-inherit,
+    html .app-theme-ricasso.ui-body-b .ui-bar-inherit,
+    html body.app-theme-ricasso .ui-group-theme-b .ui-bar-inherit {
+        border-color: #bababa;
+        background-color: #bababa;
+    }
+
+    /*fix for lookups/inputs*/
+    .app-theme-ricasso .ui-btn.app-lookup:not(.ui-btn-active):not(.ui-focus),
+    .app-theme-ricasso .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select:not(.ui-focus) .ui-btn:not(.ui-btn-active),
+    .app-theme-ricasso .ui-input-text:not(.ui-btn-active),
+    .app-theme-ricasso .app-form-editing .ui-input-text:not(.ui-btn-active),
+    .app-theme-ricasso .ui-input-search.ui-body-inherit {
+        background-color: #fff;
+        border-color: #bababa;
+        text-shadow: none;
+        /*color: #fff;*/
+    }
+
+        .app-theme-ricasso .ui-btn.app-lookup.ui-focus,
+        .app-theme-ricasso .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select.ui-focus .ui-btn:not(.ui-btn-active),
+        .app-theme-ricasso .ui-input-text.ui-focus,
+        .app-theme-ricasso .app-form-editing .ui-input-text.ui-focus,
+        .app-theme-ricasso .ui-input-search.ui-body-inherit.ui-focus,
+        .app-theme-ricasso .ui-checkbox label.ui-focus {
+            border-color: #ca0202 !important;
+        }
+
+    .app-theme-ricasso .ui-slider {
+        border-color: #bababa !important;
+    }
+
+    .app-theme-ricasso .ui-slider-label.ui-btn-active {
+        background-color: #ca0202 !important;
+    }
+
+    /* background bleed under form in editing mode*/
+    .app-theme-ricasso .ui-body-a.ui-collapsible-content,
+    .app-theme-ricasso .app-bar-tools .ui-input-search.ui-body-inherit {
+        background-color: #fff;
+    }
+
+    .app-theme-ricasso .ui-btn.app-lookup,
+    .app-theme-ricasso .ui-btn.ui-btn-active.app-lookup {
+        border-color: #bababa;
+    }
+
+    .app-theme-ricasso .app-lookup-input {
+        background-color: transparent;
+        /*color: #fff;*/
+    }
+
+    .app-theme-ricasso .app-grid-header {
+        color: #999;
+    }
+
+@media (max-width: 40em) and (min-width: 0) {
+
+    .app-theme-ricasso .ui-header.ui-header-fixed.app-bar-tools.app-logo-hidden {
+        background: linear-gradient(to bottom, #e0e0e0 0%,#d2d2d2 33%,#c8c8c8 47%,#b5b5b5 100%) 0 0/100% repeat !important;
+    }
+}
+
+.app-theme-ricasso.app-sidebar-undocked .ui-header.ui-header-fixed.app-bar-tools.app-logo-hidden {
+    background: linear-gradient(to bottom, #e0e0e0 0%,#d2d2d2 33%,#c8c8c8 47%,#b5b5b5 100%) 0 0/100% repeat !important;
+}
+
+@media (min-width: 20em) {
+
+    .app-theme-ricasso .ui-header.ui-header-fixed.app-bar-tools {
+        background-image: url(logo-color.png);
+        background: url(logo-color.png) 32px center/65px no-repeat, linear-gradient(to bottom, #e0e0e0 0%,#d2d2d2 33%,#c8c8c8 47%,#b5b5b5 100%) 0 0/100% repeat !important;
+    }
+
+    body[dir="rtl"].app-theme-ricasso .ui-header.ui-header-fixed.app-bar-tools {
+        background-position: right 40px center !important;
+    }
+}
+
+.app-theme-ricasso .app-listview li .app-li-corner {
+    color: #fff;
+    background-color: #ca0202;
+}
+
+.app-theme-ricasso .dataview-busy-indicator {
+    background-color: #ca0202;
+}
+
+.app-theme-ricasso .app-chart .app-chart-inner {
+    border-color: #bababa;
+}
+.app-theme-ricasso .app-calendar-yearview .app-calendar-month td:not(.app-current-day):not(.ui-btn-active).app-has-data {
+    background-color: #fdf3f0;
+}
+
+.app-theme-ricasso .app-calendar-plugin span.app-current-day,
+.app-theme-ricasso .app-calendar-monthview .app-current-day,
+.app-theme-ricasso .app-calendar-yearview .app-current-day,
+.app-theme-ricasso .app-week-header .app-current-day,
+.app-theme-ricasso .app-day-header .visible-day.app-current-day,
+.app-theme-ricasso .app-has-current-day .current-time-line .dot {
+    background-color: #a01401;
+}
+
+.app-theme-ricasso .app-has-current-day .current-time-line {
+    border-color: #a01401;
+}
+
+.app-calendar-plugin-container .app-time-container .app-selected,
+.app-calendar-plugin-container .app-time-header .app-cal-selected,
+.app-theme-ricasso .app-day-header :not(.ui-btn-active).ui-btn .app-current-day,
+.app-theme-ricasso .app-has-current-day .app-current-time,
+.app-theme-ricasso .app-calendar-agenda-list > li.app-has-current-day h2:not(.ui-btn-active) > span,
+.app-theme-ricasso .app-calendar-agenda-list li.app-time-line-container > .app-event-time,
+.app-theme-ricasso .app-calendar-plugin .app-date-selector-container .app-current:not(.ui-btn-active) {
+    color: #a01401;
+}
+
+    .app-calendar-plugin-container .app-time-selector .app-time-hand,
+    .app-calendar-plugin-container .app-time-hand > span,
+.app-calendar-plugin table tr.ui-btn-active td,
+.app-calendar-plugin table tr.ui-btn-active td:hover,
+.app-calendar-plugin table td.ui-btn-active,
+.app-calendar-plugin table td.ui-btn-active:hover,
+.app-calendar-yearview .app-calendar-month td.ui-btn-active {
+    background-color: #a01401 !important;
+}
+
+.app-theme-ricasso .app-calendar-month-header,
+.app-theme-ricasso .app-calendar-month-header h1 {
+    color: #ff0000 !important;
+}
+/***** bootstrap *****/
+
+.app-theme-ricasso .app-bootstrap a:not(.btn),
+.app-theme-ricasso body:not(.app-desktop) .app-bootstrap a:hover {
+    color: #ff0000;
+}
+
+.app-theme-ricasso .dropdown-menu > li > a:not(.ui-btn),
+body:not(.app-desktop) .dropdown-menu > li > a:hover {
+    color: #777 !important;
+}
+
+.app-theme-ricasso .jumbotron {
+    background-color: #fffceb;
+}
+
+.app-theme-ricasso .btn-default,
+.app-theme-ricasso .btn-default:focus,
+.app-theme-ricasso .btn-default:visited {
+    background-color: #f8f8f8;
+    background: none;
+    border-color: #bababa;
+    color: #333 !important;
+}
+
+.app-theme-ricasso.app-desktop .btn-default:hover {
+    background-color: #e8e8e8;
+    background: linear-gradient(to bottom, #f8f8f8 0%,#e8e8e8 100%);
+    border-color: #595959;
+}
+
+.app-theme-ricasso .app-bootstrap .btn.ui-btn-active,
+.app-theme-ricasso .app-bootstrap .btn.ui-btn-active:hover,
+.app-theme-ricasso .app-bootstrap .btn.ui-btn-active:focus,
+.app-theme-ricasso .app-bootstrap .list-group-item.ui-btn-active,
+.app-theme-ricasso .app-bootstrap .list-group-item.ui-btn-active:hover,
+.app-theme-ricasso .app-bootstrap .list-group-item.ui-btn-active:focus,
+.app-theme-ricasso .app-bootstrap .list-group-item.ui-btn-active .list-group-item-text,
+.app-theme-ricasso .app-bootstrap .list-group-item.ui-btn-active .list-group-item-heading {
+    background-color: #ca0202 !important;
+    background: linear-gradient(to bottom, #ca0202 0%,#a01401 100%) !important;
+    border-color: #a01401 !important;
+    color: #fff !important;
+}
+
+.app-theme-ricasso .app-bootstrap .nav .ui-btn-active,
+.app-theme-ricasso .app-bootstrap .nav .ui-btn-active:hover,
+.app-theme-ricasso .app-bootstrap .nav .ui-btn-active:focus {
+    background-color: #a01401 !important;
+    background: linear-gradient(to bottom, #ca0202 0%,#a01401 100%) !important;
+    border-color: #bababa !important;
+    color: #fff !important;
+}
+
+.app-theme-ricasso .table,
+.app-theme-ricasso .table > thead > tr > th,
+.app-theme-ricasso .table > tbody > tr > th,
+.app-theme-ricasso .table > tfoot > tr > th,
+.app-theme-ricasso .table > thead > tr > td,
+.app-theme-ricasso .table > tbody > tr > td,
+.app-theme-ricasso .table > tfoot > tr > td,
+.app-theme-ricasso .list-group-item:not(.active) {
+    background-color: #f8f8f8;
+    border-color: #bababa;
+}
+
+.app-theme-ricasso.app-desktop a.list-group-item:hover:not(.active) {
+    background-color: #e8e8e8;
+    background: linear-gradient(to bottom, #f8f8f8 0%,#e8e8e8 100%);
+}
+
+.app-theme-ricasso .table > thead > tr > th,
+.app-theme-ricasso .table > tbody > tr > th,
+.app-theme-ricasso .table > tfoot > tr > th {
+    color: #333;
+    background-color: #fff;
+}
+
+.app-theme-ricasso .table-striped > tbody > tr:nth-child(2n+1) > td,
+.app-theme-ricasso .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #f1f1f1;
+}
+
+.app-theme-ricasso.app-desktop .navbar-default .navbar-toggle:hover,
+.app-theme-ricasso .app-bootstrap .navbar-default .navbar-toggle:focus,
+.app-theme-ricasso .list-group-item.active:not(.btn),
+.app-theme-ricasso .list-group-item.active:not(.btn):hover,
+.app-theme-ricasso .list-group-item.active:not(.btn):focus,
+.app-theme-ricasso .nav-pills > li.active > a,
+.app-theme-ricasso .nav-pills > li.active > a:hover,
+.app-theme-ricasso .nav-pills > li.active > a:focus {
+    color: #fff !important;
+    background-color: #a01401;
+    background: linear-gradient(to bottom, #ca0202 0%,#a01401 100%) !important;
+    border-color: #595959;
+}
+
+.app-theme-ricasso .list-group-item.active .list-group-item-text {
+    color: #fff;
+}
+
+.app-theme-ricasso .list-group-item:not(.active):not(.ui-btn-active):hover,
+.app-theme-ricasso .list-group-item:not(.active):not(.ui-btn-active):hover .list-group-item-text {
+    color: #000 !important;
+}
+
+.app-theme-ricasso .list-group-item.active > .badge,
+.app-theme-ricasso .nav-pills > .active > a > .badge {
+    color: #a01401 !important;
+}
+
+.app-theme-ricasso .navbar-default .navbar-toggle .icon-bar {
+    background-color: #595959;
+}
+
+.app-desktop.app-theme-ricasso .navbar-default .navbar-toggle:hover .icon-bar,
+.app-desktop.app-theme-ricasso .navbar-default .navbar-toggle:active .icon-bar,
+.app-desktop.app-theme-ricasso .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+}
+
+.app-theme-ricasso .img-thumbnail {
+    background-color: #f8f8f8;
+    border-color: #bababa;
+}
+
+.app-theme-ricasso .page-header,
+.app-theme-ricasso .nav-tabs {
+    border-color: #bababa;
+}
+
+    .app-theme-ricasso .nav-tabs > li.active > a,
+    .app-theme-ricasso .nav-tabs > li.active > a:hover,
+    .app-theme-ricasso .nav-tabs > li.active > a:focus {
+        border-top-color: #bababa;
+        border-left-color: #bababa;
+        border-right-color: #bababa;
+    }
+
+.app-theme-ricasso.app-desktop .nav > li:not(.active) > a:hover,
+.app-theme-ricasso.app-desktop .nav > li:not(.active) > a:focus {
+    background-color: rgba(255,255,255,0.4);
+    border-color: #595959;
+}
+
+.app-theme-ricasso.app-desktop .nav-tabs > li:not(.active) > a:hover,
+.app-theme-ricasso .nav-tabs > li:not(.active) > a:focus,
+.app-theme-ricasso.app-desktop .nav-pills > li:not(.active) > a:hover,
+.app-theme-ricasso .nav-pills > li:not(.active) > a:focus {
+    background-color: #e8e8e8;
+    background: linear-gradient(to bottom, #f8f8f8 0%,#e8e8e8 100%);
+}
+
+.app-theme-ricasso .navbar-default {
+    background-color: #d2d2d2;
+    background: linear-gradient(to bottom, #e0e0e0 0%,#d2d2d2 33%,#c8c8c8 47%,#b5b5b5 100%) 0 0/100% repeat !important;
+    border-color: #595959;
+}
+
+    .app-theme-ricasso .navbar-default .navbar-brand,
+    .app-theme-ricasso .navbar-default .navbar-brand:hover {
+        color: #777 !important;
+    }
+
+    .app-theme-ricasso .navbar-default .navbar-nav > li > a {
+        color: #777 !important;
+    }
+
+.app-theme-ricasso.app-desktop .navbar-default a.navbar-brand:hover,
+.app-theme-ricasso .app-bootstrap .navbar-default a.navbar-brand.ui-btn-active,
+.app-theme-ricasso.app-desktop .navbar-default .navbar-nav > li > a:hover {
+    color: #333 !important;
+}
+
+.app-theme-ricasso .app-bootstrap .navbar-default .navbar-nav > .active > a,
+.app-theme-ricasso .app-bootstrap .navbar-default .navbar-nav > .active > a:hover,
+.app-theme-ricasso .app-bootstrap .navbar-default .navbar-nav > .active > a:focus,
+.app-theme-ricasso .app-bootstrap .navbar-default .navbar-nav > .open > a,
+.app-theme-ricasso .app-bootstrap .navbar-default .navbar-nav > .open > a:hover,
+.app-theme-ricasso .app-bootstrap .navbar-default .navbar-nav > .open > a:focus {
+    color: #333 !important;
+    background-color: rgba(0,0,0,.05);
+}
+
+.app-theme-ricasso .well {
+    background-color: #f8f8f8;
+    border-color: #bababa;
+    /*box-shadow: rgba(0,0,0,0.1) 0 0 10px inset;*/
+}
+
+@media all and (max-width:767px) {
+    .app-sidebar-undocked.app-theme-ricasso .navbar-nav .open .dropdown-menu {
+        background-color: #f8f8f8;
+    }
+
+    .app-sidebar-undocked.app-theme-ricasso.app-desktop .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .app-sidebar-undocked.app-theme-ricasso .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-color: #e8e8e8;
+        background: linear-gradient(to bottom, #f8f8f8 0%,#e8e8e8 100%);
+    }
+}
+
+.app-theme-ricasso .dropdown-menu {
+    background-color: #f8f8f8;
+}
+
+    .app-theme-ricasso .dropdown-menu .divider {
+        background-color: #bababa;
+    }
+
+    .app-theme-ricasso.app-desktop .dropdown-menu > li > a:hover,
+    .app-theme-ricasso .dropdown-menu > li > a:focus {
+        background-color: #e8e8e8;
+        background: linear-gradient(to bottom, #f8f8f8 0%,#e8e8e8 100%);
+    }
+
+.app-theme-ricasso .navbar-default .navbar-collapse,
+.app-theme-ricasso .navbar-default .navbar-form,
+.app-theme-ricasso .navbar-default .navbar-toggle {
+    border-color: #595959;
+}
+
+.app-theme-ricasso .navbar-inverse a:not(.ui-btn) {
+    color: #777 !important;
+}
+
+.app-theme-ricasso.app-desktop .navbar-inverse a.navbar-brand:hover,
+.app-theme-ricasso.app-desktop .navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff !important;
+}
+
+.app-theme-ricasso .navbar-inverse .navbar-nav > .active > a,
+.app-theme-ricasso .navbar-inverse .navbar-nav > .active > a:hover,
+.app-theme-ricasso .navbar-inverse .navbar-nav > .active > a:focus,
+.app-theme-ricasso .navbar-inverse .navbar-nav > .open > a,
+.app-theme-ricasso .navbar-inverse .navbar-nav > .open > a:hover,
+.app-theme-ricasso .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff !important;
+}

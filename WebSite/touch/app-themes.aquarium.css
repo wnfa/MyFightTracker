@@ -1,0 +1,906 @@
+﻿/* grey drop icon - #333333 */
+.app-theme-aquarium .app-menu-strip a.ui-btn.app-has-children:not(.ui-btn-active)::after {
+    border-top-color: #333;
+}
+
+/* black drop icon */
+.app-theme-aquarium a.ui-btn.app-has-children.ui-btn-active::after {
+    border-top-color: #000;
+}
+
+/*********************************/
+/* THEME: AQUARIUM              */
+/*******************************/
+
+.app-theme-aquarium,
+.app-theme-aquarium .ui-page-theme-a {
+    background-color: #fff;
+}
+
+    .app-theme-aquarium .ui-page-theme-a .ui-panel-wrapper,
+    .app-theme-aquarium .ui-panel,
+    .app-theme-aquarium .app-page-header,
+    .app-theme-aquarium .app-status-bar {
+        background-color: #83b0ec;
+        border-color: #6f9dd9;
+    }
+
+    .app-theme-aquarium .app-page-header {
+        color: #1f1f1f;
+        background-color: #FFE6A0;
+    }
+
+    .app-theme-aquarium .app-status-bar {
+        color: #000;
+    }
+
+    .app-theme-aquarium .app-form-editing.app-formview .app-static-text div,
+    .app-theme-aquarium .app-page-menu-desc,
+    .app-theme-aquarium .ui-checkbox label {
+        text-shadow: none !important;
+        /*color: #fff;*/
+    }
+
+    /*popup*/
+    .app-theme-aquarium .app-popup-message,
+    .app-theme-aquarium .ui-content.app-map-info {
+        background-color: #83b0ec;
+        border-color: #6f9dd9;
+        text-shadow: none;
+        color: #fff;
+    }
+
+        .app-theme-aquarium .app-popup-message .ui-popup-arrow {
+            background-color: #83b0ec;
+        }
+
+        .app-theme-aquarium .app-popup-message div {
+            color: #83b0ec;
+        }
+
+
+    .app-theme-aquarium .ui-flipswitch-active a {
+        color: #fff !important;
+    }
+        
+    .app-data-input-popup .app-selected .app-caret-r .app-caret {
+        border-left-color: #000;
+    }
+
+    /* page header */
+    .app-theme-aquarium .ui-bar-a,
+    .app-theme-aquarium :not(.app-tabs).ui-header-fixed.ui-header {
+        background-color: #83b0ec;
+        border-color: #6f9dd9;
+        text-shadow: none;
+    }
+
+    .app-theme-aquarium .app-bar-actions, 
+    .app-theme-aquarium .app-bar-header, 
+    .app-theme-aquarium .app-bar-footer,
+    .app-bar-footer.ui-bar-inherit {
+        background-color: #F2F8FF !important;
+        border-color: #C3DCFC !important;
+    }
+
+    .app-theme-aquarium .app-popup-listview .ui-popup-arrow,
+    .app-theme-aquarium .app-popup-listview {
+        background-color: #83b0ec !important;
+        border-color: #83b0ec !important;
+    }
+
+    /* list dividers*/
+    /*.app-theme-aquarium .ui-listview > .app-list-instruction.ui-li-divider
+    {
+        background-color:red;
+    }
+    
+    .app-theme-aquarium ui-li-divider {
+        background-color: #C3DCFC;
+        border-color: #6f9dd9;
+        color: #555;
+        text-shadow: none;
+    }*/
+
+    .app-theme-aquarium ui-li-divider,
+    .app-theme-aquarium .ui-content.app-page-tasks .app-listview .ui-li-divider:not(.ui-bar-b) {
+        background-color: #83b0ec;
+        border-color: #6f9dd9;
+        /*color: #fff;*/
+        text-shadow: none;
+    }
+
+    .app-theme-aquarium .ui-listview .app-list-instruction.ui-li-divider,
+    .app-theme-aquarium .ui-content:not(.app-page-tasks) .app-listview .ui-li-divider:not(.ui-bar-b):not(.ui-bar-inherit),
+    .app-theme-aquarium .app-presenter-instruction,
+    .app-theme-aquarium .app-grid-header .app-frozen-spacer {
+        background-color: #E1EDFB !important;
+        border-color: #C3DCFC !important;
+        /*border-bottom-width:1px;*/ /* added border to list/grid header to add color separation*/
+    }
+
+    .app-theme-aquarium .ui-body-a,
+    .app-theme-aquarium .ui-page-theme-a .ui-body-inherit:not(.ui-focus) {
+        background-color: #fff;
+        border-color: #6f9dd9;
+        /*color: #fff;*/
+        text-shadow: none;
+    }
+
+    .app-theme-aquarium ul:not(.app-form-editing) .ui-field-contain {
+        border-color: #C3DCFC !important;
+    }
+
+    .app-theme-aquarium .ui-page-theme-a .app-formview .ui-body-inherit:not(.ui-focus) {
+        background-color: #fff;
+    }
+
+
+    /*sidebar customizations*/
+    .app-theme-aquarium .ui-body-a.app-sidebar {
+        background-color: #83b0ec;
+    }
+
+    .app-theme-aquarium.app-sidebar-undocked .app-form-grid .ui-collapsible-set,
+    .app-theme-aquarium .ui-listview-inset .ui-li-divider:not(.ui-bar-a) {
+        border-color: #6f9dd9;
+    }
+
+    .app-theme-aquarium .ui-li-divider.app-info {
+        background-color: #fff !important;
+    }
+
+    /* fix for form "card" */
+    .app-theme-aquarium .ui-page-theme-a .ui-body-inherit.app-li-card, 
+    .app-theme-aquarium .ui-li-divider[role="heading"]:not(.ui-bar-b) {
+        border-color: #6f9dd9;
+    }
+
+    /*.app-theme-aquarium .ui-listview-inset {
+        background-color: #ebf3ff;
+    }*/
+
+    .app-theme-aquarium .app-form-editing.app-formview .ui-field-contain {
+        border-top-color: transparent;
+    }
+
+    body:not(.app-sidebar-undocked).app-theme-aquarium .ui-header-fixed .ui-title,
+    body:not(.app-sidebar-undocked).app-theme-aquarium .app-sidebar,
+    .app-theme-aquarium .app-divider:not(.app-calculated),
+    .app-theme-aquarium .app-echo,
+    .app-theme-aquarium .app-header {
+        border-color: #6f9dd9 !important;
+    }
+
+    .app-theme-aquarium .app-bar-heading {
+        background-color: #E1EDFB;
+        /*color: white;*/
+        text-shadow: none;
+    }
+
+
+    .app-theme-aquarium .app-page-header {
+        border-color: #C3DCFC;
+    }
+
+
+    /*buttons*/
+    .app-theme-aquarium .ui-page-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-aquarium .ui-bar-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-aquarium .ui-body-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html body.app-theme-aquarium .ui-group-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html head + body.app-theme-aquarium .ui-btn-a.ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    .app-theme-aquarium .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-aquarium .ui-bar-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-aquarium .ui-body-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html body.app-theme-aquarium .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html head + body.app-theme-aquarium .ui-btn-a.ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    .app-theme-aquarium .app-form-grid .ui-collapsible-set,
+    /* button overrides to remove "hover" on touch screens */
+    body.app-theme-aquarium:not(.app-desktop) li a:hover:not(.app-selected):not(.ui-btn-b),
+    body:not(.app-desktop).app-theme-aquarium .ui-page-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-aquarium .ui-bar-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-aquarium .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-aquarium .ui-group-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html head + body:not(.app-desktop).app-theme-aquarium .ui-btn-a.ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    .app-theme-aquarium #app-welcome .ui-btn,
+    .app-theme-aquarium #app-popup-login .ui-btn,
+    .app-theme-aquarium .ui-listview .app-frozen-spacer,
+    .app-theme-aquarium .app-grid-header,
+    .app-theme-aquarium .app-echo .dv-item, 
+    .app-echo .app-grid .ui-last-child,
+    .app-theme-aquarium .app-echo .app-listview,
+    .app-theme-aquarium [data-container],
+    .app-theme-aquarium [data-layout="form"] {
+        border-color: #C3DCFC;
+    }
+
+        .app-theme-aquarium .app-grid-header .app-field-separator::after,
+        .app-theme-aquarium .app-calculated .app-field-separator::after {
+            background-color: #C3DCFC;
+        }
+
+.app-theme-aquarium .ui-body-b .ui-btn-a {
+    border-color: #83b0ec !important;
+}
+
+.app-theme-aquarium.app-has-popup-open .app-menu-strip .ui-btn:hover {
+    background-color: #83b0ec !important;
+}
+
+.app-theme-aquarium .ui-page-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+html .app-theme-aquarium .ui-bar-a .ui-btn:not(.app-selected):not(.app-lookup),
+html .app-theme-aquarium .ui-body-a .ui-btn:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+html body.app-theme-aquarium .ui-group-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+html head + body.app-theme-aquarium .ui-btn-a.ui-btn:not(.app-selected):not(.app-lookup),
+.app-theme-aquarium .ui-panel-page-container-a:not(.app-lookup),
+.app-theme-aquarium .app-tabs.ui-header:not(.app-lookup),
+.app-theme-aquarium .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+html .app-theme-aquarium .ui-bar-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+html .app-theme-aquarium .ui-body-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+html body.app-theme-aquarium .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off),
+html head + body.app-theme-aquarium .ui-btn-a.ui-btn:visited:not(.app-selected),
+.app-theme-aquarium .app-tabs .ui-btn:not(.ui-btn-active):not(.app-selected),
+body.app-desktop.app-theme-aquarium .app-grid.app-listview :not(.app-selected):not(:hover):not(.ui-btn-active).ui-btn,
+.app-theme-aquarium #app-welcome .ui-btn:not(:hover),
+.app-theme-aquarium #app-popup-login .ui-btn:not(:hover),
+.app-theme-aquarium .app-map-info .ui-popup-arrow,
+.app-theme-aquarium .ui-listview .app-frozen-spacer,
+.app-theme-aquarium [data-container="toggle"],
+.app-listview.app-grid .ui-btn:not(.ui-btn-active):not(:hover):not(.app-selected):not(.app-checked), 
+body:not(.app-desktop) .app-listview.app-grid .ui-btn:not(.ui-btn-active):hover:not(.app-selected):not(.app-checked) {
+    color: #000;
+    background-color: #F2F8FF;
+}
+
+/* top border of Info button in sidebar */
+.app-theme-aquarium .app-sidebar .ui-btn.ui-icon-info {
+    border-color: #6f9dd9 !important;
+}
+
+/* navigation panel selected item color fix*/
+.app-theme-aquarium .ui-panel-inner .ui-btn-a {
+    color: #fff; /*#3d7fd5 !important;*/
+}
+
+/* subtext coloring*/
+.app-theme-aquarium .app-field-label-after,
+.app-theme-aquarium .app-field-label-before,
+.app-theme-aquarium .app-field-label,
+.app-theme-aquarium .ui-panel .app-item-desc,
+.app-theme-aquarium .ui-li-aside,
+.app-theme-aquarium .ui-btn .ui-li-aside,
+.app-theme-aquarium .app-grid-header,
+.app-theme-aquarium .app-panel-info-view .app-list-instruction,
+.app-theme-aquarium .app-filter,
+.app-theme-aquarium .app-calculated .app-static-text,
+.app-theme-aquarium .app-item-number,
+.app-data-input-popup li:not(.app-selected) span.app-text-normal {
+    color: #3d7fd5 !important;
+}
+
+.app-theme-aquarium .ui-page-theme-b a:not(.ui-btn),
+.app-theme-aquarium .ui-bar-b a:not(.ui-btn),
+.app-theme-aquarium .ui-body-b a:not(.ui-btn),
+.app-theme-aquarium .ui-group-theme-b a:not(.ui-btn) {
+    color: #dde0ff !important;
+}
+
+    .app-theme-aquarium .ui-page-theme-b a:not(.ui-btn):hover,
+    .app-theme-aquarium .ui-bar-b a:not(.ui-btn):hover,
+    .app-theme-aquarium .ui-body-b a:not(.ui-btn):hover,
+    .app-theme-aquarium .ui-group-theme-b a:not(.ui-btn):hover,
+    .app-theme-aquarium .ui-page-theme-b a:not(.ui-btn):active,
+    .app-theme-aquarium .ui-bar-b a:not(.ui-btn):active,
+    .app-theme-aquarium .ui-body-b a:not(.ui-btn):active,
+    .app-theme-aquarium .ui-group-theme-b a:not(.ui-btn):active {
+        color: #fff !important;
+    }
+
+.app-theme-aquarium .ui-btn p {
+    color: #000 !important;
+}
+
+.app-theme-aquarium .app-bar-heading .app-bar-label,
+.app-theme-aquarium .app-static-text div,
+.app-theme-aquarium .app-form-editing.app-formview label /*, .app-theme-aquarium .app-wrapper*/ {
+    color: #3d7fd5;
+}
+
+/*selected button*/
+.app-theme-aquarium .app-selected:not(.ui-btn-active),
+.app-theme-aquarium .app-checked:not(.ui-btn-active),
+.app-theme-aquarium .app-selected:hover,
+.app-theme-aquarium .app-selected:visited,
+.app-theme-aquarium .app-selected .app-frozen-spacer,
+.app-theme-aquarium .app-checked .app-frozen-spacer {
+    background-color: #E0F2FA !important;
+    border-color: #C3DCFC !important;
+    color: #000 !important;
+}
+
+.app-theme-aquarium .app-grid-header span.app-selected:not(.ui-btn-active) {
+    background-color: rgba(0,0,0, 0.05) !important;
+}
+
+/* hover */
+.app-theme-aquarium .ui-btn-a:hover:not(.ui-btn-active):not(.app-selected),
+.app-desktop.app-theme-aquarium .ui-page-theme-a .ui-btn:hover:not(.app-selected),
+.app-desktop.app-theme-aquarium .ui-bar-a .ui-btn:hover:not(.app-selected),
+.app-desktop.app-theme-aquarium .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off),
+.app-desktop.app-theme-aquarium .ui-group-theme-a .ui-btn:hover:not(.app-selected),
+.app-desktop.app-theme-aquarium .ui-btn-a.ui-btn:hover:not(.app-selected),
+.app-desktop.app-theme-aquarium .ui-listview a.ui-btn:hover:not(.app-selected) .app-frozen-spacer,
+.app-desktop [data-container="collapsible"] [data-container="toggle"]:hover:not(.ui-btn-active) {
+    background-color: #eaf5fa;
+    border-color: #C3DCFC;
+}
+
+.app-theme-aquarium.app-desktop .app-grid-header span:hover:not(.ui-btn-active):not(.app-icon) {
+    background-color: #F2F8FF;
+}
+
+/* selected hover*/
+html body.app-desktop.app-theme-aquarium .ui-btn.app-selected:hover:not(.ui-btn-active),
+html body.app-desktop.app-theme-aquarium .ui-btn.app-checked:hover:not(.ui-btn-active),
+.app-theme-aquarium.app-desktop #app-welcome .ui-btn:hover:not(.ui-btn-active),
+.app-theme-aquarium.app-desktop #app-popup-login .ui-btn:hover:not(.ui-btn-active),
+.app-theme-aquarium .app-echo-toolbar .app-selected:not(.ui-btn-active),
+.app-theme-aquarium .app-echo-toolbar .app-selected:not(.ui-btn-active):hover,
+.app-theme-aquarium .app-listview .app-selected:not(.ui-btn-active):hover .app-frozen-spacer,
+.app-theme-aquarium .app-listview .app-checked:not(.ui-btn-active):hover .app-frozen-spacer {
+    background-color: #DCF1FA !important;
+    border-color: #C3DCFC !important;
+    color: #000 !important;
+}
+
+/*swatch b*/
+.app-theme-aquarium .ui-btn.ui-btn-b,
+.app-theme-aquarium .ui-btn.ui-btn-b:visited,
+body.app-theme-aquarium:not(.app-desktop) li a.ui-btn-b:not(.ui-btn-active):hover {
+    background-color: #D0E4FB;
+    border-color: #83b0ec;
+    color: #000;
+}
+
+/*swatch b hover*/
+.app-theme-aquarium.app-desktop .ui-btn.ui-btn-b:not(.ui-btn-active):hover {
+    background-color: #D5E6F9;
+    border-color: #83b0ec;
+    color: #000 !important;
+}
+
+.app-theme-aquarium .app-nav-panel .ui-btn.ui-btn-b {
+    border-color: #83b0ec !important;
+}
+
+
+/*swatch b divider*/
+.app-theme-aquarium .ui-bar-b,
+.app-theme-aquarium .ui-bar-b .ui-bar-inherit,
+html .app-theme-aquarium.ui-body-b .ui-bar-inherit,
+html body.app-theme-aquarium .ui-group-theme-b .ui-bar-inherit {
+    border-color: #83b0ec;
+    background-color: #83b0ec;
+}
+
+.app-theme-aquarium .ui-body-a:not(#app-popup-login):not(#app-welcome) .ui-btn-b,
+.app-theme-aquarium.app-desktop .ui-body-a:not(#app-popup-login):not(#app-welcome) .ui-btn-b:hover,
+.app-theme-aquarium .ui-body-a:not(#app-popup-login):not(#app-welcome) .ui-btn-b.ui-btn-active {
+    border-color: #6f9dd9 !important;
+}
+
+/* click */
+.app-theme-aquarium .app-grid-header span.ui-btn-active,
+[data-container="collapsible"] [data-container="toggle"].ui-btn-active {
+    background-color: #FFD253 !important;
+    color: #000 !important;
+}
+
+.app-theme-aquarium .app-listview .ui-btn.app-selected::before,
+.app-theme-aquarium [data-input="checkboxlist"] .app-data-list li.app-selected::after {
+    background-color: #FFD253;
+}
+
+    .ui-btn.ui-btn-active::after,
+    .app-btn-more.ui-btn-active::after {
+        color: #FFD253;
+    }
+
+    .dv-item .ui-btn-active .app-btn-more::after {
+        color: #000!important;
+    }
+
+    .dv-item .ui-btn-active .app-btn-check.app-btn-check-selected {
+        border-color: #000!important;
+    }
+
+.app-theme-aquarium [data-input] .app-data-list li.app-selected,
+.app-theme-aquarium [data-input] .app-data-list li::before,
+.app-theme-aquarium [data-input] .app-data-list li.app-selected::after {
+    border-color: #FFD253;
+}
+
+.app-theme-aquarium .ui-title.ui-btn-active,
+.app-theme-aquarium .ui-btn.ui-btn-active,
+.app-theme-aquarium .ui-btn.ui-btn-active .app-frozen-spacer {
+    background-color: #FFD253 !important;
+    border-color: #C3DCFC !important;
+    color: #000 !important;
+}
+
+    html body.app-theme-aquarium .ui-btn.ui-btn-active::after {
+        background-color: #91845e;
+    }
+
+html body.app-theme-aquarium .ui-body-b .ui-btn.ui-btn-active {
+    border-color: #83b0ec !important;
+}
+
+.app-theme-aquarium .dv-action-see-all .app-btn-prev.ui-btn-active,
+.app-theme-aquarium .dv-action-see-all .app-btn-next.ui-btn-active  {
+    background-color: #FFD253;
+    color: #000;
+}
+
+.app-theme-aquarium .app-btn-check:not(.app-btn-check-selected) {
+    border-color: #C3DCFC !important;
+    background-color: transparent !important;
+}
+
+.app-theme-aquarium .ui-btn.app-selected:not(.ui-btn-active) .app-btn-check:not(.app-btn-check-selected) {
+    border-color: #C3DCFC !important;
+}
+
+.app-theme-aquarium .app-grid-header .app-btn-check:not(.app-btn-check-selected) {
+    background-color: transparent !important;
+    border-color: #C3DCFC !important;
+}
+
+.app-theme-aquarium .app-btn-check.app-btn-check-selected,
+[data-input] .app-control-helper ul li.ui-btn-active,
+[data-input].app-has-focus .app-control-helper ul li.app-focus {
+    border-color: #FFD253 !important;
+    background-color: #FFD253 !important;
+}
+[data-input].app-has-focus .app-control-helper ul li.app-focus,
+[data-input] .app-control-helper ul li.app-focus::after {
+    color: #000;
+    border-top-color: #000;
+}
+
+.app-theme-aquarium .app-btn-check .app-icon-themed {
+    fill: #000;
+}
+
+/* tabs */
+
+.app-theme-aquarium .app-tabs.ui-header {
+    border-color: #79a7e3;
+}
+
+.app-theme-aquarium .app-tabs .ui-btn {
+    border-color: #79a7e3 !important;
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+    .app-theme-aquarium .app-tabs .ui-btn.ui-btn-active {
+        border-color: #79a7e3 !important;
+        background-color: #79a7e3 !important;
+        color: #fff !important;
+    }
+
+
+
+/*button on header bar*/
+#app-bar-tools .ui-btn.ui-btn-icon-notext,
+.app-map-info-toolbar .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots) {
+    border-color: #5c8fd1 !important;
+}
+
+.app-desktop #app-bar-tools .ui-btn.ui-btn-icon-notext:hover:not(.ui-btn-active),
+.app-desktop .app-map-info-toolbar .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots):hover:not(.ui-btn-active) {
+    border-color: #3f5f8a !important;
+    background-color: #cfe1f6 !important;
+}
+
+
+#app-bar-tools .ui-btn.ui-btn-active.ui-btn-icon-notext,
+.app-map-info-toolbar .ui-btn.ui-btn-active.ui-btn-icon-notext:not(.ui-icon-dots) {
+    background-color: #FFD253 !important;
+}
+
+    #app-bar-tools .ui-btn.ui-btn-active.ui-btn-icon-notext::after,
+    .app-map-info-toolbar .ui-btn.ui-btn-active.ui-btn-icon-notext:not(.ui-icon-dots)::after {
+        background-color: #91845e !important;
+    }
+
+.app-desktop .ui-btn.ui-btn-icon-notext:hover:not(.ui-btn-active):not(.ui-icon-dots),
+.ui-btn.ui-btn-icon-notext.ui-btn-active {
+    border-color: #657b96 !important;
+}
+
+.app-theme-aquarium .ui-btn.ui-btn-icon-notext::after,
+.app-theme-aquarium .ui-btn.ui-btn-icon-left:not(.ui-radio-on)::after,
+.app-theme-aquarium .ui-btn.ui-btn-icon-right:not(.ui-radio-on):not(.app-btn-icon-transparent)::after,
+.app-theme-aquarium .ui-btn.ui-btn-icon-top:not(.ui-radio-on)::after,
+.app-theme-aquarium .ui-btn.ui-btn-icon-bottom:not(.ui-radio-on)::after,
+.app-theme-aquarium .ui-checkbox-on:after,
+.app-theme-aquarium .ui-flipswitch-active,
+.app-theme-aquarium .ui-slider-track .ui-btn-active {
+    background-color: #657b96;
+}
+
+.app-theme-aquarium .ui-btn .glyphicon {
+    color: #657b96;
+}
+
+.app-theme-aquarium .app-icon-themed {
+    fill: #657b96;
+}
+
+.app-theme-aquarium .ui-btn-active .app-icon-themed {
+    fill: #000;
+}
+
+.app-theme-aquarium .ui-radio-on:after,
+.app-theme-aquarium .ui-slider-track .ui-btn-active,
+.app-theme-aquarium .ui-flipswitch-active {
+    border-color: #657b96 !important;
+}
+
+/*fix for lookups/inputs*/
+.app-theme-aquarium .ui-btn.app-lookup:not(.ui-btn-active):not(.ui-focus),
+.app-theme-aquarium .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select:not(.ui-focus) .ui-btn:not(.ui-btn-active),
+.app-theme-aquarium .ui-input-text:not(.ui-btn-active),
+.app-theme-aquarium .app-form-editing .ui-input-text:not(.ui-btn-active),
+.app-theme-aquarium .ui-input-search.ui-body-inherit {
+    background-color: #fff;
+    border-color: #C3DCFC;
+    text-shadow: none;
+    /*color: #fff;*/
+}
+
+    .app-theme-aquarium .ui-btn.app-lookup.ui-focus,
+    .app-theme-aquarium .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select.ui-focus .ui-btn:not(.ui-btn-active),
+    .app-theme-aquarium .ui-input-text.ui-focus,
+    .app-theme-aquarium .app-form-editing .ui-input-text.ui-focus,
+    .app-theme-aquarium .ui-input-search.ui-body-inherit.ui-focus,
+    .app-theme-aquarium .ui-checkbox label.ui-focus {
+        border-color: #d2b47a !important;
+    }
+
+.app-theme-aquarium .ui-slider {
+    border-color: #C3DCFC !important;
+}
+
+.app-theme-aquarium .ui-slider-label.ui-btn-active {
+    background-color: #FFE6A0 !important;
+    color: #000 !important;
+}
+
+/* background bleed under form in editing mode*/
+.app-theme-aquarium .ui-body-a.ui-collapsible-content {
+    background-color: #fff;
+    border-bottom-color: #C3DCFC !important;
+}
+
+.app-theme-aquarium .app-bar-tools .ui-input-search.ui-body-inherit {
+    background-color: #ebf3ff;
+}
+
+.app-theme-aquarium .ui-btn.app-lookup,
+.app-theme-aquarium .ui-btn.ui-btn-active.app-lookup {
+    border-color: #6f9dd9;
+}
+
+.app-theme-aquarium .app-lookup-input {
+    background-color: transparent;
+    /*color: #fff;*/
+}
+
+.app-theme-aquarium .app-grid-header {
+    color: #999;
+}
+
+@media (min-width: 20em) {
+    .app-theme-aquarium .ui-header.ui-header-fixed.app-bar-tools {
+        background-image: url(logo-color.png);
+    }
+}
+
+.app-theme-aquarium .app-listview li .app-li-corner {
+    color: #fff;
+    background-color: #657b96;
+}
+
+.app-theme-aquarium .dataview-busy-indicator {
+    background-color: #FFD253;
+}
+
+.app-theme-aquarium .ui-bar-a .app-menu-strip .ui-btn:not(.ui-btn-active), .app-theme-aquarium .ui-bar-a .app-user-name {
+    color: #333 !important;
+}
+
+.app-theme-aquarium .ui-bar-a .app-menu-strip .ui-btn:hover:not(.ui-btn-active),
+.app-theme-aquarium .ui-bar-a .app-menu-strip .ui-btn.app-selected:not(.ui-btn-active) {
+    color: #000 !important;
+}
+
+/* Charts/Calendar */
+
+.app-theme-aquarium .app-chart .app-chart-inner {
+    border-color: #C3DCFC;
+}
+
+
+.app-theme-aquarium .app-calendar-plugin {
+    background-color: #fff;
+}
+
+.app-theme-aquarium .app-calendar-month-header {
+    color: #3d7fd5 !important;
+}
+
+.app-theme-aquarium .app-calendar-monthview .app-calendar-month table td.app-calendar-weekend {
+    background-color: #F2F8FF;
+}
+
+.app-theme-aquarium .app-calendar-plugin,
+.app-theme-aquarium .app-calendar-color-legend,
+.app-theme-aquarium .app-calendar-monthview .app-calendar-month table,
+.app-theme-aquarium .app-calendar-monthview .app-calendar-month table td,
+.app-theme-aquarium .app-calendar-day > div > div,
+.app-theme-aquarium .app-bar-calendar .app-week-header li.last-day-of-week,
+.app-theme-aquarium .app-calendar-week-grid .app-calendar-day > div {
+    border-color: #c3dcfc;
+}
+
+    .app-theme-aquarium .app-calendar-plugin span.app-current-day,
+    .app-theme-aquarium .app-calendar-monthview .app-current-day,
+    .app-theme-aquarium .app-calendar-yearview .app-current-day,
+    .app-theme-aquarium .app-week-header .app-current-day,
+    .app-theme-aquarium .app-day-header .visible-day.app-current-day,
+    .app-theme-aquarium .app-has-current-day .current-time-line .dot {
+        background-color: #6f9dd9;
+    }
+
+
+.app-theme-aquarium .app-has-current-day .current-time-line {
+    border-color: #6f9dd9;
+}
+
+    .app-calendar-plugin-container .app-time-container .app-selected,
+    .app-calendar-plugin-container .app-time-header .app-cal-selected,
+.app-theme-aquarium .app-day-header :not(.ui-btn-active).ui-btn .app-current-day,
+.app-theme-aquarium .app-has-current-day .app-current-time,
+.app-theme-aquarium .app-calendar-agenda-list > li.app-has-current-day h2:not(.ui-btn-active) > span,
+.app-theme-aquarium .app-calendar-agenda-list li.app-time-line-container > .app-event-time,
+.app-theme-aquarium .app-calendar-plugin .app-date-selector-container .app-current:not(.ui-btn-active) {
+    color: #6f9dd9;
+}
+    
+.app-calendar-plugin table tr.ui-btn-active td,
+.app-calendar-plugin table tr.ui-btn-active td:hover,
+.app-calendar-plugin table td.ui-btn-active,
+.app-calendar-plugin table td.ui-btn-active:hover,
+.app-calendar-yearview .app-calendar-month td.ui-btn-active,
+.app-theme-aquarium .ui-header .app-bar-calendar .ui-btn-active.ui-btn.app-calendar-today {
+    background-color: #FFD253 !important;
+    color: #000 !important;
+}
+
+.app-theme-aquarium .app-calendar-yearview .app-calendar-month td:not(.app-current-day):not(.ui-btn-active).app-has-data {
+    background-color: #E0F2FA;
+}
+
+/* Bootstrap */
+
+
+.app-theme-aquarium .app-bootstrap a:not(.ui-btn):not(.btn) {
+    color: #000;
+}
+
+.app-theme-aquarium .jumbotron {
+    background-color: #E1EDFB;
+}
+
+.app-theme-aquarium .btn-default,
+.app-theme-aquarium .btn-default:focus,
+.app-theme-aquarium .btn-default:visited {
+    background-color: #F2F8FF;
+    border-color: #C3DCFC;
+    color: #333 !important;
+}
+
+.app-theme-aquarium.app-desktop .btn-default:hover {
+    background-color: #eaf5fa;
+    border-color: #79a7e3;
+}
+
+.app-theme-aquarium .app-bootstrap .btn.ui-btn-active,
+.app-theme-aquarium .app-bootstrap .btn.ui-btn-active:hover,
+.app-theme-aquarium .app-bootstrap .btn.ui-btn-active:focus,
+.app-theme-aquarium .app-bootstrap .list-group-item.ui-btn-active,
+.app-theme-aquarium .app-bootstrap .list-group-item.ui-btn-active:hover,
+.app-theme-aquarium .app-bootstrap .list-group-item.ui-btn-active:focus,
+.app-theme-aquarium .app-bootstrap .list-group-item.ui-btn-active .list-group-item-text,
+.app-theme-aquarium .app-bootstrap .list-group-item.ui-btn-active .list-group-item-heading {
+    background-color: #ffd253 !important;
+    border-color: #ffd253 !important;
+    color: #333 !important;
+}
+
+.app-theme-aquarium .app-bootstrap .nav .ui-btn-active,
+.app-theme-aquarium .app-bootstrap .nav .ui-btn-active:hover,
+.app-theme-aquarium .app-bootstrap .nav .ui-btn-active:focus {
+    background-color: #ffd253 !important;
+    color: #333 !important;
+}
+
+.app-theme-aquarium .table,
+.app-theme-aquarium .table > thead > tr > th,
+.app-theme-aquarium .table > tbody > tr > th,
+.app-theme-aquarium .table > tfoot > tr > th,
+.app-theme-aquarium .table > thead > tr > td,
+.app-theme-aquarium .table > tbody > tr > td,
+.app-theme-aquarium .table > tfoot > tr > td,
+.app-theme-aquarium .list-group-item:not(.active) {
+    background-color: #F2F8FF;
+    border-color: #C3DCFC;
+}
+
+.app-theme-aquarium.app-desktop a.list-group-item:hover:not(.active) {
+    background-color: #eaf5fa;
+}
+
+.app-theme-aquarium .table > thead > tr > th,
+.app-theme-aquarium .table > tbody > tr > th,
+.app-theme-aquarium .table > tfoot > tr > th {
+    color: #3e5354;
+    background-color: #E1EDFB;
+}
+
+.app-theme-aquarium .table-striped > tbody > tr:nth-child(2n+1) > td,
+.app-theme-aquarium .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #eaf5fa;
+}
+
+.app-theme-aquarium.app-desktop .navbar-default .navbar-toggle:hover,
+.app-theme-aquarium .navbar-default .navbar-toggle:focus,
+.app-theme-aquarium .list-group-item.active:not(.btn),
+.app-theme-aquarium .list-group-item.active:not(.btn):hover,
+.app-theme-aquarium .list-group-item.active:not(.btn):focus,
+.app-theme-aquarium .nav-pills > li.active > a,
+.app-theme-aquarium .nav-pills > li.active > a:hover,
+.app-theme-aquarium .nav-pills > li.active > a:focus {
+    color: #fff !important;
+    background-color: #79a7e3;
+    border-color: #79a7e3;
+}
+
+.app-theme-aquarium .list-group-item.active > .badge,
+.app-theme-aquarium .nav-pills > .active > a > .badge {
+    color: #79a7e3 !important;
+}
+
+.app-theme-aquarium .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.app-theme-aquarium .img-thumbnail {
+    background-color: #F2F8FF;
+    border-color: #C3DCFC;
+}
+
+.app-theme-aquarium .page-header,
+.app-theme-aquarium .nav-tabs {
+    border-color: #C3DCFC;
+}
+
+    .app-theme-aquarium .nav-tabs > li.active > a,
+    .app-theme-aquarium .nav-tabs > li.active > a:hover,
+    .app-theme-aquarium .nav-tabs > li.active > a:focus {
+        border-top-color: #C3DCFC;
+        border-left-color: #C3DCFC;
+        border-right-color: #C3DCFC;
+    }
+
+.app-theme-aquarium.app-desktop .nav > li:not(.active) > a:hover,
+.app-theme-aquarium.app-desktop .nav > li:not(.active) > a:focus {
+    background-color: rgba(255,255,255,0.25);
+    border-color: #C3DCFC !important;
+}
+
+
+.app-theme-aquarium.app-desktop .nav-tabs > li:not(.active) > a:hover,
+.app-theme-aquarium .nav-tabs > li:not(.active) > a:focus,
+.app-theme-aquarium.app-desktop .nav-pills > li:not(.active) > a:hover,
+.app-theme-aquarium .nav-pills > li:not(.active) > a:focus {
+    background-color: #eaf5fa;
+}
+
+.app-theme-aquarium .navbar-default {
+    background-color: #83b0ec;
+    border-color: #6f9dd9;
+}
+
+    .app-theme-aquarium .navbar-default .navbar-brand,
+    .app-theme-aquarium .navbar-default .navbar-brand:hover {
+        color: #333 !important;
+    }
+
+    .app-theme-aquarium .navbar-default .navbar-nav > li > a {
+        color: #333 !important;
+    }
+
+.app-theme-aquarium.app-desktop .navbar-default a.navbar-brand:hover,
+.app-theme-aquarium .app-bootstrap .navbar-default a.navbar-brand.ui-btn-active,
+.app-theme-aquarium.app-desktop .navbar-default .navbar-nav > li > a:hover {
+    color: #000 !important;
+}
+
+.app-theme-aquarium .app-bootstrap .navbar-default .navbar-nav > .active > a,
+.app-theme-aquarium .app-bootstrap .navbar-default .navbar-nav > .active > a:hover,
+.app-theme-aquarium .app-bootstrap .navbar-default .navbar-nav > .active > a:focus,
+.app-theme-aquarium .app-bootstrap .navbar-default .navbar-nav > .open > a,
+.app-theme-aquarium .app-bootstrap .navbar-default .navbar-nav > .open > a:hover,
+.app-theme-aquarium .app-bootstrap .navbar-default .navbar-nav > .open > a:focus {
+    color: #000 !important;
+    background-color: rgba(0,0,0,.05);
+}
+
+.app-theme-aquarium .well {
+    background-color: #F2F8FF;
+    border-color: #C3DCFC;
+    /*box-shadow: rgba(0,0,0,0.1) 0 0 10px inset;*/
+}
+
+@media all and (max-width:767px) {
+    .app-sidebar-undocked.app-theme-aquarium .navbar-nav .open .dropdown-menu {
+        background-color: #F2F8FF;
+    }
+
+    .app-sidebar-undocked.app-theme-aquarium.app-desktop .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .app-sidebar-undocked.app-theme-aquarium .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-color: #eaf5fa;
+    }
+}
+
+.app-theme-aquarium .dropdown-menu {
+    background-color: #F2F8FF;
+}
+
+    .app-theme-aquarium .dropdown-menu .divider {
+        background-color: #C3DCFC;
+    }
+
+    .app-theme-aquarium.app-desktop .dropdown-menu > li > a:hover,
+    .app-theme-aquarium .dropdown-menu > li > a:focus {
+        background-color: #eaf5fa;
+    }
+
+.app-theme-aquarium .navbar-default .navbar-collapse,
+.app-theme-aquarium .navbar-default .navbar-form,
+.app-theme-aquarium .navbar-default .navbar-toggle {
+    border-color: #6f9dd9;
+}
+
+.app-theme-aquarium .navbar-inverse a:not(.ui-btn) {
+    color: #777 !important;
+}
+
+.app-theme-aquarium.app-desktop .navbar-inverse a.navbar-brand:hover,
+.app-theme-aquarium.app-desktop .navbar-inverse .navbar-nav > li > a:hover {
+    color: #FFF !important;
+}
+
+.app-theme-aquarium .navbar-inverse .navbar-nav > .active > a,
+.app-theme-aquarium .navbar-inverse .navbar-nav > .active > a:hover,
+.app-theme-aquarium .navbar-inverse .navbar-nav > .active > a:focus,
+.app-theme-aquarium .navbar-inverse .navbar-nav > .open > a,
+.app-theme-aquarium .navbar-inverse .navbar-nav > .open > a:hover,
+.app-theme-aquarium .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #FFF !important;
+}

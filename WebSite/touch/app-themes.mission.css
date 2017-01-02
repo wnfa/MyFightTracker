@@ -1,0 +1,936 @@
+﻿/*********************************/
+/* THEME: mission               */
+/*******************************/
+
+.app-theme-mission,
+.app-theme-mission .ui-page-theme-a,
+.app-theme-mission .app-page-header {
+    background-color: #fff;
+    scrollbar-base-color: #b3a07f;
+    scrollbar-arrow-color: #a69476;
+    scrollbar-track-color: #f2e8d7;
+    scrollbar-shadow-color: #f2e8d7;
+}
+
+    .app-theme-mission.app-desktop ::-webkit-scrollbar-track {
+        background-color: #f2e8d7;
+    }
+
+    .app-theme-mission.app-desktop ::-webkit-scrollbar-thumb {
+        background-color: #b3a07f;
+        border: solid 1px #f2e8d7;
+    }
+
+        .app-theme-mission.app-desktop ::-webkit-scrollbar-thumb:hover {
+            background-color: #a69476;
+        }
+
+    .app-theme-mission .app-page-header {
+        color: #1f1f1f;
+    }
+
+    .app-theme-mission .ui-page-theme-a .ui-panel-wrapper,
+    .app-theme-mission .ui-panel,
+    .app-theme-mission .app-page-header,
+    .app-theme-mission .app-status-bar,
+    .app-bar-footer.ui-bar-inherit {
+        background-color: #dfc79d;
+        border-color: #a5a5a5;
+    }
+
+    .app-theme-mission .app-bar-actions {
+        background-color: #fff !important;
+    }
+
+    .app-theme-mission .app-status-bar {
+        color: #000;
+    }
+
+    .app-theme-mission .app-form-editing.app-formview .app-static-text div,
+    .app-theme-mission .app-page-menu-desc,
+    .app-theme-mission .ui-checkbox label {
+        text-shadow: none !important;
+    }
+
+    /*popup*/
+    .app-theme-mission .app-popup-message,
+    .app-theme-mission .ui-content.app-map-info {
+        background-color: #dfc79d;
+        border-color: #badb8f;
+        text-shadow: none;
+        color: #000;
+    }
+
+        .app-theme-mission .app-popup-message .ui-popup-arrow {
+            background-color: #dfc79d;
+        }
+
+        .app-theme-mission .app-popup-message div {
+            color: #badb8f;
+        }
+        
+    .app-data-input-popup .app-selected .app-caret-r .app-caret {
+        border-left-color: #000;
+    }
+
+    /* page header */
+    .app-theme-mission .app-bar-tools.ui-bar-a,
+    .app-theme-mission :not(.app-tabs).ui-header-fixed.ui-header,
+    .app-theme-mission .ui-header {
+        background-color: #dfc79d;
+        border-color: #a5a5a5;
+        text-shadow: none;
+    }
+
+    .app-theme-mission .app-popup-listview .ui-popup-arrow,
+    .app-theme-mission .app-popup-listview {
+        background-color: #dfc79d !important;
+        border-color: #dfc79d !important;
+    }
+
+    .app-theme-mission .app-page-header {
+        border-color: #a5a5a5 !important;
+    }
+
+    /* list dividers*/
+    .app-theme-mission .ui-li-divider {
+        background-color: #badb8f;
+        border-color: #a5a5a5;
+        color: #555;
+        text-shadow: none;
+    }
+
+    .app-theme-mission ui-li-divider,
+    .app-theme-mission .ui-content.app-page-tasks .app-listview .ui-li-divider:not(.ui-bar-b) {
+        border-color: #badb8f;
+        /*color: #fff;*/
+        text-shadow: none;
+    }
+
+    /* view descriptions*/
+    .app-theme-mission .ui-listview .app-list-instruction.ui-li-divider,
+    .app-theme-mission .ui-content:not(.app-page-tasks) .app-listview .ui-li-divider:not(.ui-bar-b):not(.ui-bar-inherit),
+    .app-theme-mission .app-presenter-instruction,
+    .app-theme-mission .app-grid-header .app-frozen-spacer {
+        background-color: #f2e8d7 !important;
+        border-color: #badb8f !important;
+        color: #1d092d;
+    }
+
+    .app-theme-mission .app-presenter-instruction {
+        border-color: #a5a5a5 !important;
+    }
+
+    body:not(.app-sidebar-undocked).app-theme-mission .ui-header-fixed .ui-title,
+    body:not(.app-sidebar-undocked).app-theme-mission .app-sidebar,
+    .app-theme-mission .app-divider:not(.ui-collapsible):not(.app-calculated),
+    .app-theme-mission .app-echo,
+    .app-theme-mission .app-header {
+        border-color: #a5a5a5 !important;
+    }
+
+    .app-theme-mission .app-bar-heading {
+        background-color: #f2e8d7;
+        color: #1d092d;
+        text-shadow: none;
+    }
+
+    .app-theme-mission .ui-body-a,
+    .app-theme-mission .app-li-card,
+    .app-theme-mission .ui-page-theme-a .ui-body-inherit:not(.ui-focus),
+    .app-theme-mission .app-li-card {
+        background-color: #fff;
+        border-color: #badb8f;
+        /*color: #fff;*/
+        text-shadow: none;
+    }
+
+    .app-theme-mission .ui-panel .ui-body-a {
+        border-color: #a5a5a5 !important;
+    }
+
+    .app-theme-mission .ui-page-theme-a .app-formview .ui-body-inherit:not(.ui-focus) {
+        background-color: #fff;
+    }
+
+
+    /*sidebar customizations*/
+    .app-theme-mission .ui-body-a.app-sidebar {
+        background-color: #dfc79d;
+    }
+
+    .app-theme-mission.app-sidebar-undocked .app-form-grid .ui-collapsible-set,
+    .app-theme-mission .ui-listview-inset .ui-li-divider:not(.ui-bar-a) {
+        border-color: #badb8f;
+    }
+
+    .app-theme-mission .ui-li-divider.app-info {
+        background-color: #eeecea !important;
+    }
+
+        .app-theme-mission .ui-li-divider.app-info .appname {
+            color: #3c2902;
+        }
+
+    /* fix for form "card" */
+    .app-theme-mission .ui-page-theme-a .ui-body-inherit.app-li-card {
+        border-top-color: #badb8f;
+        border-left-color: #badb8f;
+        border-right-color: #badb8f;
+    }
+
+    /*.app-theme-mission .ui-listview-inset {
+        background-color: #ebf3ff;
+    }*/
+
+    .app-theme-mission .app-form-editing.app-formview .ui-field-contain {
+        border-top-color: transparent;
+    }
+
+
+    /*buttons*/
+    .app-theme-mission .app-page-header,
+    .app-theme-mission .ui-page-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-mission .ui-bar-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-mission .ui-body-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html body.app-theme-mission .ui-group-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html head + body.app-theme-mission .ui-btn-a.ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    .app-theme-mission .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-mission .ui-bar-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-mission .ui-body-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html body.app-theme-mission .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html head + body.app-theme-mission .ui-btn-a.ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    .app-theme-mission .app-form-grid .ui-collapsible-set,
+    /* button overrides to remove "hover" on touch screens */
+    body.app-theme-mission:not(.app-desktop) li a:hover:not(.app-selected):not(.ui-btn-b),
+    body:not(.app-desktop).app-theme-mission .ui-page-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-mission .ui-bar-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-mission .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-mission .ui-group-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html head + body:not(.app-desktop).app-theme-mission .ui-btn-a.ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    .app-theme-mission .app-tabs.ui-header,
+    .app-theme-mission #app-welcome .ui-btn:not(:hover),
+    .app-theme-mission #app-popup-login .ui-btn:not(:hover),
+    .app-theme-mission .ui-listview .app-frozen-spacer,
+    .app-theme-mission .app-grid-header,
+    .app-theme-mission .app-echo .dv-item, 
+    .app-echo .app-grid .ui-last-child,
+    .app-theme-mission .app-echo .app-listview,
+    .app-theme-mission [data-container],
+    .app-theme-mission [data-layout="form"] {
+        border-color: #badb8f;
+    }
+
+        .app-theme-mission .app-grid-header .app-field-separator::after,
+        .app-theme-mission .app-calculated .app-field-separator::after {
+            background-color: #badb8f;
+        }
+
+    .app-theme-mission .ui-body-b .ui-btn-a,
+    .app-theme-mission .ui-body-b .ui-btn-a.ui-btn-active {
+        border-color: #dfc79d !important;
+    }
+
+    .app-theme-mission.app-has-popup-open .app-menu-strip .ui-btn:hover {
+        background-color: #dfc79d !important;
+    }
+
+    .app-theme-mission .ui-page-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-mission .ui-bar-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-mission .ui-body-a .ui-btn:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-theme-mission .ui-group-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html head + body.app-theme-mission .ui-btn-a.ui-btn:not(.app-selected):not(.app-lookup),
+    .app-theme-mission .ui-panel-page-container-a:not(.app-lookup),
+    .app-theme-mission .app-tabs.ui-header:not(.app-lookup),
+    .app-theme-mission .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-mission .ui-bar-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-mission .ui-body-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html body.app-theme-mission .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off),
+    html head + body.app-theme-mission .ui-btn-a.ui-btn:visited:not(.app-selected),
+    .app-theme-mission .app-tabs .ui-btn:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-mission .app-grid.app-listview :not(.app-selected):not(:hover):not(.ui-btn-active).ui-btn,
+    .app-theme-mission #app-welcome .ui-btn:not(:hover),
+    .app-theme-mission #app-popup-login .ui-btn:not(:hover),
+    .app-theme-mission .app-map-info .ui-popup-arrow,
+    .app-theme-mission .ui-listview .app-frozen-spacer,
+    .app-theme-mission [data-container="toggle"],
+.app-listview.app-grid .ui-btn:not(:hover):not(.app-selected):not(.ui-btn-active):not(.app-checked), 
+body:not(.app-desktop) .app-listview.app-grid .ui-btn:hover:not(.app-selected):not(.ui-btn-active):not(.app-checked) {
+        /*color: #000;*/
+        background-color: #f5f9ee;
+    }
+
+    /* top border of Info button in sidebar */
+    .app-theme-mission .app-sidebar .ui-btn.ui-icon-info {
+        border-color: #a5a5a5 !important;
+    }
+
+    /* navigation panel selected item color fix*/
+    .app-theme-mission .app-nav-panel .ui-btn-a {
+        color: #1f1f1f !important;
+    }
+
+    /* subtext coloring*/
+    .app-theme-mission .app-field-label-after,
+    .app-theme-mission .app-field-label-before,
+    .app-theme-mission .app-field-label,
+    .app-theme-mission .ui-panel .app-item-desc,
+    .app-theme-mission .app-item-number,
+    .app-data-input-popup li:not(.app-selected) span.app-text-normal {
+        color: #3c2902 !important;
+    }
+
+    .app-theme-mission .ui-page-theme-b a:not(.ui-btn),
+    .app-theme-mission .ui-bar-b a:not(.ui-btn),
+    .app-theme-mission .ui-body-b a:not(.ui-btn),
+    .app-theme-mission .ui-group-theme-b a:not(.ui-btn) {
+        color: #3c2902 !important;
+    }
+
+        .app-theme-mission .ui-page-theme-b a:not(.ui-btn):hover,
+        .app-theme-mission .ui-bar-b a:not(.ui-btn):hover,
+        .app-theme-mission .ui-body-b a:not(.ui-btn):hover,
+        .app-theme-mission .ui-group-theme-b a:not(.ui-btn):hover,
+        .app-theme-mission .ui-page-theme-b a:not(.ui-btn):active,
+        .app-theme-mission .ui-bar-b a:not(.ui-btn):active,
+        .app-theme-mission .ui-body-b a:not(.ui-btn):active,
+        .app-theme-mission .ui-group-theme-b a:not(.ui-btn):active {
+            color: #000 !important;
+        }
+
+
+    .app-theme-mission .ui-btn p {
+        color: #000 !important;
+    }
+
+    .app-theme-mission .ui-li-aside,
+    .app-theme-mission .ui-btn .ui-li-aside,
+    .app-theme-mission .app-grid-header,
+    .app-theme-mission .app-panel-info-view .app-list-instruction,
+    .app-theme-mission .app-calculated .app-static-text {
+        color: #3c2902 !important;
+    }
+
+    .app-theme-mission .app-filter {
+        color: #4c6c22;
+    }
+
+    .app-theme-mission .app-bar-heading .app-bar-label,
+    .app-theme-mission .app-static-text div,
+    .app-theme-mission .app-form-editing.app-formview label {
+        color: #3c2902;
+    }
+
+    .app-theme-mission .app-wrapper,
+    .app-theme-mission .app-echo-instruction {
+        color: #1d092d;
+        text-shadow: none;
+    }
+
+    /*selected button*/
+    .app-theme-mission .app-selected:not(.ui-btn-active),
+    .app-theme-mission .app-checked:not(.ui-btn-active),
+    .app-theme-mission .app-selected:hover,
+    .app-theme-mission .app-selected:visited,
+    .app-theme-mission .app-selected .app-frozen-spacer,
+    .app-theme-mission .app-checked .app-frozen-spacer {
+        background-color: #cbe4aa !important;
+        border-color: #badb8f !important;
+        color: #000 !important;
+    }
+
+    .app-theme-mission .app-grid-header .app-selected:not(.ui-btn-active) {
+        background-color: rgba(0,0,0,0.05) !important;
+    }
+
+    /* hover */
+    .app-theme-mission .ui-btn-a:hover:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-mission .ui-page-theme-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-mission .ui-bar-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-mission .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-desktop.app-theme-mission .ui-group-theme-a .ui-btn:hover:not(.app-selected),
+    html head + body.app-desktop.app-theme-mission .ui-btn-a.ui-btn:hover:not(.app-selected),
+    .app-theme-mission #app-welcome .ui-btn:hover:not(.ui-btn-active),
+    .app-theme-mission #app-popup-login .ui-btn:hover:not(.ui-btn-active),
+    .app-desktop.app-theme-mission .ui-listview a.ui-btn:hover:not(.app-selected) .app-frozen-spacer,
+    .app-desktop [data-container="collapsible"] [data-container="toggle"]:hover:not(.ui-btn-active) {
+        background-color: #e5f1d5;
+        border-color: #badb8f;
+    }
+
+    .app-theme-mission.app-desktop .app-grid-header span:hover:not(.ui-btn-active):not(.app-icon) {
+        background-color: #e5f1d5;
+    }
+
+    /* selected hover*/
+    html body.app-desktop.app-theme-mission .ui-btn.app-selected:hover:not(.ui-btn-active),
+    html body.app-desktop.app-theme-mission .ui-btn.app-checked:hover:not(.ui-btn-active),
+    .app-theme-mission .app-echo-toolbar .app-selected:not(.ui-btn-active),
+    .app-theme-mission .app-echo-toolbar .app-selected:not(.ui-btn-active):hover,
+    .app-theme-mission .app-listview .app-checked:not(.ui-btn-active):hover .app-frozen-spacer,
+    .app-theme-mission .app-listview .app-selected:not(.ui-btn-active):hover .app-frozen-spacer {
+        background-color: #bedd95 !important;
+        border-color: #badb8f;
+        color: #000 !important;
+    }
+
+    /* click */
+    .app-theme-mission .app-grid-header .ui-btn-active,
+    [data-container="collapsible"] [data-container="toggle"].ui-btn-active {
+        background-color: #4c6c22 !important;
+        color: #fff !important;
+    }
+
+    .app-theme-mission .app-listview .ui-btn.app-selected::before,
+    .app-theme-mission [data-input="checkboxlist"] .app-data-list li.app-selected::after {
+        background-color: #4c6c22;
+    }
+
+    .ui-btn.ui-btn-active::after,
+    .app-btn-more.ui-btn-active::after {
+        color: #4c6c22;
+    }
+
+.app-theme-mission [data-input] .app-data-list li.app-selected,
+.app-theme-mission [data-input] .app-data-list li::before,
+.app-theme-mission [data-input] .app-data-list li.app-selected::after {
+    border-color: #4c6c22;
+}
+
+    .app-theme-mission .ui-title.ui-btn-active,
+    .app-theme-mission .ui-btn.ui-btn-active,
+    .app-theme-mission .ui-btn.ui-btn-active .app-frozen-spacer {
+        background-color: #4c6c22 !important;
+        border-color: #badb8f !important;
+        color: #fff !important;
+    }
+
+        .app-theme-mission .ui-panel-position-left .ui-btn-active .app-item-desc,
+        .app-theme-mission .ui-panel-position-right .ui-btn-active .app-item-desc,
+        .app-theme-mission #app-sidebar .ui-btn-active .app-item-desc,
+        .app-theme-mission .app-listview-static .ui-btn-active .app-item-desc,
+        .app-theme-mission .ui-btn-active p,
+        .app-theme-mission .ui-btn-active p.ui-li-aside,
+        .app-theme-mission .ui-btn.ui-btn-active span:not(.ui-li-count) {
+            color: #fff !important;
+        }
+
+    .app-theme-mission .dv-action-see-all .app-btn-prev.ui-btn-active,
+    .app-theme-mission .dv-action-see-all .app-btn-next.ui-btn-active {
+        background-color: #4C6C22;
+        color: #fff;
+    }
+
+    .app-theme-mission .app-btn-check:not(.app-btn-check-selected) {
+        border-color: #BADB8F !important;
+        background-color: transparent !important;
+    }
+
+    .app-theme-mission .ui-btn.app-selected:not(.ui-btn-active) .app-btn-check:not(.app-btn-check-selected) {
+        border-color: #BADB8F !important;
+    }
+
+    .app-theme-mission .app-grid-header .app-btn-check:not(.app-btn-check-selected) {
+        background-color: transparent !important;
+        border-color: #BADB8F !important;
+    }
+
+    .app-theme-mission .app-btn-check.app-btn-check-selected {
+        border-color: #4C6C22 !important;
+        background-color: #4C6C22 !important;
+    }
+
+    [data-input] .app-control-helper ul li.ui-btn-active,
+    [data-input].app-has-focus .app-control-helper ul li.app-focus {
+        border-color: #4C6C22 !important;
+        background-color: #4C6C22 !important;
+        color: #fff!important;
+    }
+
+    .app-theme-mission .app-btn-check .app-icon-themed {
+        fill: #fff;
+    }
+
+    /* tabs */
+    .app-theme-mission .app-tabs.ui-header {
+        border-color: #a5a5a5;
+    }
+
+
+    .app-theme-mission .app-tabs .ui-btn {
+        border-color: #4c6c22 !important;
+        color: #1d092d;
+    }
+
+        .app-theme-mission .app-tabs .ui-btn.ui-btn-active {
+            border-color: #4c6c22 !important;
+            background-color: #4c6c22 !important;
+            color: #fff !important;
+        }
+
+    /*button on header bar*/
+
+    .app-theme-mission .app-bar-tools .ui-btn,
+    .app-theme-mission .app-map-info-toolbar .ui-btn {
+        border-color: #98ca57 !important;
+    }
+
+    .app-theme-mission.app-desktop .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots):hover,
+    .app-theme-mission .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots).ui-btn-active {
+        border-color: #4c6c22 !important;
+    }
+
+    .app-theme-mission .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots):not(.ui-radio-on)::after,
+    .app-theme-mission .ui-btn.ui-btn-icon-left:not(.ui-radio-on)::after,
+    .app-theme-mission .ui-btn.ui-btn-icon-right:not(.ui-radio-on):not(.app-btn-icon-transparent)::after,
+    .app-theme-mission .ui-btn.ui-btn-icon-top:not(.ui-radio-on)::after,
+    .app-theme-mission .ui-btn.ui-btn-icon-bottom:not(.ui-radio-on)::after,
+    .app-theme-mission .ui-checkbox-on:after,
+    .app-theme-mission .ui-flipswitch-active,
+    .app-theme-mission .ui-slider-track .ui-btn-active {
+        background-color: #4c6c22 !important;
+    }
+
+    .app-theme-mission .ui-btn .glyphicon {
+        color: #4c6c22;
+    }
+
+
+    .app-theme-mission .app-icon-themed {
+        fill: #4c6c22;
+    }
+
+    .app-theme-mission .ui-radio-on:after,
+    .app-theme-mission .ui-slider-track .ui-btn-active,
+    .app-theme-mission .ui-flipswitch-active {
+        border-color: #4c6c22 !important;
+    }
+
+
+    .app-theme-mission .ui-btn.ui-btn-active.ui-btn-icon-notext:not(.ui-icon-dots)::after,
+    .app-theme-mission .ui-btn.ui-btn-active.ui-btn-icon-left::after,
+    .app-theme-mission .ui-btn.ui-btn-active.ui-btn-icon-right:not(.app-btn-icon-transparent)::after,
+    .app-theme-mission .ui-btn.ui-btn-active.ui-btn-icon-top::after,
+    .app-theme-mission .ui-btn.ui-btn-active.ui-btn-icon-bottom::after {
+        background-color: #1c2b08 !important;
+    }
+
+    /*swatch b*/
+    .app-theme-mission .ui-btn.ui-btn-b,
+    .app-theme-mission .ui-btn.ui-btn-b:visited,
+    body.app-theme-mission:not(.app-desktop) li a.ui-btn-b:not(.ui-btn-active):hover {
+        background-color: #badb8f;
+        border-color: #dfc79d;
+        color: #1d092d;
+    }
+
+        /*swatch b hover*/
+
+        .app-theme-mission .ui-btn.ui-btn-b.ui-btn-active,
+        .app-theme-mission.app-desktop .ui-btn.ui-btn-b:hover,
+        .app-theme-mission .app-popup .ui-content .ui-checkbox .ui-btn:hover,
+        .app-theme-mission .app-popup .ui-content .ui-checkbox .ui-btn.ui-focus:hover {
+            background-color: #c6dea7;
+            border-color: #dfc79d;
+            color: #1d092d !important;
+        }
+
+    .app-theme-mission .app-nav-panel .ui-btn.ui-btn-b {
+        border-color: #dfc79d !important;
+    }
+
+    .app-theme-mission .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b,
+    .app-theme-mission.app-desktop .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b:hover,
+    .app-theme-mission .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b.ui-btn-active {
+        border-color: #a5a5a5 !important;
+    }
+
+    .app-theme-mission .ui-btn.ui-btn-b.ui-btn-active,
+    .app-theme-mission.app-desktop .ui-btn.ui-btn-b.ui-btn-active:hover {
+        color: #fff !important;
+    }
+
+
+    /*swatch b divider*/
+    .app-theme-mission .ui-bar-b,
+    .app-theme-mission .ui-bar-b .ui-bar-inherit,
+    html .app-theme-mission.ui-body-b .ui-bar-inherit,
+    html body.app-theme-mission .ui-group-theme-b .ui-bar-inherit {
+        border-color: #badb8f;
+        background-color: #dfc79d;
+    }
+
+    /*fix for lookups/inputs*/
+    .app-theme-mission .ui-btn.app-lookup:not(.ui-btn-active):not(.ui-focus),
+    .app-theme-mission .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select:not(.ui-focus) .ui-btn:not(.ui-btn-active),
+    .app-theme-mission .ui-input-text:not(.ui-btn-active),
+    .app-theme-mission .app-form-editing .ui-input-text:not(.ui-btn-active),
+    .app-theme-mission .ui-input-search.ui-body-inherit {
+        background-color: #fff;
+        border-color: #badb8f;
+        text-shadow: none;
+        /*color: #fff;*/
+    }
+
+        .app-theme-mission .ui-btn.app-lookup.ui-focus,
+        .app-theme-mission .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select.ui-focus .ui-btn:not(.ui-btn-active),
+        .app-theme-mission .ui-input-text.ui-focus,
+        .app-theme-mission .app-form-editing .ui-input-text.ui-focus,
+        .app-theme-mission .ui-input-search.ui-body-inherit.ui-focus,
+        .app-theme-mission .ui-checkbox label.ui-focus {
+            border-color: #79ae38 !important;
+        }
+
+    .app-theme-mission .ui-slider {
+        border-color: #badb8f !important;
+    }
+
+    .app-theme-mission .ui-slider-label.ui-btn-active {
+        background-color: #4c6c22 !important;
+    }
+
+    /* background bleed under form in editing mode*/
+    .app-theme-mission .ui-body-a.ui-collapsible-content {
+        background-color: #fff;
+    }
+
+    .app-theme-mission .app-bar-tools .ui-input-search.ui-body-inherit {
+        background-color: #fff;
+    }
+
+    .app-theme-mission .ui-btn.app-lookup,
+    .app-theme-mission .ui-btn.ui-focus.app-lookup {
+        border-color: #badb8f;
+    }
+
+    .app-theme-mission .app-lookup-input {
+        background-color: transparent;
+        /*color: #fff;*/
+    }
+
+    .app-theme-mission .app-grid-header {
+        color: #999;
+    }
+
+@media (min-width: 20em) {
+
+    .app-theme-mission .ui-header.ui-header-fixed.app-bar-tools {
+        background-image: url(logo-black.png);
+    }
+}
+
+.app-theme-mission .app-listview li .app-li-corner {
+    color: #fff;
+    background-color: #4c6c22;
+}
+
+.app-theme-mission .dataview-busy-indicator {
+    background-color: #4c6c22;
+}
+
+.app-theme-mission .ui-bar-a .app-menu-strip .ui-btn:not(.ui-btn-active), .app-theme-mission .ui-bar-a .app-user-name {
+    color: #777 !important;
+}
+
+.app-theme-mission .ui-bar-a .app-menu-strip .ui-btn:hover:not(.ui-btn-active),
+.app-theme-mission .ui-bar-a .app-menu-strip .ui-btn.app-selected:not(.ui-btn-active) {
+    color: #333 !important;
+}
+
+.app-theme-mission .app-chart .app-chart-inner {
+    border-color: #badb8f;
+}
+.app-theme-mission .app-calendar-plugin,
+.app-theme-mission .app-calendar {
+    background-color: #fff;
+    color: #000;
+}
+
+.app-theme-mission .app-bar-calendar {
+    background-color: #f2f2f2;
+}
+
+.app-theme-mission .app-calendar-monthview .app-calendar-month table td.app-calendar-weekend {
+    background-color: #e5f1d5;
+}
+
+.app-theme-mission .app-calendar-yearview .app-calendar-month td:not(.app-current-day):not(.ui-btn-active).app-has-data {
+    background-color: #e5f1d5;
+}
+
+.app-theme-mission .app-calendar-plugin,
+.app-theme-mission .app-calendar-color-legend,
+.app-theme-mission .app-calendar-monthview .app-calendar-month table,
+.app-theme-mission .app-calendar-monthview .app-calendar-month table td,
+.app-theme-mission .app-calendar-day > div > div,
+.app-theme-mission .app-bar-calendar .app-week-header li.last-day-of-week,
+.app-theme-mission .app-calendar-week-grid .app-calendar-day > div {
+    border-color: #badb8f;
+}
+
+    .app-theme-mission .app-calendar-plugin span.app-current-day,
+    .app-theme-mission .app-calendar-monthview .app-current-day,
+    .app-theme-mission .app-calendar-yearview .app-current-day,
+    .app-theme-mission .app-week-header .app-current-day,
+    .app-theme-mission .app-day-header .visible-day.app-current-day,
+    .app-theme-mission .app-has-current-day .current-time-line .dot {
+        background-color: #4c6c22;
+    }
+
+.app-theme-mission .app-has-current-day .current-time-line {
+    border-color: #4c6c22;
+}
+
+.app-calendar-plugin-container .app-time-container .app-selected,
+.app-calendar-plugin-container .app-time-header .app-cal-selected,
+.app-theme-mission .app-day-header :not(.ui-btn-active).ui-btn .app-current-day,
+.app-theme-mission .app-has-current-day .app-current-time,
+.app-theme-mission .app-calendar-agenda-list > li.app-has-current-day h2:not(.ui-btn-active) > span,
+.app-theme-mission .app-calendar-agenda-list li.app-time-line-container > .app-event-time,
+.app-theme-mission .app-calendar-plugin .app-date-selector-container .app-current:not(.ui-btn-active) {
+    color: #4c6c22;
+}
+
+.app-calendar-plugin-container .app-time-selector .app-time-hand,
+.app-calendar-plugin-container .app-time-hand > span,
+.app-calendar-plugin table tr.ui-btn-active td,
+.app-calendar-plugin table tr.ui-btn-active td:hover,
+.app-calendar-plugin table td.ui-btn-active,
+.app-calendar-plugin table td.ui-btn-active:hover,
+.app-calendar-yearview .app-calendar-month td.ui-btn-active {
+    background-color: #4c6c22 !important;
+}
+
+.app-theme-mission .app-calendar-month-header,
+.app-theme-mission .app-calendar-month-header h1 {
+    color: #3c2902 !important;
+}
+
+/***** bootstrap *****/
+
+.app-theme-mission .app-bootstrap a:not(.btn),
+.app-theme-mission body:not(.app-desktop) .app-bootstrap a:hover {
+    color: #3c2902;
+}
+
+.app-theme-mission .dropdown-menu > li > a:not(.ui-btn),
+body:not(.app-desktop) .dropdown-menu > li > a:hover {
+    color: #777 !important;
+}
+
+.app-theme-mission .jumbotron {
+    background-color: #badb8f;
+}
+
+.app-theme-mission .btn-default,
+.app-theme-mission .btn-default:focus,
+.app-theme-mission .btn-default:visited {
+    background-color: #f5f9ee;
+    border-color: #badb8f;
+    color: #333 !important;
+}
+
+.app-theme-mission.app-desktop .btn-default:hover {
+    background-color: #e5f1d5;
+    border-color: #a5a5a5;
+}
+
+.app-theme-mission .app-bootstrap .btn.ui-btn-active,
+.app-theme-mission .app-bootstrap .btn.ui-btn-active:hover,
+.app-theme-mission .app-bootstrap .btn.ui-btn-active:focus,
+.app-theme-mission .app-bootstrap .list-group-item.ui-btn-active,
+.app-theme-mission .app-bootstrap .list-group-item.ui-btn-active:hover,
+.app-theme-mission .app-bootstrap .list-group-item.ui-btn-active:focus,
+.app-theme-mission .app-bootstrap .list-group-item.ui-btn-active .list-group-item-text,
+.app-theme-mission .app-bootstrap .list-group-item.ui-btn-active .list-group-item-heading {
+    background-color: #4c6c22 !important;
+    border-color: #4c6c22 !important;
+    color: #fff !important;
+}
+
+.app-theme-mission .app-bootstrap .nav .ui-btn-active,
+.app-theme-mission .app-bootstrap .nav .ui-btn-active:hover,
+.app-theme-mission .app-bootstrap .nav .ui-btn-active:focus {
+    background-color: #4c6c22 !important;
+    border-color: #badb8f !important;
+    color: #fff !important;
+}
+
+.app-theme-mission .table,
+.app-theme-mission .table > thead > tr > th,
+.app-theme-mission .table > tbody > tr > th,
+.app-theme-mission .table > tfoot > tr > th,
+.app-theme-mission .table > thead > tr > td,
+.app-theme-mission .table > tbody > tr > td,
+.app-theme-mission .table > tfoot > tr > td,
+.app-theme-mission .list-group-item:not(.active) {
+    background-color: #e5f1d5;
+    border-color: #badb8f;
+}
+
+.app-theme-mission.app-desktop a.list-group-item:hover:not(.active) {
+    background-color: #f5f9ee;
+}
+
+.app-theme-mission .table > thead > tr > th,
+.app-theme-mission .table > tbody > tr > th,
+.app-theme-mission .table > tfoot > tr > th {
+    color: #333;
+    background-color: #f2e8d7;
+}
+
+.app-theme-mission .table-striped > tbody > tr:nth-child(2n+1) > td,
+.app-theme-mission .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #e1ecd1;
+}
+
+.app-theme-mission.app-desktop .navbar-default .navbar-toggle:hover,
+.app-theme-mission .app-bootstrap .navbar-default .navbar-toggle:focus,
+.app-theme-mission .list-group-item.active:not(.btn),
+.app-theme-mission .list-group-item.active:not(.btn):hover,
+.app-theme-mission .list-group-item.active:not(.btn):focus,
+.app-theme-mission .nav-pills > li.active > a,
+.app-theme-mission .nav-pills > li.active > a:hover,
+.app-theme-mission .nav-pills > li.active > a:focus {
+    color: #fff !important;
+    background-color: #4c6c22;
+    border-color: #4c6c22;
+}
+
+.app-theme-mission .list-group-item.active .list-group-item-text {
+    color: #fff;
+}
+
+.app-theme-mission .list-group-item:not(.active):not(.ui-btn-active):hover,
+.app-theme-mission .list-group-item:not(.active):not(.ui-btn-active):hover .list-group-item-text {
+    color: #000 !important;
+}
+
+.app-theme-mission .list-group-item.active > .badge,
+.app-theme-mission .nav-pills > .active > a > .badge {
+    color: #4c6c22 !important;
+}
+
+.app-theme-mission .navbar-default .navbar-toggle .icon-bar {
+    background-color: #a5a5a5;
+}
+
+.app-desktop.app-theme-mission .navbar-default .navbar-toggle:hover .icon-bar,
+.app-desktop.app-theme-mission .navbar-default .navbar-toggle:active .icon-bar,
+.app-desktop.app-theme-mission .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+}
+
+.app-theme-mission .img-thumbnail {
+    background-color: #e5f1d5;
+    border-color: #badb8f;
+}
+
+.app-theme-mission .page-header,
+.app-theme-mission .nav-tabs {
+    border-color: #badb8f;
+}
+
+    .app-theme-mission .nav-tabs > li.active > a,
+    .app-theme-mission .nav-tabs > li.active > a:hover,
+    .app-theme-mission .nav-tabs > li.active > a:focus {
+        border-top-color: #badb8f;
+        border-left-color: #badb8f;
+        border-right-color: #badb8f;
+    }
+
+.app-theme-mission.app-desktop .nav > li:not(.active) > a:hover,
+.app-theme-mission.app-desktop .nav > li:not(.active) > a:focus {
+    background-color: rgba(255,255,255,0.25);
+    border-color: #a5a5a5;
+}
+
+.app-theme-mission.app-desktop .nav-tabs > li:not(.active) > a:hover,
+.app-theme-mission .nav-tabs > li:not(.active) > a:focus,
+.app-theme-mission.app-desktop .nav-pills > li:not(.active) > a:hover,
+.app-theme-mission .nav-pills > li:not(.active) > a:focus {
+    background-color: #f5f9ee;
+}
+
+.app-theme-mission .navbar-default {
+    background-color: #dfc79d;
+    border-color: #a5a5a5;
+}
+
+    .app-theme-mission .navbar-default .navbar-brand,
+    .app-theme-mission .navbar-default .navbar-brand:hover {
+        color: #777 !important;
+    }
+
+    .app-theme-mission .navbar-default .navbar-nav > li > a {
+        color: #777 !important;
+    }
+
+.app-theme-mission.app-desktop .navbar-default a.navbar-brand:hover,
+.app-theme-mission .app-bootstrap .navbar-default a.navbar-brand.ui-btn-active,
+.app-theme-mission.app-desktop .navbar-default .navbar-nav > li > a:hover {
+    color: #333 !important;
+}
+
+.app-theme-mission .app-bootstrap .navbar-default .navbar-nav > .active > a,
+.app-theme-mission .app-bootstrap .navbar-default .navbar-nav > .active > a:hover,
+.app-theme-mission .app-bootstrap .navbar-default .navbar-nav > .active > a:focus,
+.app-theme-mission .app-bootstrap .navbar-default .navbar-nav > .open > a,
+.app-theme-mission .app-bootstrap .navbar-default .navbar-nav > .open > a:hover,
+.app-theme-mission .app-bootstrap .navbar-default .navbar-nav > .open > a:focus {
+    color: #333 !important;
+    background-color: rgba(0,0,0,.05);
+}
+
+.app-theme-mission .well {
+    background-color: #e5f1d5;
+    border-color: #badb8f;
+}
+
+@media all and (max-width:767px) {
+    .app-sidebar-undocked.app-theme-mission .navbar-nav .open .dropdown-menu {
+        background-color: #e5f1d5;
+    }
+
+    .app-sidebar-undocked.app-theme-mission.app-desktop .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .app-sidebar-undocked.app-theme-mission .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-color: #f5f9ee;
+    }
+}
+
+.app-theme-mission .dropdown-menu {
+    background-color: #f5f9ee;
+}
+
+    .app-theme-mission .dropdown-menu .divider {
+        background-color: #badb8f;
+    }
+
+    .app-theme-mission.app-desktop .dropdown-menu > li > a:hover,
+    .app-theme-mission .dropdown-menu > li > a:focus {
+        background-color: #e5f1d5;
+    }
+
+.app-theme-mission .navbar-default .navbar-collapse,
+.app-theme-mission .navbar-default .navbar-form,
+.app-theme-mission .navbar-default .navbar-toggle {
+    border-color: #a5a5a5;
+}
+
+.app-theme-mission .navbar-inverse a:not(.ui-btn) {
+    color: #777 !important;
+}
+
+.app-theme-mission.app-desktop .navbar-inverse a.navbar-brand:hover,
+.app-theme-mission.app-desktop .navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff !important;
+}
+
+.app-theme-mission .navbar-inverse .navbar-nav > .active > a,
+.app-theme-mission .navbar-inverse .navbar-nav > .active > a:hover,
+.app-theme-mission .navbar-inverse .navbar-nav > .active > a:focus,
+.app-theme-mission .navbar-inverse .navbar-nav > .open > a,
+.app-theme-mission .navbar-inverse .navbar-nav > .open > a:hover,
+.app-theme-mission .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff !important;
+}

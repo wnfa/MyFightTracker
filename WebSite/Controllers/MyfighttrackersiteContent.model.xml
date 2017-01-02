@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="myfighttracker" baseTable="site_content" alias="site_content" created="2016-11-02T20:21:55" modified="2016-11-08T07:42:29" x="20" y="20" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys />
+  <columns>
+    <column name="site_content_id" fieldName="SiteContentID" label="Site Content Id" />
+    <column name="file_name" fieldName="FileName" label="File Name" />
+    <column name="path" fieldName="Path" label="Path" />
+    <column name="content_type" fieldName="ContentType" label="Content Type" />
+    <column name="length" fieldName="Length" label="Length" />
+    <column name="data" fieldName="Data" label="Data" />
+    <column name="text" fieldName="Text" label="Text" />
+    <column name="roles" fieldName="Roles" label="Roles" />
+    <column name="role_exceptions" fieldName="RoleExceptions" label="Role Exceptions" />
+    <column name="users" fieldName="Users" label="Users" />
+    <column name="user_exceptions" fieldName="UserExceptions" label="User Exceptions" />
+    <column name="schedule" fieldName="Schedule" label="Schedule" />
+    <column name="schedule_exceptions" fieldName="ScheduleExceptions" label="Schedule Exceptions" />
+    <column name="cache_profile" fieldName="CacheProfile" label="Cache Profile" />
+  </columns>
+</dataModel>

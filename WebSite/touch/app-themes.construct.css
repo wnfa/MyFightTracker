@@ -1,0 +1,947 @@
+﻿/*********************************/
+/* THEME: construct             */
+/*******************************/
+
+.app-theme-construct,
+.app-theme-construct .ui-page-theme-a {
+    background-color: #fff;
+}
+
+    .app-theme-construct .ui-page-theme-a .ui-panel-wrapper,
+    .app-theme-construct .ui-panel,
+    .app-theme-construct .app-page-header,
+    .app-theme-construct .app-status-bar,
+    .app-bar-footer.ui-bar-inherit {
+        background-color: #b8bf88;
+        border-color: #858e4c;
+    }
+
+    .app-theme-construct .app-page-header {
+        color: #1f1f1f;
+        background-color: #f1f5f8;
+    }
+
+    .app-theme-construct .app-status-bar {
+        color: #000;
+    }
+
+    .app-theme-construct .app-form-editing.app-formview .app-static-text div,
+    .app-theme-construct .app-page-menu-desc,
+    .app-theme-construct .ui-checkbox label {
+        text-shadow: none !important;
+        /*color: #fff;*/
+    }
+
+    /*popup*/
+    .app-theme-construct .app-popup-message,
+    .app-theme-construct .ui-content.app-map-info {
+        background-color: #b8bf88;
+        border-color: #858e4c;
+        text-shadow: none;
+        color: #fff;
+    }
+
+        .app-theme-construct .app-popup-message .ui-popup-arrow {
+            background-color: #b8bf88;
+        }
+
+        .app-theme-construct .app-popup-message div {
+            color: #b8bf88;
+        }
+
+    .app-theme-construct .ui-flipswitch-active a {
+        color: #fff !important;
+    }
+        
+    .app-data-input-popup .app-selected .app-caret-r .app-caret {
+        border-left-color: #000;
+    }
+
+    /* page header */
+    .app-theme-construct .ui-bar-a,
+    .app-theme-construct :not(.app-tabs).ui-header-fixed.ui-header,
+    .app-theme-construct .ui-footer-fixed {
+        background-color: #b8bf88;
+        border-color: #858e4c;
+        text-shadow: none;
+    }
+
+    .app-theme-construct .app-popup-listview .ui-popup-arrow,
+    .app-theme-construct .app-popup-listview {
+        background-color: #b8bf88 !important;
+        border-color: #b8bf88 !important;
+    }
+
+    /* list dividers*/
+    /*.app-theme-construct .ui-listview > .app-list-instruction.ui-li-divider
+    {
+        background-color:red;
+    }
+    
+    .app-theme-construct ui-li-divider {
+        background-color: #d1d6b3;
+        border-color: #858e4c;
+        color: #555;
+        text-shadow: none;
+    }*/
+
+    .app-theme-construct ui-li-divider,
+    .app-theme-construct .ui-content.app-page-tasks .app-listview .ui-li-divider:not(.ui-bar-b) {
+        background-color: #b8bf88;
+        border-color: #858e4c;
+        /*color: #fff;*/
+        text-shadow: none;
+    }
+
+    .app-theme-construct .ui-listview .app-list-instruction.ui-li-divider,
+    .app-theme-construct .ui-content:not(.app-page-tasks) .app-listview .ui-li-divider:not(.ui-bar-b):not(.ui-bar-inherit),
+    .app-theme-construct .app-presenter-instruction,
+    .app-theme-construct .app-grid-header .app-frozen-spacer {
+        background-color: #e3e6d0 !important;
+        border-color: #d1d6b3 !important;
+    }
+
+    .app-theme-construct .ui-body-a,
+    .app-theme-construct .ui-page-theme-a .ui-body-inherit:not(.ui-focus) {
+        background-color: #fff;
+        border-color: #858e4c;
+        text-shadow: none;
+    }
+
+    .app-theme-construct ul:not(.app-form-editing) .ui-field-contain {
+        border-color: #d1d6b3 !important;
+    }
+
+    .app-theme-construct .ui-page-theme-a .app-formview .ui-body-inherit:not(.ui-focus) {
+        background-color: #fff;
+    }
+
+
+    /*sidebar customizations*/
+    .app-theme-construct .ui-body-a.app-sidebar {
+        background-color: #b8bf88;
+    }
+
+    .app-theme-construct.app-sidebar-undocked .app-form-grid .ui-collapsible-set,
+    .app-theme-construct .ui-listview-inset .ui-li-divider:not(.ui-bar-a) {
+        border-color: #d1d6b3 !important;
+    }
+
+    .app-theme-construct .ui-li-divider.app-info {
+        background-color: #fff !important;
+    }
+
+        .app-theme-construct .ui-li-divider.app-info .appname {
+            color: #f7b615;
+        }
+
+    /* fix for form "card" */
+    .app-theme-construct .ui-page-theme-a .ui-body-inherit.app-li-card {
+        border-color: #d1d6b3;
+    }
+
+    /*.app-theme-construct .ui-listview-inset {
+        background-color: #ebf3ff;
+    }*/
+
+    .app-theme-construct .app-form-editing.app-formview .ui-field-contain {
+        border-top-color: transparent;
+    }
+
+    body:not(.app-sidebar-undocked).app-theme-construct .ui-header-fixed .ui-title,
+    body:not(.app-sidebar-undocked).app-theme-construct .app-sidebar,
+    .app-theme-construct .app-divider:not(.app-calculated),
+    .app-theme-construct .app-echo,
+    .app-theme-construct .app-header {
+        border-color: #858e4c !important;
+    }
+
+    .app-theme-construct .app-bar-heading {
+        background-color: #e3e6d0;
+        /*color: white;*/
+        text-shadow: none;
+    }
+
+
+    .app-theme-construct .app-page-header {
+        border-color: #d1d6b3;
+    }
+
+
+    /*buttons*/
+    .app-theme-construct .ui-page-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-construct .ui-bar-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-construct .ui-body-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html body.app-theme-construct .ui-group-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html head + body.app-theme-construct .ui-btn-a.ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    .app-theme-construct .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-construct .ui-bar-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-construct .ui-body-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html body.app-theme-construct .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html head + body.app-theme-construct .ui-btn-a.ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    .app-theme-construct .app-form-grid .ui-collapsible-set,
+    /* button overrides to remove "hover" on touch screens */
+    body.app-theme-construct:not(.app-desktop) li a:hover:not(.app-selected):not(.ui-btn-b),
+    body:not(.app-desktop).app-theme-construct .ui-page-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-construct .ui-bar-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-construct .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-construct .ui-group-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html head + body:not(.app-desktop).app-theme-construct .ui-btn-a.ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    .app-theme-construct #app-welcome .ui-btn:not(:hover),
+    .app-theme-construct #app-popup-login .ui-btn:not(:hover),
+    .app-theme-construct .ui-listview .app-frozen-spacer,
+    .app-theme-construct .app-grid-header,
+    .app-echo .app-grid .ui-last-child,
+    .app-theme-construct .app-echo .dv-item, 
+    .app-theme-construct .app-echo .app-listview,
+    .app-theme-construct [data-container],
+    .app-theme-construct [data-layout="form"] {
+        border-color: #d1d6b3;
+    }
+
+        .app-theme-construct .app-grid-header .app-field-separator::after,
+        .app-theme-construct .app-calculated .app-field-separator::after {
+            background-color: #d1d6b3;
+        }
+
+    .app-theme-construct .ui-body-b .ui-btn-a,
+    .app-theme-construct .ui-body-b .ui-btn-a.ui-btn-active {
+        border-color: #87abc9 !important;
+    }
+
+    .app-theme-construct.app-has-popup-open .app-menu-strip .ui-btn:hover {
+        background-color: #87abc9 !important;
+    }
+
+    .app-theme-construct .ui-page-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-construct .ui-bar-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-construct .ui-body-a .ui-btn:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-theme-construct .ui-group-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html head + body.app-theme-construct .ui-btn-a.ui-btn:not(.app-selected):not(.app-lookup),
+    .app-theme-construct .ui-panel-page-container-a:not(.app-lookup),
+    .app-theme-construct .app-tabs.ui-header:not(.app-lookup),
+    .app-theme-construct .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-construct .ui-bar-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-construct .ui-body-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html body.app-theme-construct .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off),
+    html head + body.app-theme-construct .ui-btn-a.ui-btn:visited:not(.app-selected),
+    .app-theme-construct .app-tabs .ui-btn:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-construct .app-grid.app-listview :not(.app-selected):not(:hover):not(.ui-btn-active).ui-btn,
+    .app-theme-construct #app-welcome .ui-btn:not(:hover),
+    .app-theme-construct #app-popup-login .ui-btn:not(:hover),
+    .app-theme-construct .app-map-info .ui-popup-arrow,
+    .app-theme-construct .ui-listview .app-frozen-spacer,
+    .app-theme-construct [data-container="toggle"],
+.app-listview.app-grid .ui-btn:not(:hover):not(.app-selected):not(.ui-btn-active):not(.app-checked), 
+body:not(.app-desktop) .app-listview.app-grid .ui-btn:hover:not(.app-selected):not(.ui-btn-active):not(.app-checked) {
+        color: #000;
+        background-color: #f4f5ec;
+    }
+
+    /* top border of Info button in sidebar */
+    .app-theme-construct .app-sidebar .ui-btn.ui-icon-info {
+        border-color: #858e4c !important;
+    }
+
+    /* navigation panel selected item color fix*/
+    .app-theme-construct .ui-panel-inner .ui-btn-a {
+        color: #fff; /*#B78710 !important;*/
+    }
+
+    /* subtext coloring*/
+    .app-theme-construct .app-field-label-after,
+    .app-theme-construct .app-field-label-before,
+    .app-theme-construct .app-field-label,
+    .app-theme-construct .ui-panel .app-item-desc,
+    .app-theme-construct .ui-li-aside,
+    .app-theme-construct .ui-btn .ui-li-aside,
+    .app-theme-construct .app-grid-header,
+    .app-theme-construct .app-panel-info-view .app-list-instruction,
+    .app-theme-construct .app-calculated .app-static-text,
+    .app-theme-construct .app-item-number ,
+    .app-data-input-popup li:not(.app-selected) span.app-text-normal{
+        color: #B78710 !important;
+    }
+
+    .app-theme-construct .app-filter {
+        color: #5c8fd1;
+    }
+
+    .app-theme-construct .ui-page-theme-b a:not(.ui-btn),
+    .app-theme-construct .ui-bar-b a:not(.ui-btn),
+    .app-theme-construct .ui-body-b a:not(.ui-btn),
+    .app-theme-construct .ui-group-theme-b a:not(.ui-btn) {
+        color: #fed164 !important;
+    }
+
+    .app-theme-construct a:not(.ui-btn):not(.btn),
+    .app-theme-construct a:visited:not(.ui-btn):not(.btn) {
+        color: #b78710;
+    }
+
+        .app-theme-construct a:not(.ui-btn):not(.btn):hover,
+        .app-theme-construct a:not(.ui-btn):not(.btn):active {
+            color: #876b26;
+        }
+
+    .app-theme-construct .ui-page-theme-b a:not(.ui-btn):hover,
+    .app-theme-construct .ui-bar-b a:not(.ui-btn):hover,
+    .app-theme-construct .ui-body-b a:not(.ui-btn):hover,
+    .app-theme-construct .ui-group-theme-b a:not(.ui-btn):hover,
+    .app-theme-construct .ui-page-theme-b a:not(.ui-btn):active,
+    .app-theme-construct .ui-bar-b a:not(.ui-btn):active,
+    .app-theme-construct .ui-body-b a:not(.ui-btn):active,
+    .app-theme-construct .ui-group-theme-b a:not(.ui-btn):active {
+        color: #fff !important;
+    }
+
+    .app-theme-construct .ui-btn p {
+        color: #000 !important;
+    }
+
+    .app-theme-construct .app-bar-heading .app-bar-label,
+    .app-theme-construct .app-static-text div,
+    .app-theme-construct .app-form-editing.app-formview label /*, .app-theme-construct .app-wrapper*/ {
+        color: #B78710;
+    }
+
+    /*selected button*/
+    .app-theme-construct .app-selected:not(.ui-btn-active),
+    .app-theme-construct .app-checked:not(.ui-btn-active),
+    .app-theme-construct .app-selected:hover,
+    .app-theme-construct .app-selected:visited,
+    .app-theme-construct .app-selected .app-frozen-spacer,
+    .app-theme-construct .app-checked .app-frozen-spacer {
+        background-color: #e0e9f1 !important;
+        border-color: #d1d6b3 !important;
+        color: #000 !important;
+    }
+
+    .app-theme-construct .app-grid-header .app-selected:not(.ui-btn-active) {
+        background-color: rgba(0,0,0,0.05) !important;
+    }
+
+    /* hover */
+    .app-theme-construct .ui-btn-a:hover:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-construct .ui-page-theme-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-construct .ui-bar-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-construct .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-desktop.app-theme-construct .ui-group-theme-a .ui-btn:hover:not(.app-selected),
+    html head + body.app-desktop.app-theme-construct .ui-btn-a.ui-btn:hover:not(.app-selected),
+    .app-desktop.app-theme-construct .ui-listview a.ui-btn:hover:not(.app-selected) .app-frozen-spacer,
+    .app-desktop [data-container="collapsible"] [data-container="toggle"]:hover:not(.ui-btn-active) {
+        background-color: #f0f2df;
+        border-color: #d1d6b3;
+    }
+
+    .app-theme-construct.app-desktop .app-grid-header span:hover:not(.ui-btn-active):not(.app-icon) {
+        background-color: #dde0c9;
+    }
+
+    /* selected hover*/
+    html body.app-desktop.app-theme-construct .ui-btn.app-selected:hover:not(.ui-btn-active),
+    html body.app-desktop.app-theme-construct .ui-btn.app-checked:hover:not(.ui-btn-active),
+    .app-theme-construct #app-welcome .ui-btn:hover:not(.ui-btn-active),
+    .app-theme-construct #app-popup-login .ui-btn:hover:not(.ui-btn-active),
+    .app-theme-construct .app-echo-toolbar .app-selected:not(.ui-btn-active),
+    .app-theme-construct .app-echo-toolbar .app-selected:not(.ui-btn-active):hover,
+    .app-theme-construct .app-listview .app-selected:not(.ui-btn-active):hover .app-frozen-spacer,
+    .app-theme-construct .app-listview .app-checked:not(.ui-btn-active):hover .app-frozen-spacer {
+        background-color: #d6e2ec !important;
+        border-color: #d1d6b3 !important;
+        color: #000 !important;
+    }
+
+    /*swatch b*/
+    .app-theme-construct .ui-btn.ui-btn-b,
+    .app-theme-construct .ui-btn.ui-btn-b:visited,
+    body.app-theme-construct:not(.app-desktop) li a.ui-btn-b:not(.ui-btn-active):hover {
+        background-color: #b1c8db;
+        border-color: #87abc9;
+        color: #000;
+    }
+
+    /*swatch b hover*/
+    .app-theme-construct.app-desktop .ui-btn.ui-btn-b:not(.ui-btn-active):hover {
+        background-color: #a9c0d4;
+        border-color: #87abc9;
+        color: #000 !important;
+    }
+
+
+    /*swatch b divider*/
+    .app-theme-construct .ui-bar-b,
+    .app-theme-construct .ui-bar-b .ui-bar-inherit,
+    html .app-theme-construct.ui-body-b .ui-bar-inherit,
+    html body.app-theme-construct .ui-group-theme-b .ui-bar-inherit {
+        border-color: #87abc9;
+        background-color: #b8bf88;
+    }
+
+    .app-theme-construct .ui-body-a:not(#app-popup-login):not(#app-welcome) .ui-btn-b,
+    .app-theme-construct.app-desktop .ui-body-a:not(#app-popup-login):not(#app-welcome) .ui-btn-b:hover,
+    .app-theme-construct .ui-body-a:not(#app-popup-login):not(#app-welcome) .ui-btn-b.ui-btn-active {
+        border-color: #858e4c !important;
+    }
+
+    /* click */
+    .app-theme-construct .app-grid-header span.ui-btn-active,
+.app-theme-construct [data-input="checkboxlist"] .app-data-list li.app-selected::after,
+    [data-container="collapsible"] [data-container="toggle"].ui-btn-active  {
+        background-color: #5c8fd1 !important;
+        color: #fff !important;
+    }
+
+.app-theme-construct [data-input] .app-data-list li.app-selected,
+.app-theme-construct [data-input] .app-data-list li::before,
+.app-theme-construct [data-input] .app-data-list li.app-selected::after {
+    border-color: #5c8fd1;
+}
+
+    .app-theme-construct .app-listview .ui-btn.app-selected::before {
+        background-color: #5c8fd1;
+    }
+
+    .ui-btn.ui-btn-active::after,
+    .app-btn-more.ui-btn-active::after {
+        color: #5c8fd1;
+    }
+
+    .app-theme-construct .ui-title.ui-btn-active,
+    html body.app-theme-construct .ui-btn.ui-btn-active,
+    .app-theme-construct .ui-btn.ui-btn-active .app-frozen-spacer {
+        background-color: #5c8fd1 !important;
+        border-color: #d1d6b3 !important;
+        color: #fff !important;
+    }
+
+    .app-theme-construct .ui-panel-position-left .ui-btn-active .app-item-desc,
+    .app-theme-construct .ui-panel-position-right .ui-btn-active .app-item-desc,
+    .app-theme-construct #app-sidebar .ui-btn-active .app-item-desc,
+    .app-theme-construct .app-listview-static .ui-btn-active .app-item-desc,
+    .app-theme-construct .ui-btn-active p,
+    .app-theme-construct .ui-btn-active p.ui-li-aside,
+    .app-theme-construct .ui-btn.ui-btn-active span:not(.ui-li-count) {
+        color: #fff !important;
+    }
+
+html body.app-theme-construct .ui-btn.ui-btn-active::after {
+    background-color: #798243;
+}
+
+
+html body.app-theme-construct .ui-body-b .ui-btn.ui-btn-active {
+    border-color: #87abc9 !important;
+}
+
+.app-theme-construct .dv-action-see-all .app-btn-prev.ui-btn-active,
+.app-theme-construct .dv-action-see-all .app-btn-next.ui-btn-active {
+    background-color: #5C8FD1;
+    color: #fff;
+}
+
+.app-theme-construct .app-btn-check:not(.app-btn-check-selected) {
+    border-color: #D1D6B3 !important;
+    background-color: transparent !important;
+}
+
+.app-theme-construct .ui-btn.app-selected:not(.ui-btn-active) .app-btn-check:not(.app-btn-check-selected) {
+    border-color: #D1D6B3 !important;
+}
+
+.app-theme-construct .app-grid-header .app-btn-check:not(.app-btn-check-selected) {
+    background-color: transparent !important;
+    border-color: #D1D6B3 !important;
+}
+
+.app-theme-construct .app-btn-check.app-btn-check-selected {
+    border-color: #5C8FD1 !important;
+    background-color: #5C8FD1 !important;
+}
+
+    [data-input] .app-control-helper ul li.ui-btn-active,
+    [data-input].app-has-focus .app-control-helper ul li.app-focus {
+        border-color: #5C8FD1 !important;
+        background-color: #5C8FD1 !important;
+        color: #fff!important;
+    }
+
+.app-theme-construct .app-btn-check .app-icon-themed {
+    fill: #fff;
+}
+
+/* tabs */
+
+.app-theme-construct .app-tabs.ui-header {
+    border-color: #858e4c;
+}
+
+.app-theme-construct .app-tabs .ui-btn {
+    border-color: #5c8fd1 !important;
+}
+
+    .app-theme-construct .app-tabs .ui-btn.ui-btn-active {
+        border-color: #5c8fd1 !important;
+        background-color: #5c8fd1 !important;
+        color: #fff !important;
+    }
+
+/*buttons*/
+.app-theme-construct .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots):not(.ui-radio-on)::after,
+.app-theme-construct .ui-btn.ui-btn-icon-left:not(.ui-radio-on)::after,
+.app-theme-construct .ui-btn.ui-btn-icon-right:not(.ui-radio-on):not(.app-btn-icon-transparent)::after,
+.app-theme-construct .ui-btn.ui-btn-icon-top:not(.ui-radio-on)::after,
+.app-theme-construct .ui-btn.ui-btn-icon-bottom:not(.ui-radio-on)::after,
+.app-theme-construct .ui-checkbox-on:after,
+.app-theme-construct .ui-flipswitch-active,
+.app-theme-construct .ui-slider-track .ui-btn-active {
+    background-color: #858e4c;
+}
+
+.app-theme-construct .ui-btn .glyphicon {
+    color: #858e4c;
+}
+
+.app-theme-construct .app-icon-themed {
+    fill: #858e4c;
+}
+
+.app-theme-construct .app-bar-footer.ui-footer-fixed .ui-btn,
+.app-theme-construct .ui-radio-on:after,
+.app-theme-construct .ui-slider-track .ui-btn-active,
+.app-theme-construct .ui-flipswitch-active {
+    border-color: #858e4c !important;
+}
+
+/* toolbar buttons*/
+.app-theme-construct #app-bar-tools .ui-btn.ui-btn-icon-notext,
+.app-theme-construct .app-map-info-toolbar .ui-btn.ui-btn-icon-notext {
+    border-color: #5c8fd1 !important;
+}
+
+    .app-theme-construct #app-bar-tools .ui-btn.ui-btn-icon-notext::after,
+    .app-theme-construct .app-map-info-toolbar .ui-btn.ui-btn-icon-notext::after,
+    .app-theme-construct .ui-btn-b::after {
+        background-color: #7695AF !important;
+    }
+
+.app-theme-construct .ui-btn.app-btn-icon-transparent::after,
+.app-theme-construct .ui-btn.ui-btn-active.app-btn-icon-transparent::after {
+    background-color: transparent !important;
+}
+
+.app-theme-construct .app-bar-actions .ui-btn,
+.app-theme-construct .app-bar-actions .ui-btn.ui-btn-active {
+    border-color: #858e4c !important;
+}
+
+/* hover for form */
+.app-theme-construct.app-desktop .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots):hover,
+.app-theme-construct .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots).ui-btn-active {
+    border-color: #858e4c !important;
+}
+
+.app-theme-construct.app-desktop #app-bar-tools .ui-btn.ui-btn-icon-notext:hover:not(.ui-btn-active),
+.app-theme-construct.app-desktop .app-map-info-toolbar .ui-btn.ui-btn-icon-notext:hover:not(.ui-btn-active) {
+    border-color: #3f5f8a !important;
+    background-color: #cfe1f6 !important;
+}
+
+/* active*/
+
+.app-theme-construct #app-bar-tools .ui-btn.ui-btn-icon-notext.ui-btn-active::after,
+.app-theme-construct .app-map-info-toolbar .ui-btn.ui-btn-icon-notext.ui-btn-active::after,
+.app-theme-construct .ui-btn.ui-btn-active::after {
+    background-color: #4a74aa !important;
+}
+
+/*fix for lookups/inputs*/
+.app-theme-construct .ui-btn.app-lookup:not(.ui-btn-active):not(.ui-focus),
+.app-theme-construct .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select:not(.ui-focus) .ui-btn:not(.ui-btn-active),
+.app-theme-construct .ui-input-text:not(.ui-btn-active),
+.app-theme-construct .app-form-editing .ui-input-text:not(.ui-btn-active),
+.app-theme-construct .ui-input-search.ui-body-inherit {
+    background-color: #fff;
+    border-color: #d1d6b3;
+    text-shadow: none;
+}
+
+    .app-theme-construct .ui-btn.app-lookup.ui-focus,
+    .app-theme-construct .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select.ui-focus .ui-btn:not(.ui-btn-active),
+    .app-theme-construct .ui-input-text.ui-focus,
+    .app-theme-construct .app-form-editing .ui-input-text.ui-focus,
+    .app-theme-construct .ui-input-search.ui-body-inherit.ui-focus,
+    .app-theme-construct .ui-checkbox label.ui-focus {
+        border-color: #d2b47a !important;
+    }
+
+.app-theme-construct .ui-slider {
+    border-color: #d1d6b3 !important;
+}
+
+.app-theme-construct .ui-slider-label.ui-btn-active {
+    background-color: #f1f5f8 !important;
+    color: #000 !important;
+}
+
+/* background bleed under form in editing mode*/
+.app-theme-construct .ui-body-a.ui-collapsible-content {
+    background-color: #fff;
+    border-bottom-color: #d1d6b3 !important;
+}
+
+.app-theme-construct .app-bar-tools .ui-input-search.ui-body-inherit {
+    background-color: #ebf3ff;
+}
+
+.app-theme-construct .ui-btn.app-lookup,
+.app-theme-construct .ui-btn.ui-btn-active.app-lookup {
+    border-color: #858e4c;
+}
+
+.app-theme-construct .app-lookup-input {
+    background-color: transparent;
+    /*color: #fff;*/
+}
+
+.app-theme-construct .app-grid-header {
+    color: #666776;
+}
+
+@media (min-width: 20em) {
+    .app-theme-construct .ui-header.ui-header-fixed.app-bar-tools {
+        background-image: url(logo-color.png);
+    }
+}
+
+.app-theme-construct .app-listview li .app-li-corner {
+    color: #fff;
+    background-color: #657b96;
+}
+
+.app-theme-construct .dataview-busy-indicator {
+    background-color: #5c8fd1;
+}
+
+.app-bar-tools .ui-btn:not(.ui-btn-active)::after,
+.app-theme-construct .ui-bar-a .app-menu-strip .ui-btn:not(.ui-btn-active), 
+.app-theme-construct .ui-bar-a .app-user-name {
+    color: #777 !important;
+}
+
+.app-desktop .app-bar-tools .ui-btn:hover:not(.ui-btn-active)::after,
+.app-theme-construct .ui-bar-a .app-menu-strip .ui-btn:hover:not(.ui-btn-active),
+.app-theme-construct .ui-bar-a .app-menu-strip .ui-btn.app-selected:not(.ui-btn-active),
+.app-theme-construct .ui-bar-a .app-menu-strip .ui-btn.app-selected:hover:not(.ui-btn-active) {
+    color: #333 !important;
+}
+
+
+.app-theme-construct .app-chart .app-chart-inner {
+    border-color: #d1d6b3;
+}
+.app-theme-construct .app-calendar-plugin {
+    background-color: #fff;
+    color: #000;
+}
+
+.app-theme-construct .app-calendar-month-header,
+.app-theme-construct .app-calendar-month-header h1 {
+    color: #b78710 !important;
+}
+
+.app-theme-construct .app-calendar-monthview .app-calendar-month table td.app-calendar-weekend,
+.app-theme-construct .app-calendar-yearview .app-calendar-month td:not(.app-current-day):not(.ui-btn-active).app-has-data {
+    background-color: #f4f5ec;
+}
+
+.app-theme-construct .app-calendar-plugin,
+.app-theme-construct .app-calendar-color-legend,
+.app-theme-construct .app-calendar-monthview .app-calendar-month table,
+.app-theme-construct .app-calendar-monthview .app-calendar-month table td,
+.app-theme-construct .app-calendar-day > div > div,
+.app-theme-construct .app-bar-calendar .app-week-header li.last-day-of-week,
+.app-theme-construct .app-calendar-week-grid .app-calendar-day > div {
+    border-color: #d1d6b3;
+}
+
+    .app-theme-construct .app-calendar-plugin span.app-current-day,
+    .app-theme-construct .app-calendar-monthview .app-current-day,
+    .app-theme-construct .app-calendar-yearview .app-current-day,
+    .app-theme-construct .app-week-header .app-current-day,
+    .app-theme-construct .app-day-header .visible-day.app-current-day,
+    .app-theme-construct .app-has-current-day .current-time-line .dot {
+        background-color: #858e4c;
+    }
+
+.app-theme-construct .app-has-current-day .current-time-line {
+    border-color: #858e4c;
+}
+
+.app-calendar-plugin-container .app-time-container .app-selected,
+.app-calendar-plugin-container .app-time-header .app-cal-selected,
+.app-theme-construct .app-day-header :not(.ui-btn-active).ui-btn .app-current-day,
+.app-theme-construct .app-has-current-day .app-current-time,
+.app-theme-construct .app-calendar-agenda-list > li.app-has-current-day h2:not(.ui-btn-active) > span,
+.app-theme-construct .app-calendar-agenda-list li.app-time-line-container > .app-event-time,
+.app-theme-construct .app-calendar-plugin .app-date-selector-container .app-current:not(.ui-btn-active) {
+    color: #858e4c;
+}
+
+.app-calendar-plugin-container .app-time-selector .app-time-hand,
+.app-calendar-plugin-container .app-time-hand > span,
+.app-calendar-plugin table tr.ui-btn-active td,
+.app-calendar-plugin table tr.ui-btn-active td:hover,
+.app-calendar-plugin table td.ui-btn-active,
+.app-calendar-plugin table td.ui-btn-active:hover,
+.app-calendar-yearview .app-calendar-month td.ui-btn-active {
+    background-color: #5c8fd1 !important;
+}
+/***** bootstrap *****/
+
+.app-theme-construct .app-bootstrap {
+    /*color: #1d092d;*/
+}
+
+.app-theme-construct .dropdown-menu > li > a:not(.ui-btn),
+body:not(.app-desktop) .dropdown-menu > li > a:hover {
+    color: #777 !important;
+}
+
+.app-theme-construct .jumbotron {
+    background-color: #b8bf88;
+}
+
+.app-theme-construct .btn-default,
+.app-theme-construct .btn-default:focus,
+.app-theme-construct .btn-default:visited {
+    background-color: #f4f5ec;
+    border-color: #d1d6b3;
+    color: #333 !important;
+}
+
+.app-theme-construct.app-desktop .btn-default:hover {
+    background-color: #f0f1e8;
+    border-color: #858e4c;
+}
+
+.app-theme-construct .app-bootstrap .btn.ui-btn-active,
+.app-theme-construct .app-bootstrap .btn.ui-btn-active:hover,
+.app-theme-construct .app-bootstrap .btn.ui-btn-active:focus,
+.app-theme-construct .app-bootstrap .list-group-item.ui-btn-active,
+.app-theme-construct .app-bootstrap .list-group-item.ui-btn-active:hover,
+.app-theme-construct .app-bootstrap .list-group-item.ui-btn-active:focus,
+.app-theme-construct .app-bootstrap .list-group-item.ui-btn-active .list-group-item-text,
+.app-theme-construct .app-bootstrap .list-group-item.ui-btn-active .list-group-item-heading {
+    background-color: #5c8fd1 !important;
+    border-color: #5c8fd1 !important;
+    color: #fff !important;
+}
+
+.app-theme-construct .app-bootstrap .nav .ui-btn-active,
+.app-theme-construct .app-bootstrap .nav .ui-btn-active:hover,
+.app-theme-construct .app-bootstrap .nav .ui-btn-active:focus {
+    background-color: #5c8fd1 !important;
+    border-color: #d1d6b3 !important;
+    color: #fff !important;
+}
+
+.app-theme-construct .app-bootstrap .btn-primary,
+body.app-theme-construct:not(.app-desktop) .app-bootstrap .btn-primary:hover,
+.app-theme-construct .app-bootstrap .label-primary,
+.app-theme-construct .app-bootstrap .panel-primary .panel-heading {
+    background-color: #a845ac;
+    border-color: #a845ac;
+    color: #fff !important;
+}
+
+.app-theme-construct .app-bootstrap .panel-primary {
+    border-color: #a845ac;
+}
+
+.app-theme-construct.app-desktop .app-bootstrap .btn-primary:hover,
+.app-theme-construct.app-desktop .app-bootstrap .btn-primary:focus {
+    background-color: #a72bab;
+    border-color: #a72bab;
+    color: #fff !important;
+}
+
+.app-theme-construct .table,
+.app-theme-construct .table > thead > tr > th,
+.app-theme-construct .table > tbody > tr > th,
+.app-theme-construct .table > tfoot > tr > th,
+.app-theme-construct .table > thead > tr > td,
+.app-theme-construct .table > tbody > tr > td,
+.app-theme-construct .table > tfoot > tr > td,
+.app-theme-construct .list-group-item:not(.active) {
+    background-color: #f4f5ec;
+    border-color: #d1d6b3;
+}
+
+.app-theme-construct.app-desktop a.list-group-item:hover:not(.active) {
+    background-color: #f0f1e8;
+}
+
+.app-theme-construct .table > thead > tr > th,
+.app-theme-construct .table > tbody > tr > th,
+.app-theme-construct .table > tfoot > tr > th {
+    color: #333;
+    background-color: #f1f5f8;
+}
+
+.app-theme-construct .table-striped > tbody > tr:nth-child(2n+1) > td,
+.app-theme-construct .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #f3f5e1;
+}
+
+.app-theme-construct.app-desktop .navbar-default .navbar-toggle:hover,
+.app-theme-construct .app-bootstrap .navbar-default .navbar-toggle:focus,
+.app-theme-construct .list-group-item.active:not(.btn),
+.app-theme-construct .list-group-item.active:not(.btn):hover,
+.app-theme-construct .list-group-item.active:not(.btn):focus,
+.app-theme-construct .nav-pills > li.active > a,
+.app-theme-construct .nav-pills > li.active > a:hover,
+.app-theme-construct .nav-pills > li.active > a:focus {
+    color: #fff !important;
+    background-color: #858e4c;
+    border-color: #858e4c;
+}
+
+.app-theme-construct .list-group-item.active .list-group-item-text {
+    color: #fff;
+}
+
+.app-theme-construct .list-group-item:not(.active):not(.ui-btn-active):hover,
+.app-theme-construct .list-group-item:not(.active):not(.ui-btn-active):hover .list-group-item-text {
+    color: #000 !important;
+}
+
+.app-theme-construct .list-group-item.active > .badge,
+.app-theme-construct .nav-pills > .active > a > .badge {
+    color: #858e4c !important;
+}
+
+.app-theme-construct .navbar-default .navbar-toggle .icon-bar {
+    background-color: #858e4c;
+}
+
+.app-desktop.app-theme-construct .navbar-default .navbar-toggle:hover .icon-bar,
+.app-desktop.app-theme-construct .navbar-default .navbar-toggle:active .icon-bar,
+.app-desktop.app-theme-construct .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+}
+
+.app-theme-construct .img-thumbnail {
+    background-color: #f4f5ec;
+    border-color: #d1d6b3;
+}
+
+.app-theme-construct .page-header,
+.app-theme-construct .nav-tabs {
+    border-color: #d1d6b3;
+}
+
+    .app-theme-construct .nav-tabs > li.active > a,
+    .app-theme-construct .nav-tabs > li.active > a:hover,
+    .app-theme-construct .nav-tabs > li.active > a:focus {
+        border-top-color: #d1d6b3;
+        border-left-color: #d1d6b3;
+        border-right-color: #d1d6b3;
+    }
+
+.app-theme-construct.app-desktop .nav > li:not(.active) > a:hover,
+.app-theme-construct.app-desktop .nav > li:not(.active) > a:focus {
+    background-color: rgba(255,255,255,0.2);
+    border-color: #d1d6b3;
+}
+
+.app-theme-construct.app-desktop .nav-tabs > li:not(.active) > a:hover,
+.app-theme-construct .nav-tabs > li:not(.active) > a:focus,
+.app-theme-construct.app-desktop .nav-pills > li:not(.active) > a:hover,
+.app-theme-construct .nav-pills > li:not(.active) > a:focus {
+    background-color: #f0f1e8;
+}
+
+.app-theme-construct .navbar-default {
+    background-color: #b8bf88;
+    border-color: #858e4c;
+}
+
+    .app-theme-construct .navbar-default .navbar-brand,
+    .app-theme-construct .navbar-default .navbar-brand:hover {
+        color: #333 !important;
+    }
+
+    .app-theme-construct .navbar-default .navbar-nav > li > a {
+        color: #777 !important;
+    }
+
+.app-theme-construct.app-desktop .navbar-default a.navbar-brand:hover,
+.app-theme-construct .app-bootstrap .navbar-default a.navbar-brand.ui-btn-active,
+.app-theme-construct.app-desktop .navbar-default .navbar-nav > li > a:hover {
+    color: #000 !important;
+}
+
+.app-theme-construct .app-bootstrap .navbar-default .navbar-nav > .active > a,
+.app-theme-construct .app-bootstrap .navbar-default .navbar-nav > .active > a:hover,
+.app-theme-construct .app-bootstrap .navbar-default .navbar-nav > .active > a:focus,
+.app-theme-construct .app-bootstrap .navbar-default .navbar-nav > .open > a,
+.app-theme-construct .app-bootstrap .navbar-default .navbar-nav > .open > a:hover,
+.app-theme-construct .app-bootstrap .navbar-default .navbar-nav > .open > a:focus {
+    color: #333 !important;
+    background-color: rgba(0,0,0,.15);
+}
+
+.app-theme-construct .well {
+    background-color: #f4f5ec;
+    border-color: #d1d6b3;
+    /*box-shadow: rgba(0,0,0,0.1) 0 0 10px inset;*/
+}
+
+@media all and (max-width:767px) {
+    .app-sidebar-undocked.app-theme-construct .navbar-nav .open .dropdown-menu {
+        background-color: #f4f5ec;
+    }
+
+    .app-sidebar-undocked.app-theme-construct.app-desktop .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .app-sidebar-undocked.app-theme-construct .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-color: #f0f1e8;
+    }
+}
+
+.app-theme-construct .dropdown-menu {
+    background-color: #f4f5ec;
+}
+
+    .app-theme-construct .dropdown-menu .divider {
+        background-color: #d1d6b3;
+    }
+
+    .app-theme-construct.app-desktop .dropdown-menu > li > a:hover,
+    .app-theme-construct .dropdown-menu > li > a:focus {
+        background-color: #f0f1e8;
+    }
+
+.app-theme-construct .navbar-default .navbar-collapse,
+.app-theme-construct .navbar-default .navbar-form,
+.app-theme-construct .navbar-default .navbar-toggle {
+    border-color: #858e4c;
+}
+
+.app-theme-construct .navbar-inverse a:not(.ui-btn) {
+    color: #777 !important;
+}
+
+.app-theme-construct.app-desktop .navbar-inverse a.navbar-brand:hover,
+.app-theme-construct.app-desktop .navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff !important;
+}
+
+.app-theme-construct .navbar-inverse .navbar-nav > .active > a,
+.app-theme-construct .navbar-inverse .navbar-nav > .active > a:hover,
+.app-theme-construct .navbar-inverse .navbar-nav > .active > a:focus,
+.app-theme-construct .navbar-inverse .navbar-nav > .open > a,
+.app-theme-construct .navbar-inverse .navbar-nav > .open > a:hover,
+.app-theme-construct .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff !important;
+}

@@ -1,0 +1,896 @@
+﻿/*********************************/
+/* THEME: whitesmoke            */
+/*******************************/
+
+.app-theme-whitesmoke,
+.app-theme-whitesmoke .ui-page-theme-a,
+.app-theme-whitesmoke .app-page-header {
+    background-color: #fff;
+}
+
+    .app-theme-whitesmoke .app-page-header {
+        color: #000;
+    }
+
+    .app-theme-whitesmoke .ui-page-theme-a .ui-panel-wrapper,
+    .app-theme-whitesmoke .ui-panel,
+    .app-theme-whitesmoke .app-page-header,
+    .app-theme-whitesmoke .app-status-bar {
+        background-color: #dddddd;
+        border-color: #a7a7a7;
+    }
+
+    .app-theme-whitesmoke .app-status-bar {
+        color: #000;
+    }
+
+    .app-theme-whitesmoke .app-form-editing.app-formview .app-static-text div,
+    .app-theme-whitesmoke .app-page-menu-desc,
+    .app-theme-whitesmoke .ui-checkbox label {
+        text-shadow: none !important;
+    }
+
+    /*popup*/
+    .app-theme-whitesmoke .app-popup-message,
+    .app-theme-whitesmoke .ui-content.app-map-info {
+        background-color: #dddddd;
+        border-color: #d9d9d9;
+        text-shadow: none;
+        color: #000;
+    }
+
+        .app-theme-whitesmoke .app-popup-message .ui-popup-arrow {
+            background-color: #dddddd;
+        }
+
+        .app-theme-whitesmoke .app-popup-message div {
+            color: #d9d9d9;
+        }
+        
+    .app-data-input-popup .app-selected .app-caret-r .app-caret {
+        border-left-color: #000;
+    }
+
+    /* page header */
+    .app-theme-whitesmoke .app-bar-tools.ui-bar-a,
+    .app-theme-whitesmoke :not(.app-tabs).ui-header-fixed.ui-header,
+    .app-theme-whitesmoke .ui-header {
+        background-color: #dddddd;
+        border-color: #a7a7a7;
+        text-shadow: none;
+    }
+
+    .app-theme-whitesmoke .app-popup-listview .ui-popup-arrow,
+    .app-theme-whitesmoke .app-popup-listview {
+        background-color: #dddddd !important;
+        border-color: #dddddd !important;
+    }
+
+    .app-theme-whitesmoke .ui-body-a:not(.ui-popup) .ui-btn-b,
+    .app-theme-whitesmoke .app-page-header {
+        border-color: #a7a7a7 !important;
+    }
+
+    /* list dividers*/
+    .app-theme-whitesmoke .ui-li-divider {
+        background-color: #d9d9d9;
+        border-color: #a7a7a7;
+        color: #555;
+        text-shadow: none;
+    }
+
+
+    /* view descriptions*/
+    .app-theme-whitesmoke .ui-listview .app-list-instruction.ui-li-divider,
+    .app-theme-whitesmoke .ui-content:not(.app-page-tasks) .app-listview .ui-li-divider:not(.ui-bar-b):not(.ui-bar-inherit),
+    .app-theme-whitesmoke .app-presenter-instruction,
+    .app-theme-whitesmoke .app-grid-header .app-frozen-spacer {
+        background-color: #dddddd !important;
+        border-color: #d9d9d9 !important;
+        color: #747474;
+    }
+
+    body:not(.app-sidebar-undocked).app-theme-whitesmoke .ui-header-fixed .ui-title,
+    body:not(.app-sidebar-undocked).app-theme-whitesmoke .app-sidebar,
+    .app-theme-whitesmoke .app-divider:not(.ui-collapsible):not(.app-calculated),
+    .app-theme-whitesmoke .app-echo,
+    .app-theme-whitesmoke .app-header {
+        border-color: #a7a7a7 !important;
+    }
+
+    .app-theme-whitesmoke .app-bar-heading {
+        background-color: #eeeeee;
+        color: #747474;
+        text-shadow: none;
+    }
+
+    .app-theme-whitesmoke .ui-body-a,
+    .app-theme-whitesmoke .app-li-card,
+    .app-theme-whitesmoke .ui-page-theme-a .ui-body-inherit:not(.ui-focus),
+    .app-theme-whitesmoke .app-li-card {
+        background-color: #fff;
+        border-color: #d9d9d9;
+        /*color: #fff;*/
+        text-shadow: none;
+    }
+
+    .app-theme-whitesmoke .ui-panel .ui-body-a,
+    .app-bar-footer.ui-bar-inherit {
+        border-color: #a7a7a7 !important;
+    }
+
+    .app-theme-whitesmoke .ui-page-theme-a .app-formview .ui-body-inherit:not(.ui-focus) {
+        background-color: #fff;
+    }
+
+
+    /*sidebar customizations*/
+    .app-theme-whitesmoke .ui-body-a.app-sidebar {
+        background-color: #eeeeee;
+    }
+
+    .app-theme-whitesmoke.app-sidebar-undocked .app-form-grid .ui-collapsible-set,
+    .app-theme-whitesmoke .ui-listview-inset .ui-li-divider:not(.ui-bar-a) {
+        border-color: #d9d9d9;
+    }
+
+    .app-theme-whitesmoke .ui-li-divider.app-info {
+        background-color: #eeeeee !important;
+    }
+
+        .app-theme-whitesmoke .ui-li-divider.app-info .appname {
+            color: #2cb4e8;
+        }
+
+    /* fix for form "card" */
+    .app-theme-whitesmoke .ui-page-theme-a .ui-body-inherit.app-li-card {
+        border-top-color: #d9d9d9;
+        border-left-color: #d9d9d9;
+        border-right-color: #d9d9d9;
+    }
+
+    .app-theme-whitesmoke .app-form-editing.app-formview .ui-field-contain {
+        border-top-color: transparent;
+    }
+
+
+    /*buttons*/
+    .app-theme-whitesmoke .app-page-header,
+    .app-theme-whitesmoke .ui-page-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-whitesmoke .ui-bar-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html .app-theme-whitesmoke .ui-body-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html body.app-theme-whitesmoke .ui-group-theme-a .ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    html head + body.app-theme-whitesmoke .ui-btn-a.ui-btn:not(.app-selected):not(:hover):not(.ui-btn-active):not(.app-lookup):not(.ui-btn-b),
+    .app-theme-whitesmoke .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-whitesmoke .ui-bar-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html .app-theme-whitesmoke .ui-body-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html body.app-theme-whitesmoke .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    html head + body.app-theme-whitesmoke .ui-btn-a.ui-btn:visited:not(.app-selected):not(.ui-btn-b),
+    .app-theme-whitesmoke .app-form-grid .ui-collapsible-set,
+    /* button overrides to remove "hover" on touch screens */
+    body.app-theme-whitesmoke:not(.app-desktop) li a:hover:not(.app-selected):not(.ui-btn-b),
+    body:not(.app-desktop).app-theme-whitesmoke .ui-page-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-whitesmoke .ui-bar-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-whitesmoke .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body:not(.app-desktop).app-theme-whitesmoke .ui-group-theme-a .ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    html head + body:not(.app-desktop).app-theme-whitesmoke .ui-btn-a.ui-btn:hover:not(.app-selected):not(.ui-btn-b),
+    .app-theme-whitesmoke .app-tabs.ui-header,
+    .app-theme-whitesmoke #app-welcome .ui-btn,
+    .app-theme-whitesmoke #app-popup-login .ui-btn,
+    .app-theme-whitesmoke .ui-datepicker .ui-state-highlight,
+    .app-theme-whitesmoke .ui-datepicker .ui-datepicker-prev,
+    .app-theme-whitesmoke .ui-datepicker .ui-datepicker-next,
+    .app-theme-whitesmoke .ui-listview .app-frozen-spacer,
+    .app-theme-whitesmoke .app-echo .dv-item, 
+    .app-echo .app-grid .ui-last-child,
+    .app-theme-whitesmoke .app-echo .app-listview,
+    .app-theme-whitesmoke [data-container],
+    .app-theme-whitesmoke [data-layout="form"] {
+        border-color: #d9d9d9;
+    }
+
+    .app-theme-whitesmoke .app-grid-header {
+        border-color: #ccc;
+    }
+
+        .app-theme-whitesmoke .app-grid-header .app-field-separator::after,
+        .app-theme-whitesmoke .app-calculated .app-field-separator::after {
+            background-color: #ccc;
+        }
+
+    .app-theme-whitesmoke .ui-body-b .ui-btn-a,
+    .app-theme-whitesmoke .ui-body-b .ui-btn-a.ui-btn-active {
+        border-color: #dddddd !important;
+    }
+
+    .app-theme-whitesmoke.app-has-popup-open .app-menu-strip .ui-btn:hover {
+        background-color: #dddddd !important;
+    }
+
+    .app-theme-whitesmoke .ui-page-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-whitesmoke .ui-bar-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html .app-theme-whitesmoke .ui-body-a .ui-btn:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-theme-whitesmoke .ui-group-theme-a .ui-btn:not(.app-selected):not(.app-lookup),
+    html head + body.app-theme-whitesmoke .ui-btn-a.ui-btn:not(.app-selected):not(.app-lookup),
+    .app-theme-whitesmoke .ui-panel-page-container-a:not(.app-lookup),
+    .app-theme-whitesmoke .app-tabs.ui-header:not(.app-lookup),
+    .app-theme-whitesmoke .ui-page-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-whitesmoke .ui-bar-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html .app-theme-whitesmoke .ui-body-a .ui-btn:visited:not(.app-selected):not(.app-lookup),
+    html body.app-theme-whitesmoke .ui-group-theme-a .ui-btn:visited:not(.app-selected):not(.app-lookup):not(.ui-checkbox-on):not(.ui-checkbox-off),
+    html head + body.app-theme-whitesmoke .ui-btn-a.ui-btn:visited:not(.app-selected),
+    .app-theme-whitesmoke .app-tabs .ui-btn:not(.ui-btn-active):not(.app-selected),
+    body.app-desktop.app-theme-whitesmoke .app-grid.app-listview :not(.app-selected):not(:hover):not(.ui-btn-active).ui-btn,
+    .app-theme-whitesmoke #app-welcome .ui-btn:not(:hover),
+    .app-theme-whitesmoke #app-popup-login .ui-btn:not(:hover),
+    .app-theme-whitesmoke .app-map-info .ui-popup-arrow,
+    .app-theme-whitesmoke .ui-datepicker .ui-datepicker-prev,
+    .app-theme-whitesmoke .ui-datepicker .ui-datepicker-next,
+    .app-theme-whitesmoke .ui-datepicker .ui-datepicker-prev:hover,
+    .app-theme-whitesmoke .ui-datepicker .ui-datepicker-next:hover,
+    .app-theme-whitesmoke .ui-listview .app-frozen-spacer,
+    .app-theme-whitesmoke [data-container="toggle"],
+.app-listview.app-grid .ui-btn:not(:hover):not(.app-selected):not(.ui-btn-active):not(.app-checked), 
+body:not(.app-desktop) .app-listview.app-grid .ui-btn:hover:not(.app-selected):not(.ui-btn-active):not(.app-checked) {
+        /*color: #000;*/
+        background-color: #eeeeee;
+    }
+
+    /* top border of Info button in sidebar */
+    .app-theme-whitesmoke .app-sidebar .ui-btn.ui-icon-info {
+        border-color: #a7a7a7 !important;
+    }
+
+    /* navigation panel selected item color fix*/
+    .app-theme-whitesmoke .app-nav-panel .ui-btn-a {
+        color: #1f1f1f !important;
+    }
+
+    /* subtext coloring*/
+    .app-theme-whitesmoke .app-field-label-after,
+    .app-theme-whitesmoke .app-field-label-before,
+    .app-theme-whitesmoke .app-field-label,
+    .app-theme-whitesmoke .ui-panel .app-item-desc,
+    .app-theme-whitesmoke .app-item-number {
+        color: #777777 !important;
+    }
+
+    .app-theme-whitesmoke .ui-page-theme-b a:not(.ui-btn),
+    .app-theme-whitesmoke .ui-bar-b a:not(.ui-btn),
+    .app-theme-whitesmoke .ui-body-b a:not(.ui-btn),
+    .app-theme-whitesmoke .ui-group-theme-b a:not(.ui-btn) {
+        color: #777777 !important;
+    }
+
+        .app-theme-whitesmoke .ui-page-theme-b a:not(.ui-btn):hover,
+        .app-theme-whitesmoke .ui-bar-b a:not(.ui-btn):hover,
+        .app-theme-whitesmoke .ui-body-b a:not(.ui-btn):hover,
+        .app-theme-whitesmoke .ui-group-theme-b a:not(.ui-btn):hover,
+        .app-theme-whitesmoke .ui-page-theme-b a:not(.ui-btn):active,
+        .app-theme-whitesmoke .ui-bar-b a:not(.ui-btn):active,
+        .app-theme-whitesmoke .ui-body-b a:not(.ui-btn):active,
+        .app-theme-whitesmoke .ui-group-theme-b a:not(.ui-btn):active {
+            color: #000 !important;
+        }
+
+    .app-theme-whitesmoke .ui-btn p {
+        color: #000 !important;
+    }
+
+    .app-theme-whitesmoke .ui-li-aside,
+    .app-theme-whitesmoke .ui-btn .ui-li-aside,
+    .app-theme-whitesmoke .app-grid-header,
+    .app-theme-whitesmoke .app-panel-info-view .app-list-instruction,
+    .app-theme-whitesmoke .app-calculated .app-static-text {
+        color: #58585a !important;
+    }
+
+    .app-theme-whitesmoke .app-filter {
+    }
+
+    .app-theme-whitesmoke .app-bar-heading .app-bar-label,
+    .app-theme-whitesmoke .app-static-text div,
+    .app-theme-whitesmoke .app-form-editing.app-formview label {
+        color: #58585a;
+    }
+
+    .app-theme-whitesmoke .app-wrapper,
+    .app-theme-whitesmoke .app-echo-instruction {
+        color: #747474;
+        text-shadow: none;
+    }
+
+    /* hover */
+    .app-theme-whitesmoke .ui-btn-a:hover:not(.ui-btn-active):not(.app-selected),
+    .app-desktop.app-theme-whitesmoke .ui-page-theme-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-whitesmoke .ui-bar-a .ui-btn:hover:not(.app-selected),
+    html .app-desktop.app-theme-whitesmoke .ui-body-a .ui-btn:hover:not(.app-selected):not(.ui-checkbox-on):not(.ui-checkbox-off):not(.ui-btn-b),
+    html body.app-desktop.app-theme-whitesmoke .ui-group-theme-a .ui-btn:hover:not(.app-selected),
+    html head + body.app-desktop.app-theme-whitesmoke .ui-btn-a.ui-btn:hover:not(.app-selected),
+    .app-theme-whitesmoke #app-welcome .ui-btn:hover:not(.ui-btn-active),
+    .app-theme-whitesmoke #app-popup-login .ui-btn:hover:not(.ui-btn-active),
+    .app-desktop.app-theme-whitesmoke .ui-listview a.ui-btn:hover:not(.app-selected) .app-frozen-spacer,
+    .app-desktop [data-container="collapsible"] [data-container="toggle"]:hover:not(.ui-btn-active) {
+        background-color: #e7e7e7;
+        border-color: #d9d9d9;
+    }
+
+    .app-theme-whitesmoke.app-desktop .app-grid-header span:hover:not(.ui-btn-active):not(.app-icon),
+    .app-theme-whitesmoke.app-desktop .ui-datepicker td a:hover {
+        background-color: #e7e7e7;
+    }
+
+    /*selected button*/
+    .app-theme-whitesmoke .app-selected:not(.ui-btn-active),
+    .app-theme-whitesmoke .app-checked:not(.ui-btn-active),
+    .app-theme-whitesmoke .app-selected:hover,
+    .app-theme-whitesmoke .app-selected:visited,
+    .app-theme-whitesmoke .app-selected .app-frozen-spacer,
+    .app-theme-whitesmoke .app-checked .app-frozen-spacer {
+        background-color: #cfe9f3 !important;
+        border-color: #d9d9d9 !important;
+        color: #000 !important;
+    }
+
+    .app-theme-whitesmoke .app-grid-header .app-selected:not(.ui-btn-active) {
+        background-color: rgba(0,0,0,0.05) !important;
+    }
+
+    /* selected hover*/
+    html body.app-desktop.app-theme-whitesmoke .ui-btn.app-selected:hover:not(.ui-btn-active),
+    html body.app-desktop.app-theme-whitesmoke .ui-btn.app-checked:hover:not(.ui-btn-active),
+    .app-theme-whitesmoke .app-echo-toolbar .app-selected:not(.ui-btn-active),
+    .app-theme-whitesmoke .app-echo-toolbar .app-selected:not(.ui-btn-active):hover,
+    .app-theme-whitesmoke .app-listview .app-selected:not(.ui-btn-active):hover .app-frozen-spacer,
+    .app-theme-whitesmoke .app-listview .app-checked:not(.ui-btn-active):hover .app-frozen-spacer {
+        background-color: #c5e3ef !important;
+        border-color: #d9d9d9 !important;
+        color: #000 !important;
+    }
+
+    /* click */
+
+    .app-theme-whitesmoke .app-grid-header .ui-btn-active {
+        background-color: #33b5e6 !important;
+        color: #000 !important;
+    }
+
+    .app-theme-whitesmoke .app-listview .ui-btn.app-selected::before,
+    .app-theme-whitesmoke [data-input="checkboxlist"] .app-data-list li.app-selected::after,
+    [data-container="collapsible"] [data-container="toggle"].ui-btn-active {
+        background-color: #33b5e6;
+    }
+
+    .ui-btn.ui-btn-active::after,
+    .app-btn-more.ui-btn-active::after {
+        color: #33b5e6;
+    }
+
+.app-theme-whitesmoke [data-input] .app-data-list li.app-selected,
+.app-theme-whitesmoke [data-input] .app-data-list li::before,
+.app-theme-whitesmoke [data-input] .app-data-list li.app-selected::after {
+    border-color: #33b5e6;
+}
+
+    .app-theme-whitesmoke .ui-title.ui-btn-active,
+    html body.app-theme-whitesmoke .ui-btn.ui-btn-active,
+    .app-theme-whitesmoke .ui-btn.ui-btn-active .app-frozen-spacer {
+        background-color: #33b5e6 !important;
+        border-color: #d9d9d9 !important;
+        color: #fff !important;
+    }
+
+    .app-theme-whitesmoke .ui-panel-position-left .ui-btn-active .app-item-desc,
+    .app-theme-whitesmoke .ui-panel-position-right .ui-btn-active .app-item-desc,
+    .app-theme-whitesmoke #app-sidebar .ui-btn-active .app-item-desc,
+    .app-theme-whitesmoke .app-listview-static .ui-btn-active .app-item-desc,
+    .app-theme-whitesmoke .ui-btn-active p,
+    .app-theme-whitesmoke .ui-btn-active p.ui-li-aside,
+    .app-theme-whitesmoke .ui-btn.ui-btn-active span:not(.ui-li-count) {
+        color: #fff !important;
+    }
+
+    .app-theme-whitesmoke .dv-action-see-all .app-btn-prev.ui-btn-active,
+    .app-theme-whitesmoke .dv-action-see-all .app-btn-next.ui-btn-active {
+        background-color: #33B5E6;
+        color: #fff;
+    }
+
+    .app-theme-whitesmoke .app-btn-check:not(.app-btn-check-selected) {
+        border-color: #D9D9D9 !important;
+        background-color: transparent !important;
+    }
+
+    .app-theme-whitesmoke .ui-btn.app-selected:not(.ui-btn-active) .app-btn-check:not(.app-btn-check-selected) {
+        border-color: #D9D9D9 !important;
+    }
+
+    .app-theme-whitesmoke .app-grid-header .app-btn-check:not(.app-btn-check-selected) {
+        background-color: transparent !important;
+        border-color: #D9D9D9 !important;
+    }
+
+    .app-theme-whitesmoke .app-btn-check.app-btn-check-selected {
+        border-color: #33B5E6 !important;
+        background-color: #33B5E6 !important;
+    }
+
+    [data-input] .app-control-helper ul li.ui-btn-active,
+    [data-input].app-has-focus .app-control-helper ul li.app-focus {
+        border-color: #33B5E6 !important;
+        background-color: #33B5E6 !important;
+        color: #fff!important;
+    }
+
+    .app-theme-whitesmoke .app-btn-check .app-icon-themed {
+        fill: #fff;
+    }
+
+    .app-theme-whitesmoke .app-tabs a.ui-btn,
+    html body.app-theme-whitesmoke .app-tabs a.ui-btn.ui-btn-active {
+        border-color: #33b5e6 !important;
+    }
+
+    /*button on header bar*/
+
+    .app-theme-whitesmoke .app-bar-tools .ui-btn.ui-btn-icon-notext,
+    .app-theme-whitesmoke .app-map-info-toolbar .ui-btn.ui-btn-icon-notext,
+    .app-theme-whitesmoke .app-btn {
+        border-color: transparent !important;
+        background-color: transparent !important;
+    }
+
+    .app-theme-whitesmoke .app-bar-tools .ui-btn-active.ui-btn-icon-notext,
+    .app-theme-whitesmoke .app-map-info-toolbar .ui-btn-active.ui-btn-icon-notext {
+        background-color: transparent !important;
+    }
+
+    .app-theme-whitesmoke .ui-btn.ui-btn-icon-notext:hover:not(.ui-icon-dots)::after {
+        background-color: #333 !important;
+    }
+
+    .app-theme-whitesmoke .app-bar-actions .ui-btn,
+    .app-theme-whitesmoke .app-bar-actions .ui-btn.ui-btn-active,
+    .app-theme-whitesmoke .app-bar-actions .ui-btn.app-selected {
+        border-color: #a7a7a7 !important;
+    }
+
+
+    .app-theme-whitesmoke .ui-btn.ui-btn-icon-notext:not(.ui-icon-dots)::after,
+    .app-theme-whitesmoke .ui-btn.ui-btn-icon-left:not(.ui-radio-on)::after,
+    .app-theme-whitesmoke .ui-btn.ui-btn-icon-right:not(.ui-radio-on):not(.app-btn-icon-transparent)::after,
+    .app-theme-whitesmoke .ui-btn.ui-btn-icon-top:not(.ui-radio-on)::after,
+    .app-theme-whitesmoke .ui-btn.ui-btn-icon-bottom:not(.ui-radio-on)::after,
+    .app-theme-whitesmoke .ui-datepicker .ui-datepicker-prev span,
+    .app-theme-whitesmoke .ui-datepicker .ui-datepicker-next span,
+    .app-theme-whitesmoke .ui-checkbox-on:after,
+    .app-theme-whitesmoke .ui-flipswitch-active,
+    .app-theme-whitesmoke .ui-slider-track .ui-btn-active {
+        /*box-shadow: 0 0 0 2px #595959 inset;*/
+        background-color: #585858 !important;
+    }
+
+    .app-theme-whitesmoke .ui-btn .glyphicon {
+        color: #585858;
+    }
+
+    .app-theme-whitesmoke .app-icon-themed {
+        fill: #585858;
+    }
+
+    .app-theme-whitesmoke .ui-radio-on:after,
+    .app-theme-whitesmoke .ui-slider-track .ui-btn-active,
+    .app-theme-whitesmoke .ui-flipswitch-active {
+        border-color: #585858 !important;
+    }
+
+    .app-theme-whitesmoke .ui-btn.ui-btn-icon-notext.ui-btn-active.app-btn-promo::after {
+        background-color: #33b5e6 !important;
+    }
+
+    .app-theme-whitesmoke .app-bar-tools .ui-btn.ui-btn-active.ui-btn-icon-notext::after,
+    .app-theme-whitesmoke .app-map-info-toolbar .ui-btn.ui-btn-active.ui-btn-icon-notext::after,
+    .app-theme-whitesmoke .ui-btn-right.ui-btn.ui-btn-active.ui-btn-icon-notext::after {
+        background-color: #33b5e6 !important;
+        /*box-shadow: none;*/
+    }
+
+    /*swatch b*/
+    .app-theme-whitesmoke .ui-btn.ui-btn-b,
+    .app-theme-whitesmoke .ui-btn.ui-btn-b:visited,
+    body.app-theme-whitesmoke:not(.app-desktop) li a.ui-btn-b:not(.ui-btn-active):hover {
+        background-color: #fff;
+        border-color: #dddddd;
+        color: #747474;
+    }
+
+        /*swatch b hover*/
+
+        .app-theme-whitesmoke .ui-btn.ui-btn-b.ui-btn-active,
+        .app-theme-whitesmoke.app-desktop .ui-btn.ui-btn-b:hover,
+        .app-theme-whitesmoke .app-popup .ui-content .ui-checkbox .ui-btn:hover,
+        .app-theme-whitesmoke .app-popup .ui-content .ui-checkbox .ui-btn.ui-focus:hover {
+            background-color: #f5f5f5;
+            border-color: #dddddd;
+            color: #747474 !important;
+        }
+
+    .app-theme-whitesmoke .app-nav-panel .ui-btn.ui-btn-b {
+        border-color: #dddddd !important;
+    }
+
+    .app-theme-whitesmoke .ui-btn.ui-btn-b.ui-btn-active,
+    .app-theme-whitesmoke.app-desktop .ui-btn.ui-btn-b.ui-btn-active:hover {
+        color: #fff !important;
+    }
+
+    .app-theme-whitesmoke .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b,
+    .app-theme-whitesmoke.app-desktop .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b:hover,
+    .app-theme-whitesmoke .ui-body-a:not(#app-welcome):not(#app-popup-login) .ui-btn-b.ui-btn-active {
+        border-color: #dddddd !important;
+    }
+
+    /*swatch b divider*/
+    .app-theme-whitesmoke .ui-bar-b,
+    .app-theme-whitesmoke .ui-bar-b .ui-bar-inherit,
+    html .app-theme-whitesmoke.ui-body-b .ui-bar-inherit,
+    html body.app-theme-whitesmoke .ui-group-theme-b .ui-bar-inherit {
+        border-color: #d9d9d9;
+        background-color: #dddddd;
+    }
+
+    /*fix for lookups/inputs*/
+    .app-theme-whitesmoke .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select:not(.ui-focus) .ui-btn:not(.ui-btn-active),
+    .app-theme-whitesmoke .app-form-editing .ui-input-text:not(.ui-btn-active):not(.app-static-text),
+    .app-theme-whitesmoke #app-popup-login .ui-input-text:not(.ui-btn-active),
+    .app-theme-whitesmoke .ui-input-search.ui-body-inherit {
+        border-radius: 0 !important;
+        border-color: transparent !important;
+        background-color: #fff;
+        outline: none;
+        border: none;
+        background: linear-gradient(#a9a9a9, #a9a9a9) bottom left/1px 6px no-repeat, linear-gradient(#a9a9a9, #a9a9a9) bottom center/1px 1px repeat-x, linear-gradient(#a9a9a9, #a9a9a9) bottom right/1px 6px no-repeat !important;
+        text-shadow: none;
+        /*color: #fff;*/
+    }
+
+        .app-theme-whitesmoke .app-wrapper .app-formview.app-form-editing .ui-field-contain .ui-select.ui-focus .ui-btn:not(.ui-btn-active),
+        .app-theme-whitesmoke #app-popup-login .ui-input-text.ui-focus:not(.app-static-text),
+        .app-theme-whitesmoke .app-form-editing .ui-input-text.ui-focus:not(.app-static-text),
+        .app-theme-whitesmoke .ui-input-search.ui-body-inherit.ui-focus {
+            background: linear-gradient(#09c, #09c) bottom left/1px 6px no-repeat, linear-gradient(#09c, #09c) bottom center/1px 1px repeat-x, linear-gradient(#09c, #09c) bottom right/1px 6px no-repeat !important;
+            border: none !important;
+        }
+
+    .app-theme-whitesmoke .app-bar-tools .ui-input-search.ui-body-inherit,
+    .app-theme-whitesmoke .app-bar-tools .ui-input-search.ui-body-inherit.ui-focus {
+        background-color: #dddddd !important;
+    }
+
+    .app-theme-whitesmoke .ui-select .ui-btn,
+    .app-theme-whitesmoke .ui-select .ui-btn.ui-focus,
+    .app-theme-whitesmoke .ui-select .ui-btn.ui-btn-active {
+        border-radius: 0 !important;
+        border-width: 0 !important;
+        background: linear-gradient(#09c, #09c) bottom left/1px 6px no-repeat, linear-gradient(#09c, #09c) bottom center/1px 1px repeat-x, linear-gradient(#09c, #09c) bottom right/1px 6px no-repeat !important;
+        background-color: transparent !important;
+    }
+
+        .app-theme-whitesmoke .ui-select .ui-btn span.app-lookup {
+            color: #000 !important;
+        }
+
+
+    .app-theme-whitesmoke .ui-slider {
+        border-color: #a7a7a7 !important;
+    }
+
+    /* background bleed under form in editing mode*/
+    .app-theme-whitesmoke .ui-body-a.ui-collapsible-content,
+    .app-theme-whitesmoke .app-bar-tools .ui-input-search.ui-body-inherit {
+        background-color: #fff;
+    }
+
+    .app-theme-whitesmoke .ui-btn.app-lookup,
+    .app-theme-whitesmoke .ui-btn.ui-btn-active.app-lookup {
+        border-color: #a7a7a7;
+    }
+    
+    .app-theme-whitesmoke [data-layout="form"] > [data-container="collapsible"]:first-of-type {
+        border-top-color: #a7a7a7;
+    }
+
+    .app-theme-whitesmoke .app-lookup-input {
+        background-color: transparent;
+        /*color: #fff;*/
+    }
+
+    .app-theme-whitesmoke .app-grid-header {
+        color: #999;
+    }
+
+@media (min-width: 20em) {
+
+    .app-theme-whitesmoke .ui-header.ui-header-fixed.app-bar-tools {
+        background-image: url(logo-color.png);
+    }
+}
+
+.app-theme-whitesmoke .app-listview li .app-li-corner {
+    color: #fff;
+    background-color: #33b5e6;
+}
+
+.app-theme-whitesmoke .dataview-busy-indicator {
+    background-color: #33b5e6;
+}
+
+.app-theme-whitesmoke .app-chart .app-chart-inner {
+    border-color: #d9d9d9;
+}
+.app-theme-whitesmoke .app-calendar-plugin span.app-current-day,
+.app-theme-whitesmoke .app-calendar-monthview .app-current-day,
+.app-theme-whitesmoke .app-calendar-yearview .app-current-day,
+.app-theme-whitesmoke .app-week-header .app-current-day,
+.app-theme-whitesmoke .app-day-header .visible-day.app-current-day,
+.app-theme-whitesmoke .app-has-current-day .current-time-line .dot {
+    background-color: #33b5e6;
+}
+
+.app-theme-whitesmoke .app-has-current-day .current-time-line {
+    border-color: #33b5e6;
+}
+
+.app-calendar-plugin-container .app-time-container .app-selected,
+.app-calendar-plugin-container .app-time-header .app-cal-selected,
+.app-theme-whitesmoke .app-day-header :not(.ui-btn-active).ui-btn .app-current-day,
+.app-theme-whitesmoke .app-has-current-day .app-current-time,
+.app-theme-whitesmoke .app-calendar-agenda-list > li.app-has-current-day h2:not(.ui-btn-active) > span,
+.app-theme-whitesmoke .app-calendar-agenda-list li.app-time-line-container > .app-event-time,
+.app-theme-whitesmoke .app-calendar-plugin .app-date-selector-container .app-current:not(.ui-btn-active) {
+    color: #33b5e6;
+}
+
+.app-calendar-plugin-container .app-time-selector .app-time-hand,
+.app-calendar-plugin-container .app-time-hand > span,
+.app-calendar-plugin table tr.ui-btn-active td,
+.app-calendar-plugin table tr.ui-btn-active td:hover,
+.app-calendar-plugin table td.ui-btn-active,
+.app-calendar-plugin table td.ui-btn-active:hover,
+.app-calendar-yearview .app-calendar-month td.ui-btn-active {
+    background-color: #33b5e6 !important;
+}
+
+.app-theme-whitesmoke .app-calendar-month-header,
+.app-theme-whitesmoke .app-calendar-month-header h1 {
+    color: #58585a !important;
+}
+
+/***** bootstrap *****/
+
+.app-theme-whitesmoke .app-bootstrap a:not(.btn),
+.app-theme-whitesmoke body:not(.app-desktop) .app-bootstrap a:hover {
+    color: #777777;
+}
+
+.app-theme-whitesmoke .dropdown-menu > li > a:not(.ui-btn),
+body:not(.app-desktop) .dropdown-menu > li > a:hover {
+    color: #777 !important;
+}
+
+.app-theme-whitesmoke .jumbotron {
+    background-color: #eeeeee;
+}
+
+.app-theme-whitesmoke .btn-default,
+.app-theme-whitesmoke .btn-default:focus,
+.app-theme-whitesmoke .btn-default:visited {
+    background-color: #eeeeee;
+    border-color: #d9d9d9;
+    color: #333 !important;
+}
+
+.app-theme-whitesmoke.app-desktop .btn-default:hover {
+    background-color: #f2f2f2;
+    border-color: #a7a7a7;
+}
+
+.app-theme-whitesmoke .app-bootstrap .btn.ui-btn-active,
+.app-theme-whitesmoke .app-bootstrap .btn.ui-btn-active:hover,
+.app-theme-whitesmoke .app-bootstrap .btn.ui-btn-active:focus,
+.app-theme-whitesmoke .app-bootstrap .list-group-item.ui-btn-active,
+.app-theme-whitesmoke .app-bootstrap .list-group-item.ui-btn-active:hover,
+.app-theme-whitesmoke .app-bootstrap .list-group-item.ui-btn-active:focus,
+.app-theme-whitesmoke .app-bootstrap .list-group-item.ui-btn-active .list-group-item-text,
+.app-theme-whitesmoke .app-bootstrap .list-group-item.ui-btn-active .list-group-item-heading {
+    background-color: #33b5e6 !important;
+    border-color: #33b5e6 !important;
+    color: #fff !important;
+}
+
+.app-theme-whitesmoke .app-bootstrap .nav .ui-btn-active,
+.app-theme-whitesmoke .app-bootstrap .nav .ui-btn-active:hover,
+.app-theme-whitesmoke .app-bootstrap .nav .ui-btn-active:focus {
+    background-color: #33b5e6 !important;
+    border-color: #d9d9d9 !important;
+    color: #fff !important;
+}
+
+.app-theme-whitesmoke .table,
+.app-theme-whitesmoke .table > thead > tr > th,
+.app-theme-whitesmoke .table > tbody > tr > th,
+.app-theme-whitesmoke .table > tfoot > tr > th,
+.app-theme-whitesmoke .table > thead > tr > td,
+.app-theme-whitesmoke .table > tbody > tr > td,
+.app-theme-whitesmoke .table > tfoot > tr > td,
+.app-theme-whitesmoke .list-group-item:not(.active) {
+    background-color: #eeeeee;
+    border-color: #d9d9d9;
+}
+
+.app-theme-whitesmoke.app-desktop a.list-group-item:hover:not(.active) {
+    background-color: #f2f2f2;
+}
+
+.app-theme-whitesmoke .table > thead > tr > th,
+.app-theme-whitesmoke .table > tbody > tr > th,
+.app-theme-whitesmoke .table > tfoot > tr > th {
+    color: #333;
+    background-color: #dddddd;
+}
+
+.app-theme-whitesmoke .table-striped > tbody > tr:nth-child(2n+1) > td,
+.app-theme-whitesmoke .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #eaeaea;
+}
+
+.app-theme-whitesmoke.app-desktop .navbar-default .navbar-toggle:hover,
+.app-theme-whitesmoke .app-bootstrap .navbar-default .navbar-toggle:focus,
+.app-theme-whitesmoke .list-group-item.active:not(.btn),
+.app-theme-whitesmoke .list-group-item.active:not(.btn):hover,
+.app-theme-whitesmoke .list-group-item.active:not(.btn):focus,
+.app-theme-whitesmoke .nav-pills > li.active > a,
+.app-theme-whitesmoke .nav-pills > li.active > a:hover,
+.app-theme-whitesmoke .nav-pills > li.active > a:focus {
+    color: #fff !important;
+    background-color: #33b5e6;
+    border-color: #33b5e6;
+}
+
+.app-theme-whitesmoke .list-group-item.active .list-group-item-text {
+    color: #fff;
+}
+
+.app-theme-whitesmoke .list-group-item:not(.active):not(.ui-btn-active):hover,
+.app-theme-whitesmoke .list-group-item:not(.active):not(.ui-btn-active):hover .list-group-item-text {
+    color: #000 !important;
+}
+
+.app-theme-whitesmoke .list-group-item.active > .badge,
+.app-theme-whitesmoke .nav-pills > .active > a > .badge {
+    color: #33b5e6 !important;
+}
+
+.app-theme-whitesmoke .navbar-default .navbar-toggle .icon-bar {
+    background-color: #a7a7a7;
+}
+
+.app-desktop.app-theme-whitesmoke .navbar-default .navbar-toggle:hover .icon-bar,
+.app-desktop.app-theme-whitesmoke .navbar-default .navbar-toggle:active .icon-bar,
+.app-desktop.app-theme-whitesmoke .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+}
+
+.app-theme-whitesmoke .img-thumbnail {
+    background-color: #eeeeee;
+    border-color: #d9d9d9;
+}
+
+.app-theme-whitesmoke .page-header,
+.app-theme-whitesmoke .nav-tabs {
+    border-color: #d9d9d9;
+}
+
+    .app-theme-whitesmoke .nav-tabs > li.active > a,
+    .app-theme-whitesmoke .nav-tabs > li.active > a:hover,
+    .app-theme-whitesmoke .nav-tabs > li.active > a:focus {
+        border-top-color: #d9d9d9;
+        border-left-color: #d9d9d9;
+        border-right-color: #d9d9d9;
+    }
+
+.app-theme-whitesmoke.app-desktop .nav > li:not(.active) > a:hover,
+.app-theme-whitesmoke.app-desktop .nav > li:not(.active) > a:focus {
+    background-color: rgba(255,255,255,0.2);
+    border-color: #a7a7a7;
+}
+
+.app-theme-whitesmoke.app-desktop .nav-tabs > li:not(.active) > a:hover,
+.app-theme-whitesmoke .nav-tabs > li:not(.active) > a:focus,
+.app-theme-whitesmoke.app-desktop .nav-pills > li:not(.active) > a:hover,
+.app-theme-whitesmoke .nav-pills > li:not(.active) > a:focus {
+    background-color: #f2f2f2;
+}
+
+.app-theme-whitesmoke .navbar-default {
+    background-color: #dddddd;
+    border-color: #a7a7a7;
+}
+
+    .app-theme-whitesmoke .navbar-default .navbar-brand,
+    .app-theme-whitesmoke .navbar-default .navbar-brand:hover {
+        color: #333 !important;
+    }
+
+    .app-theme-whitesmoke .navbar-default .navbar-nav > li > a {
+        color: #777 !important;
+    }
+
+.app-theme-whitesmoke.app-desktop .navbar-default a.navbar-brand:hover,
+.app-theme-whitesmoke .app-bootstrap .navbar-default a.navbar-brand.ui-btn-active,
+.app-theme-whitesmoke.app-desktop .navbar-default .navbar-nav > li > a:hover {
+    color: #000 !important;
+}
+
+.app-theme-whitesmoke .app-bootstrap .navbar-default .navbar-nav > .active > a,
+.app-theme-whitesmoke .app-bootstrap .navbar-default .navbar-nav > .active > a:hover,
+.app-theme-whitesmoke .app-bootstrap .navbar-default .navbar-nav > .active > a:focus,
+.app-theme-whitesmoke .app-bootstrap .navbar-default .navbar-nav > .open > a,
+.app-theme-whitesmoke .app-bootstrap .navbar-default .navbar-nav > .open > a:hover,
+.app-theme-whitesmoke .app-bootstrap .navbar-default .navbar-nav > .open > a:focus {
+    color: #333 !important;
+    background-color: rgba(0,0,0,.05);
+}
+
+.app-theme-whitesmoke .well {
+    background-color: #eeeeee;
+    border-color: #d9d9d9;
+}
+
+@media all and (max-width:767px) {
+    .app-sidebar-undocked.app-theme-whitesmoke .navbar-nav .open .dropdown-menu {
+        background-color: #eeeeee;
+    }
+
+    .app-sidebar-undocked.app-theme-whitesmoke.app-desktop .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .app-sidebar-undocked.app-theme-whitesmoke .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-color: #f2f2f2;
+    }
+}
+
+.app-theme-whitesmoke .dropdown-menu {
+    background-color: #eeeeee;
+}
+
+    .app-theme-whitesmoke .dropdown-menu .divider {
+        background-color: #d9d9d9;
+    }
+
+    .app-theme-whitesmoke.app-desktop .dropdown-menu > li > a:hover,
+    .app-theme-whitesmoke .dropdown-menu > li > a:focus {
+        background-color: #f2f2f2;
+    }
+
+.app-theme-whitesmoke .navbar-default .navbar-collapse,
+.app-theme-whitesmoke .navbar-default .navbar-form,
+.app-theme-whitesmoke .navbar-default .navbar-toggle {
+    border-color: #a7a7a7;
+}
+
+.app-theme-whitesmoke .navbar-inverse a:not(.ui-btn) {
+    color: #777 !important;
+}
+
+.app-theme-whitesmoke.app-desktop .navbar-inverse a.navbar-brand:hover,
+.app-theme-whitesmoke.app-desktop .navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff !important;
+}
+
+.app-theme-whitesmoke .navbar-inverse .navbar-nav > .active > a,
+.app-theme-whitesmoke .navbar-inverse .navbar-nav > .active > a:hover,
+.app-theme-whitesmoke .navbar-inverse .navbar-nav > .active > a:focus,
+.app-theme-whitesmoke .navbar-inverse .navbar-nav > .open > a,
+.app-theme-whitesmoke .navbar-inverse .navbar-nav > .open > a:hover,
+.app-theme-whitesmoke .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff !important;
+}

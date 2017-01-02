@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel baseSchema="myfighttracker" baseTable="my_preference_fight_styles" alias="my_preference_fight_styles" created="2016-11-08T07:41:53" modified="2016-12-20T14:07:03" x="20" y="20" xmlns="urn:schemas-codeontime-com:data-model">
+  <foreignKeys>
+    <foreignKey id="FightStyle" parentTableSchema="myfighttracker" parentTableName="fight_styles" x="346" y="20">
+      <foreignKeyColumn columnName="FightStyleID" parentColumnName="FightStyleID" />
+    </foreignKey>
+  </foreignKeys>
+  <columns>
+    <column name="userId" fieldName="UserID" label="user Id" />
+    <column name="FightStyleID" fieldName="FightStyleID" label="Fight Style ID" aliasColumnName="FightStyleName" aliasForeignKey="FightStyle" />
+    <column name="FightStyleName" fieldName="FightStyleName" label="Fight Style Name" foreignKey="FightStyle" />
+    <column name="FightStyleID" fieldName="FightStyleFightStyleID" label="Fight Style Fight Style ID" foreignKey="FightStyle" />
+  </columns>
+</dataModel>
